@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 8
     },
     "preserveOutput": "always",
     "reporter": [
@@ -43,29 +43,418 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 8
         },
         "id": "",
         "name": "",
         "testDir": "C:/SYLVAIN/PlaywrightTraining",
         "testIgnore": [],
         "testMatch": [
-          "dropdown.test.ts"
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
         "timeout": 30000
       }
     ],
     "shard": null,
     "updateSnapshots": "missing",
-    "updateSourceMethod": "3way",
+    "updateSourceMethod": "patch",
     "version": "1.56.0",
     "workers": 8,
     "webServer": null
   },
   "suites": [
     {
-      "title": "tests\\dropdown.test.ts",
-      "file": "tests/dropdown.test.ts",
+      "title": "tests\\Learning\\alerts.test.ts",
+      "file": "tests/Learning/alerts.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Bootstrap Modal Demo - should open modal, click Save Changes, and ensure it closes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13273,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-17T15:37:22.425Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-alerts-Boot-ae92d-hanges-and-ensure-it-closes\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-alerts-Boot-ae92d-hanges-and-ensure-it-closes\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1c5e76fb9e9f4440b0c0-cfc86c2ec0c3efd9719c",
+          "file": "tests/Learning/alerts.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\Learning\\alerts1.test.ts",
+      "file": "tests/Learning/alerts1.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "handling alerts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 18075,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "I am an alert box!\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-17T15:37:22.442Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-alerts1-handling-alerts\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-alerts1-handling-alerts\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eba517499f109421f3da-25053aa76fa6ad995e4a",
+          "file": "tests/Learning/alerts1.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\Learning\\alerts2.test.ts",
+      "file": "tests/Learning/alerts2.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "handling alerts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 13312,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Press a button!\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-17T15:37:22.395Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-alerts2-handling-alerts\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-alerts2-handling-alerts\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "fafbadbf2f8f9024034a-fb6b2394b3abb3c14c4c",
+          "file": "tests/Learning/alerts2.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\Learning\\alerts3.test.ts",
+      "file": "tests/Learning/alerts3.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Prompt dialog test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 12530,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Prompt test completed, text verified on the page.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-17T15:37:22.499Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-alerts3-Prompt-dialog-test\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-alerts3-Prompt-dialog-test\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7af6be195e8ea0193d99-c017fb6c32db61c2f8c4",
+          "file": "tests/Learning/alerts3.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\Learning\\basicInteractions.test.ts",
+      "file": "tests/Learning/basicInteractions.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Checkbox",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 4,
+                  "status": "passed",
+                  "duration": 15593,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-17T15:37:22.426Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-basicInteractions-Checkbox\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-basicInteractions-Checkbox\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9fc6f8b0076419758f25-154f386a3df477123f7e",
+          "file": "tests/Learning/basicInteractions.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\Learning\\basicInteractions1.test.ts",
+      "file": "tests/Learning/basicInteractions1.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Interaction with inputs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 20917,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Please enter your Message\n"
+                    },
+                    {
+                      "text": "Before entering data: \n"
+                    },
+                    {
+                      "text": "After enteting data: Hi Sly\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-17T15:37:22.487Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-basicInteractions1-Interaction-with-inputs\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-basicInteractions1-Interaction-with-inputs\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "49d43af4aef3707571fe-81bdfd119fac8013275e",
+          "file": "tests/Learning/basicInteractions1.test.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Sum",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 4927,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "667\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-17T15:37:43.986Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-basicInteractions1-Sum\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-basicInteractions1-Sum\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "49d43af4aef3707571fe-d9615cbc749611f90ade",
+          "file": "tests/Learning/basicInteractions1.test.ts",
+          "line": 16,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\Learning\\dropdown.test.ts",
+      "file": "tests/Learning/dropdown.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
@@ -82,26 +471,26 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 23,
-                  "parallelIndex": 0,
+                  "workerIndex": 6,
+                  "parallelIndex": 6,
                   "status": "passed",
-                  "duration": 8058,
+                  "duration": 21128,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-16T16:09:22.841Z",
+                  "startTime": "2025-10-17T15:37:22.541Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-dropdown-Dropdown-search-and-select-India-exact-match-\\test-finished-1.png"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-dropdown-Dr-26dd5-d-select-India-exact-match-\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-dropdown-Dropdown-search-and-select-India-exact-match-\\video.webm"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-dropdown-Dr-26dd5-d-select-India-exact-match-\\video.webm"
                     }
                   ]
                 }
@@ -109,8 +498,408 @@
               "status": "expected"
             }
           ],
-          "id": "6a3d7e996dd4874286aa-4c9e54fbd2ff93c7c526",
-          "file": "tests/dropdown.test.ts",
+          "id": "998d037f28fd137ffceb-70d726336a5c2b23a655",
+          "file": "tests/Learning/dropdown.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\Learning\\dropdown1.test.ts",
+      "file": "tests/Learning/dropdown1.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Select Tuesday from dropdown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 7,
+                  "status": "passed",
+                  "duration": 19457,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-17T15:37:22.570Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-dropdown1-Select-Tuesday-from-dropdown\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-dropdown1-Select-Tuesday-from-dropdown\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eb7d30e510dbfecc1515-e090b00b4b34cbaf3376",
+          "file": "tests/Learning/dropdown1.test.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Select multiple states in order and verify displayed last selected text and first selected option",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 7,
+                  "status": "passed",
+                  "duration": 5851,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-17T15:37:42.987Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-dropdown1-S-b9ff7-t-and-first-selected-option\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-dropdown1-S-b9ff7-t-and-first-selected-option\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eb7d30e510dbfecc1515-a99d98a23e9794557f69",
+          "file": "tests/Learning/dropdown1.test.ts",
+          "line": 136,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\Learning\\dropdown2.test.ts",
+      "file": "tests/Learning/dropdown2.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Select multiple states in order and verify displayed last selected text and first selected option",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 12913,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-17T15:37:36.027Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-dropdown2-S-3ec5a-t-and-first-selected-option\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-dropdown2-S-3ec5a-t-and-first-selected-option\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "117bb2dda5bcd75997ed-b145bb229a34a6004ed9",
+          "file": "tests/Learning/dropdown2.test.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "Select multiple states and verify first selected option first, then all selected",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 8109,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-17T15:37:49.010Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-dropdown2-S-6bc3b-ion-first-then-all-selected\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-dropdown2-S-6bc3b-ion-first-then-all-selected\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "117bb2dda5bcd75997ed-bd94ff9dbfe2ffbd9ab8",
+          "file": "tests/Learning/dropdown2.test.ts",
+          "line": 60,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\Learning\\example.spec.ts",
+      "file": "tests/Learning/example.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2590,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-17T15:37:36.470Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-example-has-title\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-example-has-title\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "395385a808476b2c95fb-a5b68ab330ba0d074f02",
+          "file": "tests/Learning/example.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 4432,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-17T15:37:39.265Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-example-get-started-link\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-example-get-started-link\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "395385a808476b2c95fb-7cd5665fae15096d6fe4",
+          "file": "tests/Learning/example.spec.ts",
+          "line": 10,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\Learning\\login-logout.test.ts",
+      "file": "tests/Learning/login-logout.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login/Logout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10437,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-17T15:37:36.501Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-login-logout-Login-Logout\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-login-logout-Login-Logout\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bcbc1725b77e32f26588-938811e5b206412c4142",
+          "file": "tests/Learning/login-logout.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\Learning\\recorded-profileedit.test.ts",
+      "file": "tests/Learning/recorded-profileedit.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 4,
+                  "status": "passed",
+                  "duration": 11216,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-17T15:37:39.067Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-recorded-profileedit-test\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-Learning-recorded-profileedit-test\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "37e62ade82fc9c561b5b-e42da6394b8255ed5d32",
+          "file": "tests/Learning/recorded-profileedit.test.ts",
           "line": 3,
           "column": 5
         }
@@ -119,9 +908,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-10-16T16:09:21.236Z",
-    "duration": 10263.309000000358,
-    "expected": 1,
+    "startTime": "2025-10-17T15:37:20.891Z",
+    "duration": 36584.755999999994,
+    "expected": 16,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

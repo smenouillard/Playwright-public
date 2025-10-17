@@ -1,7 +1,7 @@
 import { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
-    testMatch: ["dropdown.test.ts"],
+    //testMatch: ["dropdown.test.ts"],
     use: {
         headless: false,
         screenshot: "on",
