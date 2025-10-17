@@ -11,6 +11,9 @@ jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+    env:
+      TEST_USER: ${{ secrets.TEST_USER }}
+      TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
     steps:
       - uses: actions/checkout@v4
 
