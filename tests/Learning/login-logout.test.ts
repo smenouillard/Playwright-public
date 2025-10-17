@@ -31,4 +31,5 @@ test("Login/Logout", async ({ page }) => {
 
   // Verify user is logged out (logout page)
   await expect(page).toHaveURL("https://ecommerce-playground.lambdatest.io/index.php?route=account/logout");
-});
+})
+

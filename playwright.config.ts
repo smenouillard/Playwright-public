@@ -1,4 +1,6 @@
 import { PlaywrightTestConfig } from '@playwright/test';
+import dotenv from 'dotenv';
+dotenv.config(); // loads .env variables
 
 const config: PlaywrightTestConfig = {
     //testMatch: ["dropdown.test.ts"],
