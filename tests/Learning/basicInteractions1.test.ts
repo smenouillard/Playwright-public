@@ -9,7 +9,7 @@ console.log(await messageInput.getAttribute("placeholder"));
 expect(messageInput).toHaveAttribute("placeholder", "Please enter your Message")
 console.log("Before entering data: " + await messageInput.inputValue());
 await messageInput.type("Hi Sly"); 
-console.log("After enteting data: " + await messageInput.inputValue());
+console.log("After entering data: " + await messageInput.inputValue());
 
 })
 
