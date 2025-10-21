@@ -35,6 +35,8 @@ test("Login/Logout", async ({ page }) => {
   await expect(page).toHaveURL("https://ecommerce-playground.lambdatest.io/index.php?route=account/logout");
 });
 
+
+// WORK LOCALLY ONLY
 /*
 test("Login/Logout", async ({ page }) => {
 
