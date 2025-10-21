@@ -1,16 +1,22 @@
 import { test, expect } from '@playwright/test';
 
-test('Click into birthday field and type date', async ({ page }) => {
+test('Click into birthday field and type date (CI-proof, .type())', async ({ page }) => {
   await page.goto('https://www.lambdatest.com/selenium-playground/bootstrap-date-picker-demo');
 
   const birthdayInput = page.locator('#birthday');
 
-  // 1️⃣ Simulate user clicking in the field
+  // Simulate user clicking in the field
   await birthdayInput.click();
 
-  // 2️⃣ Type the date digits (slashed automatically by the browser)
-  await birthdayInput.type('04091967', { delay: 100 });
+  // Type the date digits (MMDDYYYY)
+  const typed = '04091967';
+  await birthdayInput.type(typed, { delay: 100 });
 
-  // 3️⃣ Assert the value in ISO format (what the input actually stores)
-  await expect(birthdayInput).toHaveValue('1967-09-04');
+  // Read the actual value stored by the browser (ISO format)
+  const actualValue = await birthdayInput.inputValue();
+  console.log('Birthday input actual value:', actualValue);
+
+  // Assert the browser stored the expected ISO date
+  const expectedISO = '1967-09-04'; // the value browser will store regardless of locale
+  await expect(actualValue).toBe(expectedISO);
 });
