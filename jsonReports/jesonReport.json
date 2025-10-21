@@ -70,7 +70,7 @@
       "line": 0,
       "specs": [
         {
-          "title": "Type birthday and validate stored ISO date with displayed value",
+          "title": "Type birthday in DDMMYYYY format and see slashes (locale-independent)",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,33 +82,26 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 26,
+                  "workerIndex": 46,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3856,
+                  "duration": 2010,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "ISO date stored by browser: 1969-02-14\n"
-                    },
-                    {
-                      "text": "Displayed date (user sees DD/MM/YYYY): 1969-02-14\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-21T16:13:02.563Z",
+                  "startTime": "2025-10-21T17:21:34.599Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-date-type-T-841f5-O-date-with-displayed-value\\test-finished-1.png"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-date-type-T-a11cc-slashes-locale-independent-\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-date-type-T-841f5-O-date-with-displayed-value\\video.webm"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-date-type-T-a11cc-slashes-locale-independent-\\video.webm"
                     }
                   ]
                 }
@@ -116,9 +109,9 @@
               "status": "expected"
             }
           ],
-          "id": "72c235a4ebb95be840a4-423ed37676956c1de560",
+          "id": "72c235a4ebb95be840a4-b01f89d73f346efa7826",
           "file": "tests/learning/date-type.test.ts",
-          "line": 20,
+          "line": 78,
           "column": 5
         }
       ]
@@ -126,8 +119,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-10-21T16:13:00.882Z",
-    "duration": 6052.668999999762,
+    "startTime": "2025-10-21T17:21:33.050Z",
+    "duration": 4055.1830000020564,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
