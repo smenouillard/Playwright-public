@@ -70,7 +70,7 @@
       "line": 0,
       "specs": [
         {
-          "title": "Click into birthday field and type date (CI-proof, .type())",
+          "title": "Type birthday and validate stored ISO date with displayed value",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,30 +82,33 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 23,
+                  "workerIndex": 26,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2080,
+                  "duration": 3856,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Birthday input actual value: 1967-09-04\n"
+                      "text": "ISO date stored by browser: 1969-02-14\n"
+                    },
+                    {
+                      "text": "Displayed date (user sees DD/MM/YYYY): 1969-02-14\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-21T15:44:51.954Z",
+                  "startTime": "2025-10-21T16:13:02.563Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-date-type-C-ae4d9-nd-type-date-CI-proof-type-\\test-finished-1.png"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-date-type-T-841f5-O-date-with-displayed-value\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-date-type-C-ae4d9-nd-type-date-CI-proof-type-\\video.webm"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-date-type-T-841f5-O-date-with-displayed-value\\video.webm"
                     }
                   ]
                 }
@@ -113,9 +116,9 @@
               "status": "expected"
             }
           ],
-          "id": "72c235a4ebb95be840a4-577f57d872030bde88ed",
+          "id": "72c235a4ebb95be840a4-423ed37676956c1de560",
           "file": "tests/learning/date-type.test.ts",
-          "line": 3,
+          "line": 20,
           "column": 5
         }
       ]
@@ -123,8 +126,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-10-21T15:44:50.426Z",
-    "duration": 4042.0779999997467,
+    "startTime": "2025-10-21T16:13:00.882Z",
+    "duration": 6052.668999999762,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
