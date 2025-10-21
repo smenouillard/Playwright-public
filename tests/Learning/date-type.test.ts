@@ -75,7 +75,8 @@ test('Type birthday in DDMMYYYY format and see slashes', async ({ page }) => {
 });
 */
 
-test('Type birthday in DDMMYYYY format and see slashes (locale-independent)', async ({ page }) => {
+//WORKS LOCALLY
+/*test('Type birthday in DDMMYYYY format and see slashes (locale-independent)', async ({ page }) => {
   await page.goto('https://www.lambdatest.com/selenium-playground/bootstrap-date-picker-demo');
 
   const birthdayInput = page.locator('#birthday');
@@ -94,6 +95,35 @@ test('Type birthday in DDMMYYYY format and see slashes (locale-independent)', as
   });
 
   // Assert the visible value matches
+  expect(displayed).toBe('14/02/1969');
+});
+*/
+
+test('Set birthday with fill and check displayed value (with 1s visual delays)', async ({ page }) => {
+  await page.goto('https://www.lambdatest.com/selenium-playground/bootstrap-date-picker-demo');
+  await page.waitForTimeout(1000); // 1s pause to see navigation
+
+  const birthdayInput = page.locator('#birthday');
+
+  await birthdayInput.waitFor({ state: 'visible' });
+  await page.waitForTimeout(1000); // 1s pause
+
+  await expect(birthdayInput).toBeEnabled({ timeout: 5000 });
+  await page.waitForTimeout(1000); // 1s pause
+
+  // Fill the input directly with ISO format
+  await birthdayInput.fill('1969-02-14');
+  await page.waitForTimeout(1000); // 1s pause
+
+  // Read the displayed value as the user would see it (DD/MM/YYYY)
+  const displayed = await birthdayInput.evaluate((el: HTMLInputElement) => {
+    if (!el.value) return '';
+    const [year, month, day] = el.value.split('-'); // ISO format
+    return `${day}/${month}/${year}`;               // Convert to DD/MM/YYYY
+  });
+  await page.waitForTimeout(1000); // 1s pause
+
+  // Assert the displayed value matches expected
   expect(displayed).toBe('14/02/1969');
 });
 

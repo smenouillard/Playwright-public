@@ -70,7 +70,7 @@
       "line": 0,
       "specs": [
         {
-          "title": "Type birthday in DDMMYYYY format and see slashes (locale-independent)",
+          "title": "Set birthday with fill and check displayed value (with 1s visual delays)",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,26 +82,26 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 46,
+                  "workerIndex": 48,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2010,
+                  "duration": 6169,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-21T17:21:34.599Z",
+                  "startTime": "2025-10-21T17:36:48.320Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-date-type-T-a11cc-slashes-locale-independent-\\test-finished-1.png"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-date-type-S-b303d-alue-with-1s-visual-delays-\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-date-type-T-a11cc-slashes-locale-independent-\\video.webm"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-date-type-S-b303d-alue-with-1s-visual-delays-\\video.webm"
                     }
                   ]
                 }
@@ -109,9 +109,9 @@
               "status": "expected"
             }
           ],
-          "id": "72c235a4ebb95be840a4-b01f89d73f346efa7826",
+          "id": "72c235a4ebb95be840a4-8a7379ac4e600e5f715d",
           "file": "tests/learning/date-type.test.ts",
-          "line": 78,
+          "line": 102,
           "column": 5
         }
       ]
@@ -119,8 +119,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-10-21T17:21:33.050Z",
-    "duration": 4055.1830000020564,
+    "startTime": "2025-10-21T17:36:46.832Z",
+    "duration": 8179.567000001669,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
