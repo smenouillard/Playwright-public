@@ -70,7 +70,7 @@
       "line": 0,
       "specs": [
         {
-          "title": "Login and Logout with hidden credentials - stable",
+          "title": "Login and Logout with hidden credentials",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,54 +82,26 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5959,
+                  "duration": 5602,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Retrieved credentials from environment\n"
-                    },
-                    {
-                      "text": "Navigating to main page...\n"
-                    },
-                    {
-                      "text": "Hovered on \"My account\"\n"
-                    },
-                    {
-                      "text": "Clicked Login\n"
-                    },
-                    {
-                      "text": "Submitted login form\n"
-                    },
-                    {
-                      "text": "Login verified\n"
-                    },
-                    {
-                      "text": "Hovered on \"My account\" after login\n"
-                    },
-                    {
-                      "text": "Clicked Logout\n"
-                    },
-                    {
-                      "text": "Logout verified successfully\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-22T16:21:15.012Z",
+                  "startTime": "2025-10-22T16:38:52.422Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-login-logou-a80b7-hidden-credentials---stable\\test-finished-1.png"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-login-logou-660be-out-with-hidden-credentials\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-login-logou-a80b7-hidden-credentials---stable\\video.webm"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-login-logou-660be-out-with-hidden-credentials\\video.webm"
                     }
                   ]
                 }
@@ -137,9 +109,9 @@
               "status": "expected"
             }
           ],
-          "id": "934012b4ba8bcb581742-221f9ec38b26098afa5b",
+          "id": "934012b4ba8bcb581742-d4086509111e7b34494a",
           "file": "tests/learning/login-logout-hiddencred.test.ts",
-          "line": 6,
+          "line": 5,
           "column": 5
         }
       ]
@@ -147,8 +119,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-10-22T16:21:13.438Z",
-    "duration": 8055.206999999995,
+    "startTime": "2025-10-22T16:38:50.841Z",
+    "duration": 7737.256999999983,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
