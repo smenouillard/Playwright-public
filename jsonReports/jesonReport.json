@@ -64,13 +64,13 @@
   },
   "suites": [
     {
-      "title": "tests\\learning\\recorded-profileedit.test.ts",
-      "file": "tests/learning/recorded-profileedit.test.ts",
+      "title": "tests\\learning\\login-logout-hiddencred.test.ts",
+      "file": "tests/learning/login-logout-hiddencred.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Login, edit profile, and logout - stable version",
+          "title": "Login and Logout with hidden credentials - stable",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,32 +82,35 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 16,
+                  "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 28090,
+                  "duration": 5959,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Navigating to LambdaTest eCommerce playground...\n"
+                      "text": "Retrieved credentials from environment\n"
+                    },
+                    {
+                      "text": "Navigating to main page...\n"
                     },
                     {
                       "text": "Hovered on \"My account\"\n"
                     },
                     {
-                      "text": "Clicked on Login\n"
+                      "text": "Clicked Login\n"
                     },
                     {
-                      "text": "Logged in successfully\n"
+                      "text": "Submitted login form\n"
                     },
                     {
-                      "text": "Updated first name successfully\n"
+                      "text": "Login verified\n"
                     },
                     {
-                      "text": "Hovered on \"My account\" for logout\n"
+                      "text": "Hovered on \"My account\" after login\n"
                     },
                     {
-                      "text": "Clicked on Logout\n"
+                      "text": "Clicked Logout\n"
                     },
                     {
                       "text": "Logout verified successfully\n"
@@ -115,18 +118,18 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-22T15:41:48.995Z",
+                  "startTime": "2025-10-22T16:21:15.012Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-recorded-pr-294f6-and-logout---stable-version\\test-finished-1.png"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-login-logou-a80b7-hidden-credentials---stable\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-recorded-pr-294f6-and-logout---stable-version\\video.webm"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-login-logou-a80b7-hidden-credentials---stable\\video.webm"
                     }
                   ]
                 }
@@ -134,9 +137,9 @@
               "status": "expected"
             }
           ],
-          "id": "bfe642464ffed6f9e32a-fca9f13bac4b52f1a9c2",
-          "file": "tests/learning/recorded-profileedit.test.ts",
-          "line": 5,
+          "id": "934012b4ba8bcb581742-221f9ec38b26098afa5b",
+          "file": "tests/learning/login-logout-hiddencred.test.ts",
+          "line": 6,
           "column": 5
         }
       ]
@@ -144,8 +147,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-10-22T15:41:47.421Z",
-    "duration": 30231.88599999994,
+    "startTime": "2025-10-22T16:21:13.438Z",
+    "duration": 8055.206999999995,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

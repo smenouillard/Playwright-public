@@ -1,5 +1,50 @@
+// RECORDED USING PLAYWRIGHT CODEGEN
+// STABILIZED: explicit waits, console logs, CI-friendly dropdown handling
 import { test, expect } from '@playwright/test';
 
+test("Login/Logout - stable", async ({ page }) => {
+  console.log('Navigating to main page...');
+  await page.goto("https://ecommerce-playground.lambdatest.io/");
+
+  // Hover "My Account" in the top navigation bar
+  const myAccountMenu = page.locator('a[role="button"].nav-link.dropdown-toggle >> text=My account');
+  await myAccountMenu.hover();
+  console.log('Hovered on "My account"');
+
+  // Click on "Login" in the dropdown
+  const loginLink = page.locator('a.dropdown-item:has-text("Login")');
+  await expect(loginLink).toBeVisible({ timeout: 5000 });
+  await loginLink.click();
+  console.log('Clicked Login');
+
+  // Fill in credentials and submit
+  await page.locator("#input-email").fill("timcook@yopmail.com");
+  await page.locator("#input-password").fill("Test@1234");
+  await page.locator('input[type="submit"][value="Login"]').click();
+  console.log('Submitted login form');
+
+  // Verify user is logged in (account page)
+  await expect(page).toHaveURL("https://ecommerce-playground.lambdatest.io/index.php?route=account/account");
+  console.log('Login verified');
+
+  // Hover "My Account" again after login
+  const myAccountMenuAfterLogin = page.locator('a[role="button"].nav-link.dropdown-toggle.active >> text=My account');
+  await myAccountMenuAfterLogin.hover();
+  console.log('Hovered on "My account" after login');
+
+  // Wait for "Logout" link to appear and click it
+  const logoutLink = page.locator('a.dropdown-item:has-text("Logout")');
+  await expect(logoutLink).toBeVisible({ timeout: 5000 });
+  await logoutLink.click();
+  console.log('Clicked Logout');
+
+  // Verify user is logged out (logout page)
+  await expect(page).toHaveURL("https://ecommerce-playground.lambdatest.io/index.php?route=account/logout");
+  console.log('Logout verified successfully');
+});
+
+
+/*
 test("Login/Logout", async ({ page }) => {
 
   // Go to main page
@@ -34,7 +79,7 @@ test("Login/Logout", async ({ page }) => {
   // Verify user is logged out (logout page)
   await expect(page).toHaveURL("https://ecommerce-playground.lambdatest.io/index.php?route=account/logout");
 });
-
+*/
 
 // WORK LOCALLY ONLY
 /*
