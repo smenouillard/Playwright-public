@@ -82,10 +82,10 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 7359,
+                  "duration": 1350,
                   "errors": [],
                   "stdout": [
                     {
@@ -100,7 +100,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-24T16:36:21.342Z",
+                  "startTime": "2025-10-24T16:47:16.381Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -129,8 +129,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-10-24T16:36:19.744Z",
-    "duration": 9443.800999999978,
+    "startTime": "2025-10-24T16:47:14.607Z",
+    "duration": 3657.1379999998026,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
