@@ -13,9 +13,9 @@ test('File upload with multiple selection verification', async ({ page }) => {
   console.log(`Multiple selection enabled: ${isMultiple}`);
   expect(isMultiple).toBeTruthy();
 
-  // Build absolute paths for both test files
-  const filePath1 = path.resolve('tests/learning/uploadFiles/Pic1.jpg');
-  const filePath2 = path.resolve('tests/learning/uploadFiles/Pic2.jpg');
+  // Build absolute paths for the files
+  const filePath1 = path.resolve('tests/training/filesforupload/Pic1.jpg');
+  const filePath2 = path.resolve('tests/training/filesforupload/Pic2.jpg');
 
   // Upload both files
   await fileInput.setInputFiles([filePath1, filePath2]);
@@ -36,6 +36,7 @@ test('File upload with multiple selection verification', async ({ page }) => {
 
   console.log('Files successfully displayed in upload list');
 });
+
 
 
 

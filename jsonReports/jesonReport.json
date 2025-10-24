@@ -64,8 +64,8 @@
   },
   "suites": [
     {
-      "title": "tests\\learning\\upload.test.ts",
-      "file": "tests/learning/upload.test.ts",
+      "title": "tests\\training\\upload.test.ts",
+      "file": "tests/training/upload.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
@@ -82,10 +82,10 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1350,
+                  "duration": 1589,
                   "errors": [],
                   "stdout": [
                     {
@@ -100,18 +100,18 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-24T16:47:16.381Z",
+                  "startTime": "2025-10-24T17:12:33.261Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-upload-File-2a7ac-iple-selection-verification\\test-finished-1.png"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-upload-File-2f646-iple-selection-verification\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-learning-upload-File-2a7ac-iple-selection-verification\\video.webm"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-upload-File-2f646-iple-selection-verification\\video.webm"
                     }
                   ]
                 }
@@ -119,8 +119,8 @@
               "status": "expected"
             }
           ],
-          "id": "4f06f4ab075e9083e788-81840faaaa68f2465b7c",
-          "file": "tests/learning/upload.test.ts",
+          "id": "a41b1f159a469c660911-540965f8431f1c15cc63",
+          "file": "tests/training/upload.test.ts",
           "line": 4,
           "column": 5
         }
@@ -129,8 +129,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-10-24T16:47:14.607Z",
-    "duration": 3657.1379999998026,
+    "startTime": "2025-10-24T17:12:31.221Z",
+    "duration": 4171,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
