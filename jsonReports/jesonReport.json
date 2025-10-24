@@ -64,13 +64,13 @@
   },
   "suites": [
     {
-      "title": "tests\\training\\upload.test.ts",
-      "file": "tests/training/upload.test.ts",
+      "title": "tests\\training\\login-profileedit.test.ts",
+      "file": "tests/training/login-profileedit.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "File upload with multiple selection verification",
+          "title": "Login, edit profile, and logout - stable version",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,36 +82,51 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 5,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1589,
+                  "duration": 7311,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Multiple selection enabled: true\n"
+                      "text": "Navigating to LambdaTest eCommerce playground...\n"
                     },
                     {
-                      "text": "Files selected\n"
+                      "text": "Hovered on \"My account\"\n"
                     },
                     {
-                      "text": "Files successfully displayed in upload list\n"
+                      "text": "Clicked on Login\n"
+                    },
+                    {
+                      "text": "Logged in successfully\n"
+                    },
+                    {
+                      "text": "Updated first name successfully\n"
+                    },
+                    {
+                      "text": "Hovered on \"My account\" for logout\n"
+                    },
+                    {
+                      "text": "Clicked on Logout\n"
+                    },
+                    {
+                      "text": "Logout verified successfully\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-24T17:12:33.261Z",
+                  "startTime": "2025-10-24T17:29:24.714Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-upload-File-2f646-iple-selection-verification\\test-finished-1.png"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-login-profi-da46e-and-logout---stable-version\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-upload-File-2f646-iple-selection-verification\\video.webm"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-login-profi-da46e-and-logout---stable-version\\video.webm"
                     }
                   ]
                 }
@@ -119,9 +134,9 @@
               "status": "expected"
             }
           ],
-          "id": "a41b1f159a469c660911-540965f8431f1c15cc63",
-          "file": "tests/training/upload.test.ts",
-          "line": 4,
+          "id": "143db3817e6ee3277703-b42141ac84a9d6d90edf",
+          "file": "tests/training/login-profileedit.test.ts",
+          "line": 5,
           "column": 5
         }
       ]
@@ -129,8 +144,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-10-24T17:12:31.221Z",
-    "duration": 4171,
+    "startTime": "2025-10-24T17:29:22.991Z",
+    "duration": 9577.167999999947,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
