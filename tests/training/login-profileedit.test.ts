@@ -83,10 +83,6 @@ test('Login, edit profile, and logout - CI hardened version', async ({ page }) =
 
 
 
-
-
-
-
 /*
 // WORKED 80% OF THE TIME IN CI
 // CI-proof version: hover + wait + scroll + force click for logout
