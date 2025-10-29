@@ -64,13 +64,13 @@
   },
   "suites": [
     {
-      "title": "tests\\training\\login-profileedit.test.ts",
-      "file": "tests/training/login-profileedit.test.ts",
+      "title": "tests\\training\\hoverusingfixture.test.ts",
+      "file": "tests/training/hoverusingfixture.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Login, edit profile, and logout - CI-proof",
+          "title": "Navigate via Mega Menu to Printer page",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,51 +82,33 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 29,
+                  "workerIndex": 32,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 6773,
+                  "duration": 3545,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Navigating to LambdaTest eCommerce playground...\n"
+                      "text": "Hovering and clicking \"Mega Menu -> Printer\"...\n"
                     },
                     {
-                      "text": "Hovering and clicking \"My account (login)\"...\n"
-                    },
-                    {
-                      "text": "Clicked \"My account (login)\" -> a:has-text(\"Login\")\n"
-                    },
-                    {
-                      "text": "Logged in successfully\n"
-                    },
-                    {
-                      "text": "Updated first name successfully\n"
-                    },
-                    {
-                      "text": "Hovering and clicking \"My account (logout)\"...\n"
-                    },
-                    {
-                      "text": "Clicked \"My account (logout)\" -> a.icon-left.both.dropdown-item:has-text(\"Logout\")\n"
-                    },
-                    {
-                      "text": "Logout verified successfully\n"
+                      "text": "Clicked \"Mega Menu -> Printer\" -> a[title=\"Printer\"]\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-29T17:49:21.090Z",
+                  "startTime": "2025-10-29T18:04:18.815Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-login-profi-8a001-ofile-and-logout---CI-proof\\test-finished-1.png"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-hoverusingf-75611-a-Mega-Menu-to-Printer-page\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-login-profi-8a001-ofile-and-logout---CI-proof\\video.webm"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-hoverusingf-75611-a-Mega-Menu-to-Printer-page\\video.webm"
                     }
                   ]
                 }
@@ -134,9 +116,9 @@
               "status": "expected"
             }
           ],
-          "id": "143db3817e6ee3277703-3f637a4cd026a535fefc",
-          "file": "tests/training/login-profileedit.test.ts",
-          "line": 10,
+          "id": "97f0f6758da9ccf9f0f3-fccab48b03e753e7e4b2",
+          "file": "tests/training/hoverusingfixture.test.ts",
+          "line": 7,
           "column": 5
         }
       ]
@@ -144,8 +126,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-10-29T17:49:19.426Z",
-    "duration": 8983.88899999857,
+    "startTime": "2025-10-29T18:04:17.104Z",
+    "duration": 5816.730000000447,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
