@@ -64,13 +64,13 @@
   },
   "suites": [
     {
-      "title": "tests\\training\\hoverusingfixture.test.ts",
-      "file": "tests/training/hoverusingfixture.test.ts",
+      "title": "tests\\training\\datafromjson.test.ts",
+      "file": "tests/training/datafromjson.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Navigate via Mega Menu to Printer page",
+          "title": "Wikipedia search for random ancient general - CI proof",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,33 +82,45 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 13,
+                  "workerIndex": 16,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3759,
+                  "duration": 2058,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Hovering and clicking \"Mega Menu -> Printer\"...\n"
+                      "text": "Searching for: Marcus Aurelius\n"
                     },
                     {
-                      "text": "Clicked \"Mega Menu -> Printer\" -> a[title=\"Printer\"]\n"
+                      "text": "Navigated to English Wikipedia\n"
+                    },
+                    {
+                      "text": "Filled search input with \"Marcus Aurelius\"\n"
+                    },
+                    {
+                      "text": "Search submitted\n"
+                    },
+                    {
+                      "text": "Verified page heading is \"Marcus Aurelius\"\n"
+                    },
+                    {
+                      "text": "Verified URL contains \"Marcus_Aurelius\"\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-29T15:19:00.016Z",
+                  "startTime": "2025-10-29T16:45:48.215Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-hoverusingf-75611-a-Mega-Menu-to-Printer-page\\test-finished-1.png"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-datafromjso-e24af--ancient-general---CI-proof\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-hoverusingf-75611-a-Mega-Menu-to-Printer-page\\video.webm"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-datafromjso-e24af--ancient-general---CI-proof\\video.webm"
                     }
                   ]
                 }
@@ -116,9 +128,9 @@
               "status": "expected"
             }
           ],
-          "id": "97f0f6758da9ccf9f0f3-fccab48b03e753e7e4b2",
-          "file": "tests/training/hoverusingfixture.test.ts",
-          "line": 4,
+          "id": "bd797d4b73cbdc5f0601-1b6190705fb45989d1d4",
+          "file": "tests/training/datafromjson.test.ts",
+          "line": 13,
           "column": 5
         }
       ]
@@ -126,8 +138,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-10-29T15:18:58.366Z",
-    "duration": 5960.9589999988675,
+    "startTime": "2025-10-29T16:45:46.572Z",
+    "duration": 4198.412000000477,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
