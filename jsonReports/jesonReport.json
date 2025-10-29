@@ -64,13 +64,13 @@
   },
   "suites": [
     {
-      "title": "tests\\training\\hoverusingfixture.test.ts",
-      "file": "tests/training/hoverusingfixture.test.ts",
+      "title": "tests\\training\\pom-loginfail.test.ts",
+      "file": "tests/training/pom-loginfail.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Navigate via Mega Menu to Printer page",
+          "title": "Login fails with invalid credentials (handles throttling)",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,33 +82,30 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 32,
+                  "workerIndex": 33,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3545,
+                  "duration": 2157,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Hovering and clicking \"Mega Menu -> Printer\"...\n"
-                    },
-                    {
-                      "text": "Clicked \"Mega Menu -> Printer\" -> a[title=\"Printer\"]\n"
+                      "text": "Login failed due to too many attempts. Account is temporarily locked.\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-29T18:04:18.815Z",
+                  "startTime": "2025-10-29T18:18:33.236Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-hoverusingf-75611-a-Mega-Menu-to-Printer-page\\test-finished-1.png"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-pom-loginfa-c8790-entials-handles-throttling-\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-hoverusingf-75611-a-Mega-Menu-to-Printer-page\\video.webm"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-pom-loginfa-c8790-entials-handles-throttling-\\video.webm"
                     }
                   ]
                 }
@@ -116,9 +113,9 @@
               "status": "expected"
             }
           ],
-          "id": "97f0f6758da9ccf9f0f3-fccab48b03e753e7e4b2",
-          "file": "tests/training/hoverusingfixture.test.ts",
-          "line": 7,
+          "id": "279c9ad09a6d9c7d9297-9ab217b266694ffaf221",
+          "file": "tests/training/pom-loginfail.test.ts",
+          "line": 4,
           "column": 5
         }
       ]
@@ -126,8 +123,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-10-29T18:04:17.104Z",
-    "duration": 5816.730000000447,
+    "startTime": "2025-10-29T18:18:31.523Z",
+    "duration": 4440.823000002652,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
