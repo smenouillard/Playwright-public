@@ -11,6 +11,47 @@ type HoverClickHelperTest = {
 // Custom fixture: hoverHelper
 // ---------------------------
 export const test = baseTest.extend<HoverClickHelperTest>({
+  hoverHelper: async ({ page }: { page: Page }, use: (value: HoverClickHelperTest['hoverHelper']) => Promise<void>) => {
+    // Provide a function to reliably hover and click on dropdown links
+    await use(async (hoverSelector, clickSelector, label) => {
+      console.log(`Hovering and clicking "${label}"...`);
+
+      const hoverTarget = page.locator(hoverSelector);
+      const clickTarget = page.locator(clickSelector);
+
+      // Retry loop for CI flakiness
+      for (let attempt = 1; attempt <= 3; attempt++) {
+        try {
+          await hoverTarget.hover({ force: true });
+          await page.waitForTimeout(500);
+          await clickTarget.waitFor({ state: 'visible', timeout: 15000 });
+          await clickTarget.click({ force: true });
+          console.log(`Clicked "${label}" -> ${clickSelector}`);
+          break; // success
+        } catch (err) {
+          console.log(`Attempt ${attempt} failed for "${label}", retrying...`);
+          if (attempt === 3) throw err;
+          await page.waitForTimeout(1000);
+        }
+      }
+    });
+  }
+});
+
+
+
+/*
+// ---------------------------
+// Fixture type definition
+// ---------------------------
+type HoverClickHelperTest = {
+  hoverHelper: (hoverSelector: string, clickSelector: string, label: string) => Promise<void>;
+};
+
+// ---------------------------
+// Custom fixture: hoverHelper
+// ---------------------------
+export const test = baseTest.extend<HoverClickHelperTest>({
   hoverHelper: async ({ page }, use) => {
     // Provide a function to reliably hover and click on dropdown links
     await use(async (hoverSelector, clickSelector, label) => {
@@ -33,3 +74,4 @@ export const test = baseTest.extend<HoverClickHelperTest>({
     });
   }
 });
+*/

@@ -1,5 +1,65 @@
-import { test, expect, Page } from '@playwright/test';
+// Import the extended test from our fixture (includes hoverHelper)
+import { test } from '../fixtures/hoverclickhelper';
 
+// Import expect from Playwright
+import { expect } from '@playwright/test';
+
+// ------------------------------------------------------------
+// Test: Login, edit profile, and logout - CI-proof version
+// ------------------------------------------------------------
+test('Login, edit profile, and logout - CI-proof', async ({ page, hoverHelper }) => {
+  // Log browser console messages (skip autocomplete warnings)
+  page.on('console', msg => {
+    const text = msg.text();
+    if (text.includes('Input elements should have autocomplete attributes')) return;
+    console.log('BROWSER LOG:', text);
+  });
+
+  // Navigate to main page
+  console.log('Navigating to LambdaTest eCommerce playground...');
+  await page.goto('https://ecommerce-playground.lambdatest.io/', { waitUntil: 'domcontentloaded' });
+
+  // Hover "My account" and click "Login"
+  await hoverHelper(
+    'a.icon-left.both.nav-link.dropdown-toggle:has-text("My account")',
+    'a:has-text("Login")',
+    'My account (login)'
+  );
+
+  // Verify login page
+  await expect(page).toHaveURL('https://ecommerce-playground.lambdatest.io/index.php?route=account/login');
+
+  // Fill login form
+  await page.getByRole('textbox', { name: 'E-Mail Address' }).fill('timcook@yopmail.com');
+  await page.getByRole('textbox', { name: 'Password' }).fill('Test@1234');
+  await page.getByRole('button', { name: 'Login' }).click();
+  console.log('Logged in successfully');
+
+  // Go to Edit Account
+  const editAccountLink = page.getByRole('link', { name: ' Edit your account' });
+  await expect(editAccountLink).toBeVisible({ timeout: 8000 });
+  await editAccountLink.click();
+
+  // Update First Name
+  await page.getByRole('textbox', { name: 'First Name *' }).fill('Kailashnikov');
+  await page.getByRole('button', { name: 'Continue' }).click();
+  console.log('Updated first name successfully');
+
+  // Hover "My account" and click "Logout"
+  await hoverHelper(
+    'a.icon-left.both.nav-link.dropdown-toggle:has-text("My account")',
+    'a.icon-left.both.dropdown-item:has-text("Logout")',
+    'My account (logout)'
+  );
+
+  // Verify logout page
+  await expect(page).toHaveURL('https://ecommerce-playground.lambdatest.io/index.php?route=account/logout');
+  console.log('Logout verified successfully');
+});
+
+
+
+/*
 // ------------------------------------------------------------
 // Helper: CI-stable hover + click for dropdown links
 // ------------------------------------------------------------
@@ -80,7 +140,7 @@ test('Login, edit profile, and logout - CI hardened version', async ({ page }) =
   await expect(page).toHaveURL('https://ecommerce-playground.lambdatest.io/index.php?route=account/logout');
   console.log('Logout verified successfully');
 });
-
+*/
 
 
 /*

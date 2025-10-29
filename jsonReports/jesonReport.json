@@ -64,13 +64,13 @@
   },
   "suites": [
     {
-      "title": "tests\\training\\datafromjson.test.ts",
-      "file": "tests/training/datafromjson.test.ts",
+      "title": "tests\\training\\login-profileedit.test.ts",
+      "file": "tests/training/login-profileedit.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Wikipedia search for random ancient general - CI proof",
+          "title": "Login, edit profile, and logout - CI-proof",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,45 +82,51 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 16,
+                  "workerIndex": 29,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2058,
+                  "duration": 6773,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Searching for: Marcus Aurelius\n"
+                      "text": "Navigating to LambdaTest eCommerce playground...\n"
                     },
                     {
-                      "text": "Navigated to English Wikipedia\n"
+                      "text": "Hovering and clicking \"My account (login)\"...\n"
                     },
                     {
-                      "text": "Filled search input with \"Marcus Aurelius\"\n"
+                      "text": "Clicked \"My account (login)\" -> a:has-text(\"Login\")\n"
                     },
                     {
-                      "text": "Search submitted\n"
+                      "text": "Logged in successfully\n"
                     },
                     {
-                      "text": "Verified page heading is \"Marcus Aurelius\"\n"
+                      "text": "Updated first name successfully\n"
                     },
                     {
-                      "text": "Verified URL contains \"Marcus_Aurelius\"\n"
+                      "text": "Hovering and clicking \"My account (logout)\"...\n"
+                    },
+                    {
+                      "text": "Clicked \"My account (logout)\" -> a.icon-left.both.dropdown-item:has-text(\"Logout\")\n"
+                    },
+                    {
+                      "text": "Logout verified successfully\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-29T16:45:48.215Z",
+                  "startTime": "2025-10-29T17:49:21.090Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-datafromjso-e24af--ancient-general---CI-proof\\test-finished-1.png"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-login-profi-8a001-ofile-and-logout---CI-proof\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-datafromjso-e24af--ancient-general---CI-proof\\video.webm"
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-login-profi-8a001-ofile-and-logout---CI-proof\\video.webm"
                     }
                   ]
                 }
@@ -128,9 +134,9 @@
               "status": "expected"
             }
           ],
-          "id": "bd797d4b73cbdc5f0601-1b6190705fb45989d1d4",
-          "file": "tests/training/datafromjson.test.ts",
-          "line": 13,
+          "id": "143db3817e6ee3277703-3f637a4cd026a535fefc",
+          "file": "tests/training/login-profileedit.test.ts",
+          "line": 10,
           "column": 5
         }
       ]
@@ -138,8 +144,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-10-29T16:45:46.572Z",
-    "duration": 4198.412000000477,
+    "startTime": "2025-10-29T17:49:19.426Z",
+    "duration": 8983.88899999857,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
