@@ -1,0 +1,1784 @@
+{
+  "config": {
+    "configFile": "C:\\SYLVAIN\\PlaywrightTraining\\playwright.config.ts",
+    "rootDir": "C:/SYLVAIN/PlaywrightTraining",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 8
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/SYLVAIN/PlaywrightTraining/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 8
+        },
+        "id": "Chromium",
+        "name": "Chromium",
+        "testDir": "C:/SYLVAIN/PlaywrightTraining",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/SYLVAIN/PlaywrightTraining/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 8
+        },
+        "id": "Firefox",
+        "name": "Firefox",
+        "testDir": "C:/SYLVAIN/PlaywrightTraining",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/SYLVAIN/PlaywrightTraining/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 8
+        },
+        "id": "WebKit",
+        "name": "WebKit",
+        "testDir": "C:/SYLVAIN/PlaywrightTraining",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/SYLVAIN/PlaywrightTraining/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 8
+        },
+        "id": "Edge",
+        "name": "Edge",
+        "testDir": "C:/SYLVAIN/PlaywrightTraining",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.0",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\training\\alerts.test.ts",
+      "file": "tests/training/alerts.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Bootstrap Modal Demo - should open modal, click Save Changes, and ensure it closes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9579,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:30.647Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "62118bf844a7a1820d62-c3d4e28454d6d3cb8d2e",
+          "file": "tests/training/alerts.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\alerts1.test.ts",
+      "file": "tests/training/alerts1.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "handling alerts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8971,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "I am an alert box!\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:30.614Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6761189318b9c74f116e-ce5cddbb7881ef09b42d",
+          "file": "tests/training/alerts1.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\alerts2.test.ts",
+      "file": "tests/training/alerts2.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "handling alerts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 8890,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Press a button!\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:30.609Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1cac1dfac589b3d20a6c-42e4ab9294a9ab3523eb",
+          "file": "tests/training/alerts2.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\alerts3.test.ts",
+      "file": "tests/training/alerts3.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Prompt dialog test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 9453,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Prompt test completed, text verified on the page.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:30.647Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f97a83da25e5a89ddff5-bcd8b4d76f7fff4a1c90",
+          "file": "tests/training/alerts3.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\basicInteractions.test.ts",
+      "file": "tests/training/basicInteractions.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Checkbox",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 4,
+                  "status": "passed",
+                  "duration": 7577,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:30.718Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c928b6a075a94e78763-30456b49662ae263e171",
+          "file": "tests/training/basicInteractions.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\basicInteractions1.test.ts",
+      "file": "tests/training/basicInteractions1.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Interaction with inputs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 8977,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Please enter your Message\n"
+                    },
+                    {
+                      "text": "Before entering data: \n"
+                    },
+                    {
+                      "text": "After entering data: Hi Sly\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:30.653Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2b636f7a521eca5471e7-8e61f74f348d198b37df",
+          "file": "tests/training/basicInteractions1.test.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Sum",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 9700,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "667\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:39.795Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2b636f7a521eca5471e7-1c6c17b89a2c15de3aa1",
+          "file": "tests/training/basicInteractions1.test.ts",
+          "line": 16,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\datafromjson.test.ts",
+      "file": "tests/training/datafromjson.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Wikipedia search for random ancient general - CI proof",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 6,
+                  "status": "passed",
+                  "duration": 7535,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Searching for: Cato the Elder\n"
+                    },
+                    {
+                      "text": "Navigated to English Wikipedia\n"
+                    },
+                    {
+                      "text": "Filled search input with \"Cato the Elder\"\n"
+                    },
+                    {
+                      "text": "Search submitted\n"
+                    },
+                    {
+                      "text": "Verified page heading contains \"Cato the Elder\"\n"
+                    },
+                    {
+                      "text": "Verified URL contains \"Cato_the_Elder\"\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:30.695Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bd797d4b73cbdc5f0601-f0f3b910356b43609c17",
+          "file": "tests/training/datafromjson.test.ts",
+          "line": 16,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\date-calendar.test.ts",
+      "file": "tests/training/date-calendar.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Pick May 4th 2026 in jQuery UI Datepicker",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 7,
+                  "status": "passed",
+                  "duration": 11838,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:30.671Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f4bcb6ff08e1b90dee79-1ac8cb409dd581f94e40",
+          "file": "tests/training/date-calendar.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\date-calendar2.test.ts",
+      "file": "tests/training/date-calendar2.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Pick the 15th after clicking next 3 times",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 6,
+                  "status": "passed",
+                  "duration": 8126,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Selected date: 01/15/2026\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:38.392Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b58c6fc889bbc54741af-8db95f347cf4e4293798",
+          "file": "tests/training/date-calendar2.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\date-calendar3.test.ts",
+      "file": "tests/training/date-calendar3.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Pick today, three years in the past",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 4,
+                  "status": "timedOut",
+                  "duration": 30744,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\SYLVAIN\\PlaywrightTraining\\tests\\training\\date-calendar3.test.ts",
+                        "column": 48,
+                        "line": 27
+                      },
+                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.demo-frame').contentFrame().locator('.ui-datepicker-prev')\u001b[22m\n\u001b[2m    - locator resolved to <a title=\"Prev\" data-event=\"click\" data-handler=\"prev\" class=\"ui-datepicker-prev ui-corner-all ui-state-hover ui-datepicker-prev-hover\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n\n\u001b[0m \u001b[90m 25 |\u001b[39m       \u001b[36mbreak\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 26 |\u001b[39m     }\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mawait\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m'.ui-datepicker-prev'\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mawait\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m'.ui-datepicker-title'\u001b[39m)\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m   }\n \u001b[90m 30 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\SYLVAIN\\PlaywrightTraining\\tests\\training\\date-calendar3.test.ts:27:48\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:38.471Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-date-calend-9aad6-day-three-years-in-the-past-WebKit\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-date-calend-9aad6-day-three-years-in-the-past-WebKit\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-date-calend-9aad6-day-three-years-in-the-past-WebKit\\error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "d02557ef2c33c3b28a00-13914b34d28f752a2a8d",
+          "file": "tests/training/date-calendar3.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\date-fill.test.ts",
+      "file": "tests/training/date-fill.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Set birthday with fill and check displayed value (with 1s visual delays)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 10551,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:39.701Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c2cc4a11d6d11ec9d68d-23dd509904c38cee4fc9",
+          "file": "tests/training/date-fill.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\download.test.ts",
+      "file": "tests/training/download.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Generate and verify donwloaded file name",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 13821,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:39.766Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "66b7cedca1e50a6d201c-5fa284fae7491bfa0853",
+          "file": "tests/training/download.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\download1.test.ts",
+      "file": "tests/training/download1.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Generate and download file",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 12684,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:40.253Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d28acce5a8a57b85657d-5911bad3b95c118e8287",
+          "file": "tests/training/download1.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\download2.test.ts",
+      "file": "tests/training/download2.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Generate, download, check, and delete file",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13119,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Navigating to LambdaTest download page...\n"
+                    },
+                    {
+                      "text": "Typed text: \"Test test test\"\n"
+                    },
+                    {
+                      "text": "Button is now enabled\n"
+                    },
+                    {
+                      "text": "Clicked \"Generate File\"\n"
+                    },
+                    {
+                      "text": "Download link is visible\n"
+                    },
+                    {
+                      "text": "Download started for file: Lambdainfo.txt\n"
+                    },
+                    {
+                      "text": "File saved locally at: C:\\SYLVAIN\\PlaywrightTraining\\tests\\training\\Lambdainfo.txt\n"
+                    },
+                    {
+                      "text": "Verified file name is: Lambdainfo.txt\n"
+                    },
+                    {
+                      "text": "File content:\n"
+                    },
+                    {
+                      "text": "Test test test\n"
+                    },
+                    {
+                      "text": "Verified content contains \"Test test test\"\n"
+                    },
+                    {
+                      "text": "Downloaded file deleted after test\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:40.379Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "08594b5750525df80069-2298d9001eaf21ec4b19",
+          "file": "tests/training/download2.test.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\download3.test.ts",
+      "file": "tests/training/download3.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Generate, download, and check file content",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 7,
+                  "status": "passed",
+                  "duration": 12907,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Navigating to LambdaTest download page...\n"
+                    },
+                    {
+                      "text": "Typed text: \"Test test test\"\n"
+                    },
+                    {
+                      "text": "Button is now enabled\n"
+                    },
+                    {
+                      "text": "Clicked \"Generate File\"\n"
+                    },
+                    {
+                      "text": "Download link is visible\n"
+                    },
+                    {
+                      "text": "Download started for file: Lambdainfo.txt\n"
+                    },
+                    {
+                      "text": "Verified file name is: Lambdainfo.txt\n"
+                    },
+                    {
+                      "text": "File content:\n"
+                    },
+                    {
+                      "text": "Test test test\n"
+                    },
+                    {
+                      "text": "Verified content contains \"Test test test\"\n"
+                    },
+                    {
+                      "text": "Download checked successfully, no file saved.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:42.695Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b76cfd20a472aacaa05c-3df32667470fa46c85c2",
+          "file": "tests/training/download3.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\dropdown.test.ts",
+      "file": "tests/training/dropdown.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Dropdown search and select India (exact match)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 6,
+                  "status": "passed",
+                  "duration": 15178,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:46.602Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1bf37e4d3ecf5447c850-2ab5f9410a213aa73aa5",
+          "file": "tests/training/dropdown.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\dropdown1.test.ts",
+      "file": "tests/training/dropdown1.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Select Tuesday from dropdown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 6750,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:49.552Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d1de7187d2928b723f56-01a921474f004f72b6ac",
+          "file": "tests/training/dropdown1.test.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Select multiple states in order and verify displayed last selected text and first selected option",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 5,
+                  "status": "timedOut",
+                  "duration": 30710,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\SYLVAIN\\PlaywrightTraining\\tests\\training\\dropdown1.test.ts",
+                        "column": 60,
+                        "line": 154
+                      },
+                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#multi-select').locator('option[value=\"California\"]')\u001b[22m\n\u001b[2m    - locator resolved to <option value=\"California\">California</option>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is not stable\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    8 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    2 × element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\n\n\u001b[0m \u001b[90m 152 |\u001b[39m   \u001b[90m// Loop through each option and click it in the specified order\u001b[39m\n \u001b[90m 153 |\u001b[39m   \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m option \u001b[36mof\u001b[39m options) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 154 |\u001b[39m     \u001b[36mawait\u001b[39m multiSelect\u001b[33m.\u001b[39mlocator(\u001b[32m`option[value=\"${option}\"]`\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 155 |\u001b[39m   }\n \u001b[90m 156 |\u001b[39m\n \u001b[90m 157 |\u001b[39m   \u001b[90m// Release the Control key after all selections\u001b[39m\u001b[0m\n\u001b[2m    at C:\\SYLVAIN\\PlaywrightTraining\\tests\\training\\dropdown1.test.ts:154:60\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:56.411Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-dropdown1-S-764a9-t-and-first-selected-option-WebKit\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-dropdown1-S-764a9-t-and-first-selected-option-WebKit\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-dropdown1-S-764a9-t-and-first-selected-option-WebKit\\error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "d1de7187d2928b723f56-eede7fd13c07c5ccd6d4",
+          "file": "tests/training/dropdown1.test.ts",
+          "line": 136,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\dropdown2.test.ts",
+      "file": "tests/training/dropdown2.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Select multiple states in order and verify displayed last selected text and first selected option",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "timedOut",
+                  "duration": 30773,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\SYLVAIN\\PlaywrightTraining\\tests\\training\\dropdown2.test.ts",
+                        "column": 60,
+                        "line": 25
+                      },
+                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#multi-select').locator('option[value=\"California\"]')\u001b[22m\n\u001b[2m    - locator resolved to <option value=\"California\">California</option>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    7 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    2 × element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n\n\u001b[0m \u001b[90m 23 |\u001b[39m   \u001b[90m// Loop through each option and click it in the specified order\u001b[39m\n \u001b[90m 24 |\u001b[39m   \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m option \u001b[36mof\u001b[39m options) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 25 |\u001b[39m     \u001b[36mawait\u001b[39m multiSelect\u001b[33m.\u001b[39mlocator(\u001b[32m`option[value=\"${option}\"]`\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 26 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m500\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// wait 0.5 seconds between clicks\u001b[39m\n \u001b[90m 27 |\u001b[39m   }\n \u001b[90m 28 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\SYLVAIN\\PlaywrightTraining\\tests\\training\\dropdown2.test.ts:25:60\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:50.320Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-dropdown2-S-99dfa-t-and-first-selected-option-WebKit\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-dropdown2-S-99dfa-t-and-first-selected-option-WebKit\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-dropdown2-S-99dfa-t-and-first-selected-option-WebKit\\error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "5dcc699f29453b3d4a21-e63e3f23c8573fed07e8",
+          "file": "tests/training/dropdown2.test.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "Select multiple states and verify first selected option first, then all selected",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 30708,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\SYLVAIN\\PlaywrightTraining\\tests\\training\\dropdown2.test.ts",
+                        "column": 60,
+                        "line": 81
+                      },
+                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#multi-select').locator('option[value=\"California\"]')\u001b[22m\n\u001b[2m    - locator resolved to <option value=\"California\">California</option>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    10 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n\n\u001b[0m \u001b[90m 79 |\u001b[39m   \u001b[90m// Loop through each option and click it in the specified order\u001b[39m\n \u001b[90m 80 |\u001b[39m   \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m option \u001b[36mof\u001b[39m options) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 81 |\u001b[39m     \u001b[36mawait\u001b[39m multiSelect\u001b[33m.\u001b[39mlocator(\u001b[32m`option[value=\"${option}\"]`\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 82 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m500\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// wait 0.5 seconds between clicks\u001b[39m\n \u001b[90m 83 |\u001b[39m   }\n \u001b[90m 84 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\SYLVAIN\\PlaywrightTraining\\tests\\training\\dropdown2.test.ts:81:60\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:13:22.049Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-dropdown2-S-f5907-ion-first-then-all-selected-WebKit\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-dropdown2-S-f5907-ion-first-then-all-selected-WebKit\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-dropdown2-S-f5907-ion-first-then-all-selected-WebKit\\error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "5dcc699f29453b3d4a21-2e041c9acb9323de11da",
+          "file": "tests/training/dropdown2.test.ts",
+          "line": 60,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\example.spec.ts",
+      "file": "tests/training/example.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 2711,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:53.011Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eba2f4021e5ababbf291-818f630891a9112b8c37",
+          "file": "tests/training/example.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 3328,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:55.780Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eba2f4021e5ababbf291-df37e202fa61543b5b96",
+          "file": "tests/training/example.spec.ts",
+          "line": 10,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\frames.test.ts",
+      "file": "tests/training/frames.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Fill first name, last name, and email in separate frames",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 14566,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#firstFr').contentFrame().locator('p.title.has-text-info')\nExpected: \u001b[32m\"You have entered Sylvestre Men\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#firstFr').contentFrame().locator('p.title.has-text-info')\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#firstFr').contentFrame().locator('p.title.has-text-info')\nExpected: \u001b[32m\"You have entered Sylvestre Men\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#firstFr').contentFrame().locator('p.title.has-text-info')\u001b[22m\n\n    at C:\\SYLVAIN\\PlaywrightTraining\\tests\\training\\frames.test.ts:28:62",
+                    "location": {
+                      "file": "C:\\SYLVAIN\\PlaywrightTraining\\tests\\training\\frames.test.ts",
+                      "column": 62,
+                      "line": 28
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 26 |\u001b[39m   \u001b[90m// Verify displayed message\u001b[39m\n \u001b[90m 27 |\u001b[39m   \u001b[36mconst\u001b[39m expectedText \u001b[33m=\u001b[39m \u001b[32m`You have entered ${firstName} ${lastName}`\u001b[39m\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 28 |\u001b[39m   \u001b[36mawait\u001b[39m expect(parentFrame\u001b[33m.\u001b[39mlocator(\u001b[32m'p.title.has-text-info'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(expectedText)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 29 |\u001b[39m\n \u001b[90m 30 |\u001b[39m   \u001b[90m// --- Nested frame inside parent: iframe[src='innerframe'] ---\u001b[39m\n \u001b[90m 31 |\u001b[39m   \u001b[36mconst\u001b[39m nestedFrame \u001b[33m=\u001b[39m parentFrame\u001b[33m.\u001b[39mframeLocator(\u001b[32m\"iframe[src='innerframe']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\SYLVAIN\\PlaywrightTraining\\tests\\training\\frames.test.ts",
+                        "column": 62,
+                        "line": 28
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#firstFr').contentFrame().locator('p.title.has-text-info')\nExpected: \u001b[32m\"You have entered Sylvestre Men\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#firstFr').contentFrame().locator('p.title.has-text-info')\u001b[22m\n\n\n\u001b[0m \u001b[90m 26 |\u001b[39m   \u001b[90m// Verify displayed message\u001b[39m\n \u001b[90m 27 |\u001b[39m   \u001b[36mconst\u001b[39m expectedText \u001b[33m=\u001b[39m \u001b[32m`You have entered ${firstName} ${lastName}`\u001b[39m\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 28 |\u001b[39m   \u001b[36mawait\u001b[39m expect(parentFrame\u001b[33m.\u001b[39mlocator(\u001b[32m'p.title.has-text-info'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(expectedText)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 29 |\u001b[39m\n \u001b[90m 30 |\u001b[39m   \u001b[90m// --- Nested frame inside parent: iframe[src='innerframe'] ---\u001b[39m\n \u001b[90m 31 |\u001b[39m   \u001b[36mconst\u001b[39m nestedFrame \u001b[33m=\u001b[39m parentFrame\u001b[33m.\u001b[39mframeLocator(\u001b[32m\"iframe[src='innerframe']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\SYLVAIN\\PlaywrightTraining\\tests\\training\\frames.test.ts:28:62\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Number of frames: 10\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:53.566Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-frames-Fill-54c73-nd-email-in-separate-frames-WebKit\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-frames-Fill-54c73-nd-email-in-separate-frames-WebKit\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\SYLVAIN\\PlaywrightTraining\\test-results\\tests-training-frames-Fill-54c73-nd-email-in-separate-frames-WebKit\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\SYLVAIN\\PlaywrightTraining\\tests\\training\\frames.test.ts",
+                    "column": 62,
+                    "line": 28
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "43632235997e50e9ac49-7a84fbf92b84cf0f131a",
+          "file": "tests/training/frames.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\hoverusingfixture.test.ts",
+      "file": "tests/training/hoverusingfixture.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Navigate via Mega Menu to Printer page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8539,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Hovering and clicking \"Mega Menu -> Printer\"...\n"
+                    },
+                    {
+                      "text": "Clicked \"Mega Menu -> Printer\" -> a[title=\"Printer\"]\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:53.727Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "97f0f6758da9ccf9f0f3-371d393bcc01820159da",
+          "file": "tests/training/hoverusingfixture.test.ts",
+          "line": 7,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\login-logout-hiddencred.test.ts",
+      "file": "tests/training/login-logout-hiddencred.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login and Logout with hidden credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 7,
+                  "status": "passed",
+                  "duration": 11591,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:55.749Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e7ac1c9afb7d57114dbc-3caec7787bbbe264c9b2",
+          "file": "tests/training/login-logout-hiddencred.test.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\login-logout.test.ts",
+      "file": "tests/training/login-logout.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login/Logout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 11017,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:12:59.151Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "78f3cd5b3e544a613f2e-5153cb8175ff26c6ace6",
+          "file": "tests/training/login-logout.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\login-profileedit.test.ts",
+      "file": "tests/training/login-profileedit.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login, edit profile, and logout - CI-proof",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 6,
+                  "status": "passed",
+                  "duration": 11891,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Navigating to LambdaTest eCommerce playground...\n"
+                    },
+                    {
+                      "text": "Hovering and clicking \"My account (login)\"...\n"
+                    },
+                    {
+                      "text": "Clicked \"My account (login)\" -> a:has-text(\"Login\")\n"
+                    },
+                    {
+                      "text": "Logged in successfully\n"
+                    },
+                    {
+                      "text": "Updated first name successfully\n"
+                    },
+                    {
+                      "text": "Hovering and clicking \"My account (logout)\"...\n"
+                    },
+                    {
+                      "text": "Clicked \"My account (logout)\" -> a.icon-left.both.dropdown-item:has-text(\"Logout\")\n"
+                    },
+                    {
+                      "text": "Logout verified successfully\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:13:01.901Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "143db3817e6ee3277703-798791e71eb180e5be6a",
+          "file": "tests/training/login-profileedit.test.ts",
+          "line": 10,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\pom-loginfail.test.ts",
+      "file": "tests/training/pom-loginfail.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login fails with invalid credentials (handles throttling)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3916,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Login failed due to too many attempts. Account is temporarily locked.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:13:02.323Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "279c9ad09a6d9c7d9297-c10ea4dc5cb41693885e",
+          "file": "tests/training/pom-loginfail.test.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\pom-loginsuccess.test.ts",
+      "file": "tests/training/pom-loginsuccess.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login successful with valid credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5079,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:13:06.299Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4f7e6a3edc2a9fd71bf8-100493059792cca10631",
+          "file": "tests/training/pom-loginsuccess.test.ts",
+          "line": 7,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\popup.test.ts",
+      "file": "tests/training/popup.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Follow on Twitter popup test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 7,
+                  "status": "passed",
+                  "duration": 6975,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Main page URL: https://www.lambdatest.com/selenium-playground/window-popup-modal-demo\n"
+                    },
+                    {
+                      "text": "Popup opened with URL: https://x.com/Lambdatesting\n"
+                    },
+                    {
+                      "text": "Popup redirected to URL: https://x.com/\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:13:07.402Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2e66b8160a710c522b03-f8cd9beea2f933af2ef8",
+          "file": "tests/training/popup.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\training\\upload.test.ts",
+      "file": "tests/training/upload.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "File upload with multiple selection verification",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1623,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Multiple selection enabled: true\n"
+                    },
+                    {
+                      "text": "Files selected\n"
+                    },
+                    {
+                      "text": "Files successfully displayed in upload list\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-30T16:13:10.843Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a41b1f159a469c660911-c197ff71f86580094fb3",
+          "file": "tests/training/upload.test.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-10-30T16:12:29.197Z",
+    "duration": 83706.553,
+    "expected": 27,
+    "skipped": 0,
+    "unexpected": 5,
+    "flaky": 0
+  }
+}
