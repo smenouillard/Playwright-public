@@ -67,7 +67,7 @@ jobs:
         if: matrix.os != 'ubuntu-latest'
         run: npx playwright test --project=${{ matrix.browser }} --reporter=html,junit
 
-      # 6. Upload HTML/JSON report artifacts
+      # 6. Upload HTML/JSON report artifacts (optional)
       - name: Upload HTML/JSON Report
         if: ${{ !cancelled() }}
         uses: actions/upload-artifact@v4
@@ -76,12 +76,28 @@ jobs:
           path: playwright-report/
           retention-days: 30
 
-      # 7. Publish reports to GitHub Pages
-      - name: Publish Report to GitHub Pages
+      # 7. Prepare report folder for Pages
+      - name: Copy report to Pages folder
+        run: |
+          DEST=reports/${{ matrix.os }}-${{ matrix.browser }}
+          mkdir -p $DEST
+          cp -r playwright-report/* $DEST/
+          # Append link to temporary file for index.html
+          echo "<li><a href='$DEST/index.html'>${{ matrix.os }} - ${{ matrix.browser }}</a></li>" >> index_links.html
+
+      # 8. Assemble main index.html (only once, at end)
+      - name: Assemble main index.html
+        if: matrix.os == 'ubuntu-latest' && matrix.browser == 'chromium'
+        run: |
+          echo '<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Playwright Reports</title></head><body><h1>Playwright Reports</h1><ul>' > index.html
+          cat index_links.html >> index.html
+          echo '</ul></body></html>' >> index.html
+
+      # 9. Publish all to GitHub Pages
+      - name: Publish Reports to GitHub Pages
         if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./playwright-report
-          destination_dir: reports/${{ matrix.os }}-${{ matrix.browser }}
-          commit_message: "Publish Playwright report [skip ci]"
+          publish_dir: .
+          commit_message: "Publish Playwright reports [skip ci]"
