@@ -55,11 +55,10 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests
+        shell: bash
         run: |
           if [[ "${{ matrix.os }}" == "ubuntu-latest" ]]; then
             xvfb-run npx playwright test --project=${{ matrix.browser }} --reporter=html,junit || true
-          elif [[ "${{ matrix.os }}" == "windows-latest" ]]; then
-            npx playwright test --project=${{ matrix.browser }} --reporter=html,junit || exit 0
           else
             npx playwright test --project=${{ matrix.browser }} --reporter=html,junit || true
           fi
@@ -77,9 +76,8 @@ jobs:
     name: Publish Playwright Reports to GitHub Pages
     runs-on: ubuntu-latest
     needs: test
-    if: github.ref == 'refs/heads/main'
-    # Ensure this job runs even if some tests failed
-    continue-on-error: false
+    # Run even if tests failed, but only on main branch
+    if: always() && github.ref == 'refs/heads/main'
 
     steps:
       - name: Checkout code
