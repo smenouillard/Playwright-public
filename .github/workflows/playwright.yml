@@ -13,8 +13,26 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
-        browser: [chromium, firefox, webkit, edge]
+        include:
+          # Ubuntu
+          - os: ubuntu-latest
+            browser: chromium
+          - os: ubuntu-latest
+            browser: firefox
+          # Windows
+          - os: windows-latest
+            browser: chromium
+          - os: windows-latest
+            browser: firefox
+          - os: windows-latest
+            browser: edge
+          # macOS
+          - os: macos-latest
+            browser: chromium
+          - os: macos-latest
+            browser: webkit
+          - os: macos-latest
+            browser: firefox
       fail-fast: false
     env:
       TEST_USER: ${{ secrets.TEST_USER }}
