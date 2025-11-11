@@ -41,20 +41,25 @@ jobs:
       TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
 
     steps:
+      # Checkout code
       - name: Checkout code
         uses: actions/checkout@v4
 
+      # Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
 
+      # Install dependencies
       - name: Install dependencies
         run: npm ci
 
+      # Install Playwright browsers
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
+      # Run Playwright tests
       - name: Run Playwright tests
         run: |
           if [[ "${{ matrix.os }}" == "ubuntu-latest" ]]; then
@@ -63,6 +68,7 @@ jobs:
             npx playwright test --project=${{ matrix.browser }} --reporter=html,junit
           fi
 
+      # Upload test report artifact
       - name: Upload test report artifact
         uses: actions/upload-artifact@v4
         with:
@@ -70,24 +76,40 @@ jobs:
           path: playwright-report/
           retention-days: 30
 
-  # 2️⃣ Publish all reports
+  # 2️⃣ Publish all reports to GitHub Pages
   publish:
     name: Publish Playwright Reports to GitHub Pages
     runs-on: ubuntu-latest
     needs: test
     if: github.ref == 'refs/heads/main'
     steps:
+      # Checkout repository
       - name: Checkout code
         uses: actions/checkout@v4
 
+      # Download all test artifacts
       - name: Download all test artifacts
         uses: actions/download-artifact@v4
         with:
           path: ./reports
 
+      # Optional: generate an index.html with links to all reports
+      - name: Generate index.html
+        run: |
+          echo "<!DOCTYPE html>
+          <html lang='en'>
+          <head><meta charset='UTF-8'><title>Playwright Reports</title></head>
+          <body><h1>Playwright Reports</h1><ul>" > ./reports/index.html
+          for dir in ./reports/*/; do
+            report_name=$(basename $dir)
+            echo "<li><a href='$report_name/index.html'>$report_name</a></li>" >> ./reports/index.html
+          done
+          echo "</ul></body></html>" >> ./reports/index.html
+
+      # Publish to GitHub Pages
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.MY_PAT }} # Personal Access Token with repo push rights
+          github_token: ${{ secrets.MY_PAT }}
           publish_dir: ./reports
           commit_message: "Publish Playwright reports [skip ci]"
