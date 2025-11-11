@@ -40,39 +40,28 @@ jobs:
       TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
 
     steps:
-      # 1. Checkout repository
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 2. Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
 
-      # 3. Install dependencies
       - name: Install dependencies
         run: npm ci
 
-      # 4. Install Playwright browsers
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      # 5. Set DEST variable cross-platform
-      - name: Set DEST variable
-        run: echo "DEST=reports/${{ matrix.os }}-${{ matrix.browser }}" >> $GITHUB_ENV
+      - name: Run Playwright Tests
+        run: |
+          if [[ "${{ matrix.os }}" == "ubuntu-latest" ]]; then
+            xvfb-run npx playwright test --project=${{ matrix.browser }} --reporter=html,junit
+          else
+            npx playwright test --project=${{ matrix.browser }} --reporter=html,junit
+          fi
 
-      # 6a. Run tests on Ubuntu with xvfb
-      - name: Run Playwright on Ubuntu
-        if: matrix.os == 'ubuntu-latest'
-        run: xvfb-run npx playwright test --project=${{ matrix.browser }} --reporter=html,junit
-
-      # 6b. Run tests on non-Ubuntu (Windows/macOS)
-      - name: Run Playwright on non-Ubuntu
-        if: matrix.os != 'ubuntu-latest'
-        run: npx playwright test --project=${{ matrix.browser }} --reporter=html,junit
-
-      # 7. Upload HTML/JSON report artifacts
       - name: Upload HTML/JSON Report
         if: ${{ !cancelled() }}
         uses: actions/upload-artifact@v4
@@ -81,12 +70,36 @@ jobs:
           path: playwright-report/
           retention-days: 30
 
-      # 8. Publish reports to GitHub Pages (requires PAT)
-      - name: Publish Report to GitHub Pages
-        if: github.ref == 'refs/heads/main'
+  publish:
+    name: Publish Reports to GitHub Pages
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: ./all-reports
+
+      - name: Merge reports and generate index
+        run: |
+          mkdir -p gh-pages/reports
+          for artifact_dir in all-reports/*; do
+            base=$(basename $artifact_dir)
+            cp -r $artifact_dir gh-pages/reports/$base
+          done
+
+          echo "<!DOCTYPE html><html><head><title>Playwright Reports</title></head><body><h1>Playwright Reports</h1><ul>" > gh-pages/index.html
+          for dir in gh-pages/reports/*; do
+            echo "<li><a href=\"$dir/index.html\">$(basename $dir)</a></li>" >> gh-pages/index.html
+          done
+          echo "</ul></body></html>" >> gh-pages/index.html
+
+      - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.MY_PAT }} # Personal Access Token with repo push rights
-          publish_dir: ./playwright-report
-          destination_dir: ${{ env.DEST }}
-          commit_message: "Publish Playwright report [skip ci]"
+          github_token: ${{ secrets.MY_PAT }}
+          publish_dir: ./gh-pages
+          commit_message: "Publish Playwright reports [skip ci]"
