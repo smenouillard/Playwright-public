@@ -12,6 +12,7 @@ jobs:
     name: Playwright Tests
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
         include:
           # Ubuntu
@@ -33,13 +34,13 @@ jobs:
             browser: webkit
           - os: macos-latest
             browser: firefox
-      fail-fast: false
+
     env:
       TEST_USER: ${{ secrets.TEST_USER }}
       TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
 
     steps:
-      # 1. Checkout repo
+      # 1. Checkout repository
       - name: Checkout code
         uses: actions/checkout@v4
 
@@ -80,12 +81,12 @@ jobs:
           path: playwright-report/
           retention-days: 30
 
-      # 8. Publish reports to GitHub Pages (PAT required)
+      # 8. Publish reports to GitHub Pages (requires PAT)
       - name: Publish Report to GitHub Pages
         if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.MY_PAT }} # <-- your Personal Access Token with repo push rights
+          github_token: ${{ secrets.MY_PAT }} # Personal Access Token with repo push rights
           publish_dir: ./playwright-report
           destination_dir: ${{ env.DEST }}
           commit_message: "Publish Playwright report [skip ci]"
