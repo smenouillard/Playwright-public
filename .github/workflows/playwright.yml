@@ -1,0 +1,59 @@
+name: Playwright E2E Tests
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Playwright Tests
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        browser: [chromium, firefox, webkit, edge]
+      fail-fast: false
+    env:
+      TEST_USER: ${{ secrets.TEST_USER }}
+      TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
+
+    steps:
+      # 1. Checkout repo
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. Install Playwright browsers
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      # 5a. Run tests on Ubuntu with xvfb
+      - name: Run Playwright on Ubuntu
+        if: matrix.os == 'ubuntu-latest'
+        run: xvfb-run npx playwright test --project=${{ matrix.browser }} --reporter=html,junit
+
+      # 5b. Run tests on non-Ubuntu (Windows/macOS)
+      - name: Run Playwright on non-Ubuntu
+        if: matrix.os != 'ubuntu-latest'
+        run: npx playwright test --project=${{ matrix.browser }} --reporter=html,junit
+
+      # 6. Upload HTML/JSON report artifacts
+      - name: Upload HTML/JSON Report
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report-${{ matrix.os }}-${{ matrix.browser }}
+          path: playwright-report/
+          retention-days: 30
