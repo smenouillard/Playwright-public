@@ -1,0 +1,81 @@
+name: Playwright E2E Tests
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Playwright Tests
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          # Ubuntu
+          - os: ubuntu-latest
+            browser: Chromium
+          - os: ubuntu-latest
+            browser: Firefox
+          # Windows
+          - os: windows-latest
+            browser: Chromium
+          - os: windows-latest
+            browser: Firefox
+          - os: windows-latest
+            browser: Edge
+          # macOS
+          - os: macos-latest
+            browser: Chromium
+          - os: macos-latest
+            browser: Firefox
+          - os: macos-latest
+            browser: WebKit
+      fail-fast: false
+
+    env:
+      TEST_USER: ${{ secrets.TEST_USER }}
+      TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
+
+    steps:
+      # 1. Checkout repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. Install Playwright browsers
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      # 5. Run Playwright tests (xvfb only for Ubuntu)
+      - name: Run Playwright Tests
+        run: |
+          if [[ "${{ matrix.os }}" == "ubuntu-latest" ]]; then
+            xvfb-run npx playwright test --project=${{ matrix.browser }} --reporter=html,junit
+          else
+            npx playwright test --project=${{ matrix.browser }} --reporter=html,junit
+          fi
+
+      # 6. Upload HTML report as artifact
+      - name: Upload HTML Report
+        uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: playwright-report-${{ matrix.os }}-${{ matrix.browser }}
+          path: playwright-report
+          retention-days: 30

@@ -11,7 +11,7 @@ const config: PlaywrightTestConfig = {
     // Global settings for all tests
     use: {
         headless: false,                // Run browser in non-headless mode for more authentic testing
-        screenshot: "only-on-failure", // Take screenshots only when a test fails
+        screenshot: "only-on-failure",  // Take screenshots only when a test fails
         video: "retain-on-failure"      // Record video only for failing tests
     },
 
