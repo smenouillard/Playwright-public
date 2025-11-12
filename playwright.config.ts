@@ -5,40 +5,39 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const config: PlaywrightTestConfig = {
-    // Global settings for all tests
-    use: {
-        headless: false,                // Run browser in non-headless mode for more authentic testing
-        screenshot: "only-on-failure",  // Take screenshots only when a test fails
-        video: "retain-on-failure"      // Record video only for failing tests
+  // Global settings for all tests
+  use: {
+    headless: false,                // Run browser in non-headless mode
+    screenshot: "only-on-failure",  // Take screenshots only on failure
+    video: "retain-on-failure"      // Record video only on failure
+  },
+
+  // Top-level reporter configuration with per-project output using {projectName}
+  reporter: [
+    ["html", { outputFolder: "playwright-report/{projectName}", open: "never" }],
+    ["junit", { outputFile: "playwright-report/{projectName}/junit.xml" }],
+    ["json", { outputFile: "playwright-report/{projectName}/jsonReport.json" }]
+  ],
+
+  // Projects for different browsers
+  projects: [
+    {
+      name: 'Chromium',
+      use: { ...devices['Desktop Chrome'] }
     },
-
-    // Test reporters
-    reporter: [
-        ["dot"],                                        // Console output reporter
-        ["json", { outputFile: "jsonReports/jsonReport.json" }], // JSON report
-        ["html", { outputFolder: "playwright-report", open: "never" }], // HTML report
-        ["junit", { outputFile: "playwright-report/junit.xml" }]       // JUnit XML report for badges
-    ],
-
-    // Projects for different browsers
-    projects: [
-        {
-            name: 'Chromium',
-            use: { ...devices['Desktop Chrome'] }     // Chromium
-        },
-        {
-            name: 'Firefox',
-            use: { ...devices['Desktop Firefox'] }    // Firefox
-        },
-        {
-            name: 'WebKit',
-            use: { ...devices['Desktop Safari'] }     // Safari
-        },
-        {
-            name: 'Edge',
-            use: { ...devices['Desktop Chrome'], channel: 'msedge' } // Microsoft Edge
-        }
-    ]
+    {
+      name: 'Firefox',
+      use: { ...devices['Desktop Firefox'] }
+    },
+    {
+      name: 'WebKit',
+      use: { ...devices['Desktop Safari'] }
+    },
+    {
+      name: 'Edge',
+      use: { ...devices['Desktop Chrome'], channel: 'msedge' }
+    }
+  ]
 };
 
 export default config;
