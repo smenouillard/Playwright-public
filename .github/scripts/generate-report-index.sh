@@ -5,18 +5,20 @@ set -e
 OUTPUT="./reports/index.html"
 TEMPLATE=".github/scripts/template.html"
 
+# Roots for HTML reports and JUnit XML
 HTML_ROOT="./reports/html"
 JUNIT_ROOT="./reports/junit"
 
 REPORT_LIST=""
 
+# Loop over each project folder in HTML reports
 for dir in "$HTML_ROOT"/*/; do
   report_name=$(basename "$dir")
   report_index="$dir/index.html"
   junit_file="$JUNIT_ROOT/$report_name.xml"
   status="unknown"
 
-  # Determine status from JUnit XML
+  # Determine status from junit.xml
   if [[ -f "$junit_file" ]]; then
     failures=$(grep -oP 'failures="\K\d+' "$junit_file" | head -1)
     if [[ "$failures" -eq 0 ]]; then
@@ -33,7 +35,7 @@ for dir in "$HTML_ROOT"/*/; do
     *)      status_class="status-unknown" ;;
   esac
 
-  # Build HTML list
+  # Build the HTML list item
   if [[ -f "$report_index" ]]; then
     REPORT_LIST+="<li><a href='html/$report_name/index.html'>$report_name</a> <span class='badge $status_class'>[$status]</span></li>\n"
   else
@@ -41,7 +43,7 @@ for dir in "$HTML_ROOT"/*/; do
   fi
 done
 
-# Replace {{LIST}} in template
+# Replace {{LIST}} in the template with generated list
 sed "s|{{LIST}}|$REPORT_LIST|g" "$TEMPLATE" > "$OUTPUT"
 
 echo "✅ Links + status badges generated in index.html"
