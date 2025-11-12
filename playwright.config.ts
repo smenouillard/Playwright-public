@@ -34,9 +34,12 @@ const config: PlaywrightTestConfig = {
   ],
 
   reporter: [
-    ['html', { open: 'never' }], // Will respect per-project outputDir
-    ['junit', { outputFile: 'junit.xml' }], // Saved inside each project folder
-    ['json', { outputFile: 'jsonReport.json' }] // Saved inside each project folder
+    // HTML per project, respecting the project's outputDir
+    ['html', { open: 'never' }],
+    // JUnit saved inside each project folder
+    ['junit', { outputFile: 'junit.xml' }],
+    // JSON saved inside each project folder
+    ['json', { outputFile: 'jsonReport.json' }]
   ]
 };
 
