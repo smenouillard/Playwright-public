@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  # 1️⃣ Run test matrix
+  # 1️⃣ Run tests matrix
   test:
     name: Playwright Tests
     runs-on: ${{ matrix.os }}
@@ -71,7 +71,7 @@ jobs:
           retention-days: 30
           if-no-files-found: warn
 
-  # 2️⃣ Publish reports to GitHub Pages
+  # 2️⃣ Publish all reports
   publish:
     name: Publish Playwright Reports to GitHub Pages
     runs-on: ubuntu-latest
@@ -88,11 +88,17 @@ jobs:
         with:
           path: ./reports
 
-      - name: Make report generator executable
-        run: chmod +x .github/scripts/generate-report-index.sh
-
-      - name: Generate HTML index
-        run: bash .github/scripts/generate-report-index.sh
+      - name: Generate index.html
+        run: |
+          echo "<!DOCTYPE html>
+          <html lang='en'>
+          <head><meta charset='UTF-8'><title>Playwright Reports</title></head>
+          <body><h1>Playwright Reports</h1><ul>" > ./reports/index.html
+          for dir in ./reports/*/; do
+            report_name=$(basename $dir)
+            echo "<li><a href='$report_name/index.html'>$report_name</a></li>" >> ./reports/index.html
+          done
+          echo "</ul></body></html>" >> ./reports/index.html
 
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
