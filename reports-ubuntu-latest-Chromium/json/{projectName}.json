@@ -1,0 +1,1778 @@
+{
+  "config": {
+    "configFile": "/home/runner/work/Playwright-public/Playwright-public/playwright.config.ts",
+    "rootDir": "/home/runner/work/Playwright-public/Playwright-public",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "ci": {
+        "commitHref": "https://github.com/smenouillard/Playwright-public/commit/1ca0a54893dbf8df38f2f68ffd8b86244a586e7e",
+        "commitHash": "1ca0a54893dbf8df38f2f68ffd8b86244a586e7e",
+        "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19304648350"
+      },
+      "gitCommit": {
+        "shortHash": "1ca0a54",
+        "hash": "1ca0a54893dbf8df38f2f68ffd8b86244a586e7e",
+        "subject": "Improve report page 9 - config/template/yml/script",
+        "body": "Improve report page 9 - config/template/yml/script\n",
+        "author": {
+          "name": "Sylvain Menouillard",
+          "email": "smenouillard@gmail.com",
+          "time": 1762965249000
+        },
+        "committer": {
+          "name": "Sylvain Menouillard",
+          "email": "smenouillard@gmail.com",
+          "time": 1762965249000
+        },
+        "branch": "main"
+      },
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "reports/html/{projectName}",
+          "open": "never"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "reports/junit/{projectName}.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/json/{projectName}.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/runner/work/Playwright-public/Playwright-public/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/1ca0a54893dbf8df38f2f68ffd8b86244a586e7e",
+            "commitHash": "1ca0a54893dbf8df38f2f68ffd8b86244a586e7e",
+            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19304648350"
+          },
+          "gitCommit": {
+            "shortHash": "1ca0a54",
+            "hash": "1ca0a54893dbf8df38f2f68ffd8b86244a586e7e",
+            "subject": "Improve report page 9 - config/template/yml/script",
+            "body": "Improve report page 9 - config/template/yml/script\n",
+            "author": {
+              "name": "Sylvain Menouillard",
+              "email": "smenouillard@gmail.com",
+              "time": 1762965249000
+            },
+            "committer": {
+              "name": "Sylvain Menouillard",
+              "email": "smenouillard@gmail.com",
+              "time": 1762965249000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 2
+        },
+        "id": "Chromium",
+        "name": "Chromium",
+        "testDir": "/home/runner/work/Playwright-public/Playwright-public",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/work/Playwright-public/Playwright-public/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/1ca0a54893dbf8df38f2f68ffd8b86244a586e7e",
+            "commitHash": "1ca0a54893dbf8df38f2f68ffd8b86244a586e7e",
+            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19304648350"
+          },
+          "gitCommit": {
+            "shortHash": "1ca0a54",
+            "hash": "1ca0a54893dbf8df38f2f68ffd8b86244a586e7e",
+            "subject": "Improve report page 9 - config/template/yml/script",
+            "body": "Improve report page 9 - config/template/yml/script\n",
+            "author": {
+              "name": "Sylvain Menouillard",
+              "email": "smenouillard@gmail.com",
+              "time": 1762965249000
+            },
+            "committer": {
+              "name": "Sylvain Menouillard",
+              "email": "smenouillard@gmail.com",
+              "time": 1762965249000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 2
+        },
+        "id": "Firefox",
+        "name": "Firefox",
+        "testDir": "/home/runner/work/Playwright-public/Playwright-public",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/work/Playwright-public/Playwright-public/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/1ca0a54893dbf8df38f2f68ffd8b86244a586e7e",
+            "commitHash": "1ca0a54893dbf8df38f2f68ffd8b86244a586e7e",
+            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19304648350"
+          },
+          "gitCommit": {
+            "shortHash": "1ca0a54",
+            "hash": "1ca0a54893dbf8df38f2f68ffd8b86244a586e7e",
+            "subject": "Improve report page 9 - config/template/yml/script",
+            "body": "Improve report page 9 - config/template/yml/script\n",
+            "author": {
+              "name": "Sylvain Menouillard",
+              "email": "smenouillard@gmail.com",
+              "time": 1762965249000
+            },
+            "committer": {
+              "name": "Sylvain Menouillard",
+              "email": "smenouillard@gmail.com",
+              "time": 1762965249000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 2
+        },
+        "id": "WebKit",
+        "name": "WebKit",
+        "testDir": "/home/runner/work/Playwright-public/Playwright-public",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/work/Playwright-public/Playwright-public/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/1ca0a54893dbf8df38f2f68ffd8b86244a586e7e",
+            "commitHash": "1ca0a54893dbf8df38f2f68ffd8b86244a586e7e",
+            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19304648350"
+          },
+          "gitCommit": {
+            "shortHash": "1ca0a54",
+            "hash": "1ca0a54893dbf8df38f2f68ffd8b86244a586e7e",
+            "subject": "Improve report page 9 - config/template/yml/script",
+            "body": "Improve report page 9 - config/template/yml/script\n",
+            "author": {
+              "name": "Sylvain Menouillard",
+              "email": "smenouillard@gmail.com",
+              "time": 1762965249000
+            },
+            "committer": {
+              "name": "Sylvain Menouillard",
+              "email": "smenouillard@gmail.com",
+              "time": 1762965249000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 2
+        },
+        "id": "Edge",
+        "name": "Edge",
+        "testDir": "/home/runner/work/Playwright-public/Playwright-public",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.0",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests/training/alerts.test.ts",
+      "file": "tests/training/alerts.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Bootstrap Modal Demo - should open modal, click Save Changes, and ensure it closes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2780,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:06.083Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "62118bf844a7a1820d62-c3e2857a75e125842a59",
+          "file": "tests/training/alerts.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/alerts1.test.ts",
+      "file": "tests/training/alerts1.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "handling alerts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1531,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "I am an alert box!\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:06.076Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6761189318b9c74f116e-3a74962cdf672a3c3ae6",
+          "file": "tests/training/alerts1.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/alerts2.test.ts",
+      "file": "tests/training/alerts2.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "handling alerts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1271,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Press a button!\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:09.139Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1cac1dfac589b3d20a6c-b2c1658af0f5ed863e77",
+          "file": "tests/training/alerts2.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/alerts3.test.ts",
+      "file": "tests/training/alerts3.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Prompt dialog test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 948,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Prompt test completed, text verified on the page.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:10.393Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f97a83da25e5a89ddff5-0ee82948806f130ca2ec",
+          "file": "tests/training/alerts3.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/basicInteractions.test.ts",
+      "file": "tests/training/basicInteractions.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Checkbox",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 959,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:10.437Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c928b6a075a94e78763-6cc2536885190180640c",
+          "file": "tests/training/basicInteractions.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/basicInteractions1.test.ts",
+      "file": "tests/training/basicInteractions1.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Interaction with inputs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 880,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Please enter your Message\n"
+                    },
+                    {
+                      "text": "Before entering data: \n"
+                    },
+                    {
+                      "text": "After entering data: Hi Sly\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:11.397Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2b636f7a521eca5471e7-46c0428fcd9d16577fd0",
+          "file": "tests/training/basicInteractions1.test.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Sum",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1282,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "667\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:12.304Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2b636f7a521eca5471e7-1c018e0b83dd9a824aa2",
+          "file": "tests/training/basicInteractions1.test.ts",
+          "line": 16,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/datafromjson.test.ts",
+      "file": "tests/training/datafromjson.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Wikipedia search for random ancient general - CI proof",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3060,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Searching for: Alexander the Great\n"
+                    },
+                    {
+                      "text": "Navigated to English Wikipedia\n"
+                    },
+                    {
+                      "text": "Filled search input with \"Alexander the Great\"\n"
+                    },
+                    {
+                      "text": "Search submitted\n"
+                    },
+                    {
+                      "text": "Verified page heading contains \"Alexander the Great\"\n"
+                    },
+                    {
+                      "text": "Verified URL contains \"Alexander_the_Great\"\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:11.425Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bd797d4b73cbdc5f0601-e7a38d847ef1f3f733fe",
+          "file": "tests/training/datafromjson.test.ts",
+          "line": 16,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/date-calendar.test.ts",
+      "file": "tests/training/date-calendar.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Pick May 4th 2026 in jQuery UI Datepicker",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1643,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:13.641Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f4bcb6ff08e1b90dee79-4ace5ca790f8e0c80787",
+          "file": "tests/training/date-calendar.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/date-calendar2.test.ts",
+      "file": "tests/training/date-calendar2.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Pick the 15th after clicking next 3 times",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1292,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Selected date: 02/15/2026\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:14.505Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b58c6fc889bbc54741af-82688d68e9d1a95753d7",
+          "file": "tests/training/date-calendar2.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/date-calendar3.test.ts",
+      "file": "tests/training/date-calendar3.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Pick today, three years in the past",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3358,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Selected date: 11/12/2022\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:15.332Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d02557ef2c33c3b28a00-bd76260b918ee4378fb1",
+          "file": "tests/training/date-calendar3.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/date-fill.test.ts",
+      "file": "tests/training/date-fill.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Set birthday with fill and check displayed value (with 1s visual delays)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6326,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:15.823Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c2cc4a11d6d11ec9d68d-9914a4ab61bd9f0b0fe6",
+          "file": "tests/training/date-fill.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/download.test.ts",
+      "file": "tests/training/download.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Generate and verify donwloaded file name",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2064,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:18.704Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "66b7cedca1e50a6d201c-352b8588baa06f853849",
+          "file": "tests/training/download.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/download1.test.ts",
+      "file": "tests/training/download1.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Generate and download file",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2268,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:20.778Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d28acce5a8a57b85657d-dbcdbe1e9fdb0a1b3dc2",
+          "file": "tests/training/download1.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/download2.test.ts",
+      "file": "tests/training/download2.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Generate, download, check, and delete file",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2810,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Navigating to LambdaTest download page...\n"
+                    },
+                    {
+                      "text": "Typed text: \"Test test test\"\n"
+                    },
+                    {
+                      "text": "Button is now enabled\n"
+                    },
+                    {
+                      "text": "Clicked \"Generate File\"\n"
+                    },
+                    {
+                      "text": "Download link is visible\n"
+                    },
+                    {
+                      "text": "Download started for file: Lambdainfo.txt\n"
+                    },
+                    {
+                      "text": "File saved locally at: /home/runner/work/Playwright-public/Playwright-public/tests/training/Lambdainfo.txt\n"
+                    },
+                    {
+                      "text": "Verified file name is: Lambdainfo.txt\n"
+                    },
+                    {
+                      "text": "File content:\n"
+                    },
+                    {
+                      "text": "Test test test\n"
+                    },
+                    {
+                      "text": "Verified content contains \"Test test test\"\n"
+                    },
+                    {
+                      "text": "Downloaded file deleted after test\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:22.167Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "08594b5750525df80069-da59556e24cb976679a8",
+          "file": "tests/training/download2.test.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/download3.test.ts",
+      "file": "tests/training/download3.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Generate, download, and check file content",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2748,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Navigating to LambdaTest download page...\n"
+                    },
+                    {
+                      "text": "Typed text: \"Test test test\"\n"
+                    },
+                    {
+                      "text": "Button is now enabled\n"
+                    },
+                    {
+                      "text": "Clicked \"Generate File\"\n"
+                    },
+                    {
+                      "text": "Download link is visible\n"
+                    },
+                    {
+                      "text": "Download started for file: Lambdainfo.txt\n"
+                    },
+                    {
+                      "text": "Verified file name is: Lambdainfo.txt\n"
+                    },
+                    {
+                      "text": "File content:\n"
+                    },
+                    {
+                      "text": "Test test test\n"
+                    },
+                    {
+                      "text": "Verified content contains \"Test test test\"\n"
+                    },
+                    {
+                      "text": "Download checked successfully, no file saved.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:23.075Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b76cfd20a472aacaa05c-d63038f60f6d7fd99346",
+          "file": "tests/training/download3.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/dropdown.test.ts",
+      "file": "tests/training/dropdown.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Dropdown search and select India (exact match)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7347,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:25.006Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1bf37e4d3ecf5447c850-bd75b5798b4e9beec1c0",
+          "file": "tests/training/dropdown.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/dropdown1.test.ts",
+      "file": "tests/training/dropdown1.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Select Tuesday from dropdown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3988,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:25.856Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d1de7187d2928b723f56-40421210dfacebd3e937",
+          "file": "tests/training/dropdown1.test.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Select multiple states in order and verify displayed last selected text and first selected option",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 784,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:29.856Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d1de7187d2928b723f56-bb5a12c0014eaeb12fc6",
+          "file": "tests/training/dropdown1.test.ts",
+          "line": 136,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/dropdown2.test.ts",
+      "file": "tests/training/dropdown2.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Select multiple states in order and verify displayed last selected text and first selected option",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6801,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:30.650Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5dcc699f29453b3d4a21-2c1ac763316e6019b63f",
+          "file": "tests/training/dropdown2.test.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "Select multiple states and verify first selected option first, then all selected",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6350,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:37.461Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5dcc699f29453b3d4a21-02288f4da42dc335d98f",
+          "file": "tests/training/dropdown2.test.ts",
+          "line": 60,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/example.spec.ts",
+      "file": "tests/training/example.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 558,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:32.374Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eba2f4021e5ababbf291-315b863c9ca01a4da4d0",
+          "file": "tests/training/example.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 752,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:32.959Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eba2f4021e5ababbf291-6397c5e5c0b61e8a24e1",
+          "file": "tests/training/example.spec.ts",
+          "line": 10,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/frames.test.ts",
+      "file": "tests/training/frames.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Fill first name, last name, and email in separate frames",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2684,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Number of frames: 19\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:33.729Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "43632235997e50e9ac49-59c35b574ae3dbf6c620",
+          "file": "tests/training/frames.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/hoverusingfixture.test.ts",
+      "file": "tests/training/hoverusingfixture.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Navigate via Mega Menu to Printer page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 19171,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Hovering and clicking \"Mega Menu -> Printer\"...\n"
+                    },
+                    {
+                      "text": "Attempt 1 failed for \"Mega Menu -> Printer\", retrying...\n"
+                    },
+                    {
+                      "text": "Clicked \"Mega Menu -> Printer\" -> a[title=\"Printer\"]\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:36.438Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "97f0f6758da9ccf9f0f3-52e8cd9033044d080ce6",
+          "file": "tests/training/hoverusingfixture.test.ts",
+          "line": 7,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/login-logout-hiddencred.test.ts",
+      "file": "tests/training/login-logout-hiddencred.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login and Logout with hidden credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2008,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:43.826Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e7ac1c9afb7d57114dbc-ddbd409231525f6f0a20",
+          "file": "tests/training/login-logout-hiddencred.test.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/login-logout.test.ts",
+      "file": "tests/training/login-logout.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login/Logout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1971,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:45.849Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "78f3cd5b3e544a613f2e-77a62066b70e0abb95bd",
+          "file": "tests/training/login-logout.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/login-profileedit.test.ts",
+      "file": "tests/training/login-profileedit.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login, edit profile, and logout - CI-proof",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3578,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Navigating to LambdaTest eCommerce playground...\n"
+                    },
+                    {
+                      "text": "Hovering and clicking \"My account (login)\"...\n"
+                    },
+                    {
+                      "text": "Clicked \"My account (login)\" -> a:has-text(\"Login\")\n"
+                    },
+                    {
+                      "text": "Logged in successfully\n"
+                    },
+                    {
+                      "text": "Updated first name successfully\n"
+                    },
+                    {
+                      "text": "Hovering and clicking \"My account (logout)\"...\n"
+                    },
+                    {
+                      "text": "Clicked \"My account (logout)\" -> a.icon-left.both.dropdown-item:has-text(\"Logout\")\n"
+                    },
+                    {
+                      "text": "Logout verified successfully\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:47.836Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "143db3817e6ee3277703-9c22d7b1300b3c43c7cd",
+          "file": "tests/training/login-profileedit.test.ts",
+          "line": 10,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/pom-loginfail.test.ts",
+      "file": "tests/training/pom-loginfail.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login fails with invalid credentials (handles throttling)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 827,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Login failed due to too many attempts. Account is temporarily locked.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:51.432Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "279c9ad09a6d9c7d9297-8fae7d4f8895cc20b0df",
+          "file": "tests/training/pom-loginfail.test.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/pom-loginsuccess.test.ts",
+      "file": "tests/training/pom-loginsuccess.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login successful with valid credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1524,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:52.272Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4f7e6a3edc2a9fd71bf8-f0828e7d806e245d763a",
+          "file": "tests/training/pom-loginsuccess.test.ts",
+          "line": 7,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/popup.test.ts",
+      "file": "tests/training/popup.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Follow on Twitter popup test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3477,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Main page URL: https://www.lambdatest.com/selenium-playground/window-popup-modal-demo\n"
+                    },
+                    {
+                      "text": "Popup opened with URL: https://x.com/Lambdatesting\n"
+                    },
+                    {
+                      "text": "Popup redirected to URL: https://x.com/\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:53.809Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2e66b8160a710c522b03-964068e4f8d3d1c81044",
+          "file": "tests/training/popup.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/slider.test.ts",
+      "file": "tests/training/slider.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test Scenario 2 - Drag & Drop Sliders Demo (robust)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2179,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:55.629Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0a75feb459f8e6399435-f1e63cf889e4ed09e815",
+          "file": "tests/training/slider.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/training/upload.test.ts",
+      "file": "tests/training/upload.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "File upload with multiple selection verification",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 717,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Multiple selection enabled: true\n"
+                    },
+                    {
+                      "text": "Files selected\n"
+                    },
+                    {
+                      "text": "Files successfully displayed in upload list\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-12T16:36:57.298Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a41b1f159a469c660911-327694074a194687e7b0",
+          "file": "tests/training/upload.test.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-11-12T16:36:05.138Z",
+    "duration": 52982.778999999995,
+    "expected": 33,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
