@@ -18,23 +18,23 @@ jobs:
         include:
           # Ubuntu
           - os: ubuntu-latest
-            browser: chromium
+            browser: Chromium
           - os: ubuntu-latest
-            browser: firefox
+            browser: Firefox
           # Windows
           - os: windows-latest
-            browser: chromium
+            browser: Chromium
           - os: windows-latest
-            browser: firefox
+            browser: Firefox
           - os: windows-latest
-            browser: edge
+            browser: Edge
           # macOS
           - os: macos-latest
-            browser: chromium
+            browser: Chromium
           - os: macos-latest
-            browser: webkit
+            browser: WebKit
           - os: macos-latest
-            browser: firefox
+            browser: Firefox
     env:
       TEST_USER: ${{ secrets.TEST_USER }}
       TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
@@ -58,25 +58,24 @@ jobs:
         shell: bash
         run: |
           if [[ "${{ matrix.os }}" == "ubuntu-latest" ]]; then
-            xvfb-run npx playwright test --project=${{ matrix.browser }} --reporter=html,junit || true
+            xvfb-run npx playwright test --project=${{ matrix.browser }} || true
           else
-            npx playwright test --project=${{ matrix.browser }} --reporter=html,junit || true
+            npx playwright test --project=${{ matrix.browser }} || true
           fi
 
       - name: Upload test report artifact
         uses: actions/upload-artifact@v4
         with:
-          name: report-${{ matrix.os }}-${{ matrix.browser }}
-          path: playwright-report/
+          name: reports-${{ matrix.os }}-${{ matrix.browser }}
+          path: reports/
           retention-days: 30
           if-no-files-found: warn
 
-  # 2️⃣ Publish reports to GitHub Pages
+  # 2️⃣ Publish all reports
   publish:
     name: Publish Playwright Reports to GitHub Pages
     runs-on: ubuntu-latest
     needs: test
-    # Run even if tests failed, but only on main branch
     if: always() && github.ref == 'refs/heads/main'
 
     steps:
