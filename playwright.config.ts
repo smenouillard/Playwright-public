@@ -10,18 +10,33 @@ const config: PlaywrightTestConfig = {
     video: 'retain-on-failure'
   },
 
-  // reporters — single flat output folder per run
-  reporter: [
-    ['html', { outputFolder: 'playwright-report', open: 'never' }],
-    ['junit', { outputFile: 'playwright-report/junit.xml' }],
-    ['json', { outputFile: 'playwright-report/jsonReport.json' }]
+  projects: [
+    {
+      name: 'Chromium',
+      use: { ...devices['Desktop Chrome'] },
+      outputDir: 'playwright-report/Chromium'
+    },
+    {
+      name: 'Firefox',
+      use: { ...devices['Desktop Firefox'] },
+      outputDir: 'playwright-report/Firefox'
+    },
+    {
+      name: 'WebKit',
+      use: { ...devices['Desktop Safari'] },
+      outputDir: 'playwright-report/WebKit'
+    },
+    {
+      name: 'Edge',
+      use: { ...devices['Desktop Chrome'], channel: 'msedge' },
+      outputDir: 'playwright-report/Edge'
+    }
   ],
 
-  projects: [
-    { name: 'Chromium', use: { ...devices['Desktop Chrome'] } },
-    { name: 'Firefox', use: { ...devices['Desktop Firefox'] } },
-    { name: 'WebKit', use: { ...devices['Desktop Safari'] } },
-    { name: 'Edge', use: { ...devices['Desktop Chrome'], channel: 'msedge' } }
+  reporter: [
+    ['html', { open: 'never' }], // Will respect per-project outputDir
+    ['junit', { outputFile: 'junit.xml' }], // Saved inside each project folder
+    ['json', { outputFile: 'jsonReport.json' }] // Saved inside each project folder
   ]
 };
 
