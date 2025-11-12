@@ -1,40 +1,50 @@
 #!/usr/bin/env bash
 set -e
 
+# ✅ Ensure folder exists before writing
+mkdir -p ./reports
+
+# Output index file
 OUTPUT="./reports/index.html"
 TEMPLATE=".github/scripts/template.html"
+
+HTML_ROOT="./reports/html"
+JUNIT_ROOT="./reports/junit"
+
 REPORT_LIST=""
 
-for artifact_dir in ./reports/*/; do
-  for report_dir in "$artifact_dir"/*/; do
-    report_name=$(basename "$report_dir")
-    report_index="$report_dir/index.html"
-    junit_file="$report_dir/junit.xml"
-    status="unknown"
+for dir in "$HTML_ROOT"/*/; do
+  report_name=$(basename "$dir")
+  report_index="$dir/index.html"
+  junit_file="$JUNIT_ROOT/$report_name.xml"
+  status="unknown"
 
-    if [[ -f "$junit_file" ]]; then
-      failures=$(grep -oP 'failures="\K\d+' "$junit_file" | head -1)
-      if [[ "$failures" -eq 0 ]]; then
-        status="passed"
-      else
-        status="failed"
-      fi
-    fi
-
-    case "$status" in
-      passed) status_class="status-ok" ;;
-      failed) status_class="status-fail" ;;
-      *)      status_class="status-unknown" ;;
-    esac
-
-    if [[ -f "$report_index" ]]; then
-      relative_path=$(realpath --relative-to="./reports" "$report_index")
-      REPORT_LIST+="<li><a href='$relative_path'>$report_name</a> <span class='badge $status_class'>[$status]</span></li>\n"
+  # Determine status from JUnit XML
+  if [[ -f "$junit_file" ]]; then
+    failures=$(grep -oP 'failures="\K\d+' "$junit_file" | head -1)
+    if [[ "$failures" -eq 0 ]]; then
+      status="passed"
     else
-      REPORT_LIST+="<li>$report_name (no report found)</li>\n"
+      status="failed"
     fi
-  done
+  fi
+
+  # Map status to CSS class
+  case "$status" in
+    passed) status_class="status-ok" ;;
+    failed) status_class="status-fail" ;;
+    *)      status_class="status-unknown" ;;
+  esac
+
+  # Build HTML list
+  if [[ -f "$report_index" ]]; then
+    REPORT_LIST+="<li><a href='html/$report_name/index.html'>$report_name</a> <span class='badge $status_class'>[$status]</span></li>\n"
+  else
+    REPORT_LIST+="<li>$report_name (no report found)</li>\n"
+  fi
 done
 
+# Replace {{LIST}} in template
 sed "s|{{LIST}}|$REPORT_LIST|g" "$TEMPLATE" > "$OUTPUT"
+
 echo "✅ Links + status badges generated in index.html"
