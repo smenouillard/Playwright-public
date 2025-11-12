@@ -5,6 +5,9 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const config: PlaywrightTestConfig = {
+    // Test selection (optional)
+    // testMatch: ["dropdown.test.ts"], // Uncomment to run only specific test files
+
     // Global settings for all tests
     use: {
         headless: false,                // Run browser in non-headless mode for more authentic testing
@@ -14,17 +17,16 @@ const config: PlaywrightTestConfig = {
 
     // Test reporters
     reporter: [
-        ["dot"],                                        // Console output reporter
-        ["json", { outputFile: "jsonReports/jsonReport.json" }], // JSON report
-        ["html", { outputFolder: "playwright-report", open: "never" }], // HTML report
-        ["junit", { outputFile: "playwright-report/junit.xml" }]       // JUnit XML report for badges
+        ["dot"],                                        // Console output reporter (simple progress dots)
+        ["json", { outputFile: "jsonReports/jsonReport.json" }], // JSON report saved to a file
+        ["html", { open: "always" }]                   // HTML report, opens automatically after test run
     ],
 
     // Projects for different browsers
     projects: [
         {
             name: 'Chromium',
-            use: { ...devices['Desktop Chrome'] }     // Chromium
+            use: { ...devices['Desktop Chrome'] }     // Default Chromium browser
         },
         {
             name: 'Firefox',
