@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Playwright Reports</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    h1 { margin-bottom: 10px; }
+    ul { list-style: none; padding: 0; }
+    li { margin: 8px 0; }
+    a { text-decoration: none; color: #1a73e8; font-weight: bold; }
+    .badge {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 0.9em;
+      margin-left: 10px;
+    }
+    .status-ok {
+      background: #e6f4ea;
+      color: #1b7a3a;
+      border: 1px solid #c9e6cf;
+    }
+    .status-fail {
+      background: #fdecea;
+      color: #a1261f;
+      border: 1px solid #f5c2bf;
+    }
+    .status-unknown {
+      background: #f0f0f0;
+      color: #666666;
+      border: 1px solid #dddddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>Playwright Reports</h1>
+  <p>Each link opens the Playwright HTML report for a given OS / browser combination.</p>
+  <ul>
+    {{LIST}}
+  </ul>
+</body>
+</html>
