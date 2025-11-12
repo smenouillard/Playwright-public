@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html lang='en'>
-<head><meta charset='UTF-8'><title>Playwright Reports</title></head>
-<body><h1>Playwright Reports</h1><ul>
-<li><a href='report-macos-latest-chromium/index.html'>report-macos-latest-chromium</a></li>
-<li><a href='report-macos-latest-firefox/index.html'>report-macos-latest-firefox</a></li>
-<li><a href='report-macos-latest-webkit/index.html'>report-macos-latest-webkit</a></li>
-<li><a href='report-ubuntu-latest-chromium/index.html'>report-ubuntu-latest-chromium</a></li>
-<li><a href='report-ubuntu-latest-firefox/index.html'>report-ubuntu-latest-firefox</a></li>
-<li><a href='report-windows-latest-chromium/index.html'>report-windows-latest-chromium</a></li>
-<li><a href='report-windows-latest-edge/index.html'>report-windows-latest-edge</a></li>
-<li><a href='report-windows-latest-firefox/index.html'>report-windows-latest-firefox</a></li>
-</ul></body></html>
+<head>
+  <meta charset='UTF-8'>
+  <title>Playwright Reports</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    h1 { margin-bottom: 10px; }
+    ul { list-style: none; padding: 0; }
+    li { margin: 8px 0; }
+    a { text-decoration: none; color: #1a73e8; font-weight: bold; }
+    .badge {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 0.9em;
+      margin-left: 10px;
+    }
+    .status-ok {
+      background: #e6f4ea;
+      color: #1b7a3a;
+      border: 1px solid #c9e6cf;
+    }
+    .status-fail {
+      background: #fdecea;
+      color: #a1261f;
+      border: 1px solid #f5c2bf;
+    }
+    .status-unknown {
+      background: #f0f0f0;
+      color: #666666;
+      border: 1px solid #dddddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>Playwright Reports</h1>
+  <p>Each link opens the Playwright HTML report for a given OS / browser combination.</p>
+  <ul>
+    <li><a href='report-macos-latest-chromium/playwright-report/index.html' target='_blank'>report-macos-latest-chromium</a> <span class='badge status-unknown'>unknown</span></li>
+<li><a href='report-macos-latest-firefox/playwright-report/index.html' target='_blank'>report-macos-latest-firefox</a> <span class='badge status-unknown'>unknown</span></li>
+<li><a href='report-macos-latest-webkit/playwright-report/index.html' target='_blank'>report-macos-latest-webkit</a> <span class='badge status-unknown'>unknown</span></li>
+<li><a href='report-ubuntu-latest-chromium/playwright-report/index.html' target='_blank'>report-ubuntu-latest-chromium</a> <span class='badge status-unknown'>unknown</span></li>
+<li><a href='report-ubuntu-latest-firefox/playwright-report/index.html' target='_blank'>report-ubuntu-latest-firefox</a> <span class='badge status-unknown'>unknown</span></li>
+<li><a href='report-windows-latest-chromium/playwright-report/index.html' target='_blank'>report-windows-latest-chromium</a> <span class='badge status-unknown'>unknown</span></li>
+<li><a href='report-windows-latest-edge/playwright-report/index.html' target='_blank'>report-windows-latest-edge</a> <span class='badge status-unknown'>unknown</span></li>
+<li><a href='report-windows-latest-firefox/playwright-report/index.html' target='_blank'>report-windows-latest-firefox</a> <span class='badge status-unknown'>unknown</span></li>
+
+  </ul>
+</body>
+</html>
