@@ -1,22 +1,17 @@
 #!/usr/bin/env bash
 set -e
 
-# ✅ Ensure folder exists before writing
-mkdir -p ./reports
-
 # Output index file
 OUTPUT="./reports/index.html"
 TEMPLATE=".github/scripts/template.html"
 
-HTML_ROOT="./reports/html"
-JUNIT_ROOT="./reports/junit"
-
 REPORT_LIST=""
 
-for dir in "$HTML_ROOT"/*/; do
+# Look for every Playwright report (anywhere inside ./reports)
+for dir in ./reports/*/; do
   report_name=$(basename "$dir")
-  report_index="$dir/index.html"
-  junit_file="$JUNIT_ROOT/$report_name.xml"
+  report_index="$dir/playwright-report/index.html"
+  junit_file="$dir/playwright-report/junit.xml"
   status="unknown"
 
   # Determine status from JUnit XML
@@ -38,7 +33,7 @@ for dir in "$HTML_ROOT"/*/; do
 
   # Build HTML list
   if [[ -f "$report_index" ]]; then
-    REPORT_LIST+="<li><a href='html/$report_name/index.html'>$report_name</a> <span class='badge $status_class'>[$status]</span></li>\n"
+    REPORT_LIST+="<li><a href='$report_name/playwright-report/index.html'>$report_name</a> <span class='badge $status_class'>[$status]</span></li>\n"
   else
     REPORT_LIST+="<li>$report_name (no report found)</li>\n"
   fi
