@@ -60,15 +60,15 @@ function formatDuration(sec) {
   return minutes > 0 ? `${minutes}m ${remain}s` : `${remain}s`;
 }
 
-/* Determine status pill type */
+/* Determine status pill info */
 function statusInfo(summary) {
   if (summary.totalFailures > 0)
-    return { text: "FAIL", emoji: "🔴", css: "pill-fail" };
+    return { text: "FAIL", emoji: "🔴", css: "pill-fail", code: "fail" };
   if (summary.totalSkipped > 0)
-    return { text: "SKIPPED", emoji: "🟡", css: "pill-skip" };
+    return { text: "SKIPPED", emoji: "🟡", css: "pill-skip", code: "skip" };
   if (summary.totalTests > 0)
-    return { text: "PASS", emoji: "🟢", css: "pill-pass" };
-  return { text: "NO TESTS", emoji: "⚪", css: "pill-none" };
+    return { text: "PASS", emoji: "🟢", css: "pill-pass", code: "pass" };
+  return { text: "NO TESTS", emoji: "⚪", css: "pill-none", code: "none" };
 }
 
 /* Collect all report data */
@@ -109,8 +109,8 @@ dirs.forEach(dir => {
 
 /* Sort: FAIL → SKIPPED → PASS → NONE */
 entries.sort((a, b) => {
-  const order = { "FAIL": 0, "SKIPPED": 1, "PASS": 2, "NO TESTS": 3 };
-  return order[a.status.text] - order[b.status.text];
+  const order = { "fail": 0, "skip": 1, "pass": 2, "none": 3 };
+  return order[a.status.code] - order[b.status.code];
 });
 
 /* ---- BUILD SUMMARY TABLE ---- */
@@ -129,7 +129,7 @@ let summaryTable = `
 
 entries.forEach(e => {
   summaryTable += `
-<tr>
+<tr class="summary-row" data-status="${e.status.code}">
   <td class="status-cell">
     <span class="status-pill ${e.status.css}">
       ${e.status.emoji} ${e.status.text}
@@ -155,34 +155,38 @@ let reportBlocks = "";
 
 entries.forEach(e => {
   reportBlocks += `
-<div class="report-block">
-
-  <span class="status-pill ${e.status.css}">
-    ${e.status.emoji} ${e.status.text}
-  </span>
-
-  <br><br>
-
-  <span class="badge os-badge">${e.os.emoji} ${e.os.label}</span>
-  <span class="badge browser-badge">${e.browser.emoji} ${e.browser.label}</span>
-
-  <p>
-    📊 ${e.summary.totalTests} tests  
-    • ⚠ ${e.summary.totalFailures} failed  
-    • ➖ ${e.summary.totalSkipped} skipped<br>
-
-    ⏱ Duration: ${e.duration}<br>
-    Executed at: ${e.info.timestamp}<br>
-    Runner: ${e.info.runner}
-  </p>
-
-  <div class="links">
-    <a href="${globalMeta.runUrl}">📘 Logs</a>
-    <a href="${e.name}/playwright-report/index.html">📄 HTML Report</a>
-    <a href="${e.name}/jsonReports/jsonReport.json">🧩 JSON</a>
-    <a href="${e.name}/junit/test-results.xml">📑 XML</a>
+<div class="report-block" data-status="${e.status.code}">
+  <div class="report-header">
+    <div class="report-header-main">
+      <span class="status-pill ${e.status.css}">
+        ${e.status.emoji} ${e.status.text}
+      </span>
+      <span>
+        <span class="badge os-badge">${e.os.emoji} ${e.os.label}</span>
+        <span class="badge browser-badge">${e.browser.emoji} ${e.browser.label}</span>
+      </span>
+    </div>
+    <span class="caret">▼</span>
   </div>
 
+  <div class="report-content">
+    <p>
+      📊 ${e.summary.totalTests} tests  
+      • ⚠ ${e.summary.totalFailures} failed  
+      • ➖ ${e.summary.totalSkipped} skipped<br>
+
+      ⏱ Duration: ${e.duration}<br>
+      Executed at: ${e.info.timestamp}<br>
+      Runner: ${e.info.runner}
+    </p>
+
+    <div class="links">
+      <a href="${globalMeta.runUrl}">📘 Logs</a>
+      <a href="${e.name}/playwright-report/index.html">📄 HTML Report</a>
+      <a href="${e.name}/jsonReports/jsonReport.json">🧩 JSON</a>
+      <a href="${e.name}/junit/test-results.xml">📑 XML</a>
+    </div>
+  </div>
 </div>`;
 });
 
@@ -197,4 +201,4 @@ template = template
 
 fs.writeFileSync(path.join(reportsDir, 'index.html'), template);
 
-console.log("Batch 4 dashboard generated successfully.");
+console.log("Batch 5A+5B dashboard generated successfully.");

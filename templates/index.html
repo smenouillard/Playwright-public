@@ -5,16 +5,41 @@
   <title>Playwright Reports</title>
 
   <style>
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #111111;
+      --card-bg: #fafafa;
+      --border-color: #cccccc;
+      --table-header-bg: #eeeeee;
+      --link-color: #0066cc;
+    }
+
+    body.dark-mode {
+      --bg-color: #111827;
+      --text-color: #e5e7eb;
+      --card-bg: #1f2937;
+      --border-color: #374151;
+      --table-header-bg: #374151;
+      --link-color: #60a5fa;
+    }
+
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
       padding: 20px;
       max-width: 1000px;
       margin: auto;
+      background: var(--bg-color);
+      color: var(--text-color);
+      transition: background 0.2s ease, color 0.2s ease;
     }
 
     h1 {
       margin-bottom: 5px;
+    }
+
+    a {
+      color: var(--link-color);
     }
 
     .badge {
@@ -55,12 +80,63 @@
       color: #555;
     }
 
+    body.dark-mode .pill-pass {
+      background: #14532d;
+      color: #bbf7d0;
+    }
+    body.dark-mode .pill-fail {
+      background: #7f1d1d;
+      color: #fecaca;
+    }
+    body.dark-mode .pill-skip {
+      background: #78350f;
+      color: #fef3c7;
+    }
+    body.dark-mode .pill-none {
+      background: #4b5563;
+      color: #e5e7eb;
+    }
+
     .report-block {
-      border: 1px solid #ccc;
+      border: 1px solid var(--border-color);
       padding: 12px;
       margin: 12px 0;
       border-radius: 8px;
-      background: #fafafa;
+      background: var(--card-bg);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+      transition: box-shadow 0.15s ease, transform 0.15s ease, background 0.2s ease, border-color 0.2s ease;
+    }
+
+    .report-block:hover {
+      box-shadow: 0 4px 10px rgba(0,0,0,0.18);
+      transform: translateY(-1px);
+    }
+
+    .report-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+
+    .report-header-main {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .caret {
+      font-size: 14px;
+      margin-left: 10px;
+      opacity: 0.7;
+    }
+
+    .report-content {
+      margin-top: 10px;
+    }
+
+    .report-block.collapsed .report-content {
+      display: none;
     }
 
     .links a {
@@ -73,26 +149,78 @@
       margin-top: 10px;
       margin-bottom: 20px;
       width: 100%;
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      overflow: hidden;
     }
 
     table.summary th,
     table.summary td {
-      border: 1px solid #ccc;
+      border-bottom: 1px solid var(--border-color);
       padding: 6px 8px;
       font-size: 14px;
     }
 
     table.summary th {
-      background: #eee;
+      background: var(--table-header-bg);
     }
 
-    /* Center status, align numbers */
     .summary td.status-cell {
       text-align: center;
-      width: 120px;
+      width: 140px;
     }
+
     .summary td.num-cell {
       text-align: right;
+    }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 10px 0 20px;
+    }
+
+    .toggle-btn,
+    .filter-btn {
+      border: 1px solid var(--border-color);
+      background: var(--card-bg);
+      color: var(--text-color);
+      padding: 5px 10px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 13px;
+      transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    }
+
+    .toggle-btn:hover,
+    .filter-btn:hover {
+      background: var(--table-header-bg);
+    }
+
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .filter-label {
+      font-size: 13px;
+      opacity: 0.8;
+    }
+
+    .filter-btn.active {
+      border-color: #2563eb;
+      color: #2563eb;
+    }
+
+    body.dark-mode .filter-btn.active {
+      border-color: #60a5fa;
+      color: #60a5fa;
     }
 
     footer {
@@ -100,6 +228,10 @@
       font-size: 12px;
       color: #555;
       text-align: center;
+    }
+
+    body.dark-mode footer {
+      color: #9ca3af;
     }
   </style>
 </head>
@@ -111,6 +243,18 @@
 <p><strong>Commit:</strong> {{COMMIT_SHA}}</p>
 <p><strong>Run:</strong> #{{RUN_NUMBER}}</p>
 <p><a href="{{RUN_URL}}">View Full Run Logs</a></p>
+
+<div class="toolbar">
+  <button id="theme-toggle" class="toggle-btn">🌙 Dark mode</button>
+
+  <div class="filter-group">
+    <span class="filter-label">Filter by status:</span>
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="fail">Fail</button>
+    <button class="filter-btn" data-filter="skip">Skipped</button>
+    <button class="filter-btn" data-filter="pass">Pass</button>
+  </div>
+</div>
 
 <hr>
 
@@ -125,6 +269,78 @@
 <footer>
   Generated automatically by GitHub Actions.
 </footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const body = document.body;
+    const themeToggle = document.getElementById('theme-toggle');
+
+    // THEME
+    const savedTheme = localStorage.getItem('pw-theme');
+    if (savedTheme === 'dark') {
+      body.classList.add('dark-mode');
+      if (themeToggle) themeToggle.textContent = '☀️ Light mode';
+    }
+
+    if (themeToggle) {
+      themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+        const isDark = body.classList.contains('dark-mode');
+        localStorage.setItem('pw-theme', isDark ? 'dark' : 'light');
+        themeToggle.textContent = isDark ? '☀️ Light mode' : '🌙 Dark mode';
+      });
+    }
+
+    // FILTERS
+    const filterButtons = document.querySelectorAll('.filter-btn');
+
+    function applyFilter(filter) {
+      const rows = document.querySelectorAll('.summary-row');
+      const blocks = document.querySelectorAll('.report-block');
+
+      rows.forEach(row => {
+        const status = (row.dataset.status || '').toLowerCase();
+        row.style.display = (filter === 'all' || status === filter) ? '' : 'none';
+      });
+
+      blocks.forEach(block => {
+        const status = (block.dataset.status || '').toLowerCase();
+        block.style.display = (filter === 'all' || status === filter) ? '' : 'none';
+      });
+    }
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        applyFilter(btn.dataset.filter);
+      });
+    });
+
+    // COLLAPSIBLE REPORT BLOCKS
+    const reportBlocks = document.querySelectorAll('.report-block');
+    reportBlocks.forEach(block => {
+      const header = block.querySelector('.report-header');
+      const caret = block.querySelector('.caret');
+      const status = (block.dataset.status || '').toLowerCase();
+
+      // Default: PASS + NONE collapsed, FAIL + SKIP expanded
+      if (status === 'pass' || status === 'none') {
+        block.classList.add('collapsed');
+        if (caret) caret.textContent = '▶';
+      } else {
+        if (caret) caret.textContent = '▼';
+      }
+
+      if (header) {
+        header.addEventListener('click', () => {
+          const isCollapsed = block.classList.toggle('collapsed');
+          if (caret) caret.textContent = isCollapsed ? '▶' : '▼';
+        });
+      }
+    });
+  });
+</script>
 
 </body>
 </html>
