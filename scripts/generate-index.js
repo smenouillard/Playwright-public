@@ -1,22 +1,18 @@
 const fs = require('fs');
 const path = require('path');
 
-// Load template HTML
 const templatePath = path.join(__dirname, '..', 'templates', 'index.html');
 let template = fs.readFileSync(templatePath, 'utf8');
 
-// Global metadata from workflow
 const metadataRaw = process.env.METADATA_JSON;
 const globalMeta = JSON.parse(metadataRaw);
 
-// Mapping for OS badges
 const osBadges = {
   "ubuntu-latest": { emoji: "🐧", label: "Ubuntu" },
   "windows-latest": { emoji: "🪟", label: "Windows" },
   "macos-latest": { emoji: "🍎", label: "macOS" }
 };
 
-// Mapping for Browser badges
 const browserBadges = {
   "firefox": { emoji: "🦊", label: "Firefox" },
   "chromium": { emoji: "🌐", label: "Chromium" },
@@ -25,9 +21,8 @@ const browserBadges = {
 
 const reportsDir = path.join(process.cwd(), 'reports');
 
-// ---- Helpers ----
+// ---- XML Parsing ----
 
-// Parse JUnit XML (simple, custom parser)
 function parseJUnitSummary(xml) {
   const suiteRegex = /<testsuite\b([^>]*)>/g;
   let totalTests = 0;
@@ -45,45 +40,38 @@ function parseJUnitSummary(xml) {
       return m ? m[1] : null;
     }
 
-    const tests = parseInt(getAttr('tests') || '0', 10) || 0;
-    const failures = parseInt(getAttr('failures') || '0', 10) || 0;
-    const skipped = parseInt(getAttr('skipped') || '0', 10) || 0;
-    const timeStr = getAttr('time');
-    const time = timeStr ? parseFloat(timeStr) || 0 : 0;
-
-    totalTests += tests;
-    totalFailures += failures;
-    totalSkipped += skipped;
-    totalTime += time;
+    totalTests += parseInt(getAttr('tests') || '0', 10);
+    totalFailures += parseInt(getAttr('failures') || '0', 10);
+    totalSkipped += parseInt(getAttr('skipped') || '0', 10);
+    totalTime += parseFloat(getAttr('time') || '0');
   }
 
   return { totalTests, totalFailures, totalSkipped, totalTime };
 }
 
-// Format duration as Xm Ys (choice 1B)
 function formatDuration(totalSeconds) {
   const seconds = Math.round(totalSeconds);
   const minutes = Math.floor(seconds / 60);
   const remaining = seconds % 60;
-
-  if (minutes > 0) {
-    return `${minutes}m ${remaining}s`;
-  }
-  return `${remaining}s`;
+  return minutes > 0 ? `${minutes}m ${remaining}s` : `${remaining}s`;
 }
 
-// Determine status emoji
 function getStatusEmoji(summary) {
-  const { totalTests, totalFailures, totalSkipped } = summary;
-  if (totalFailures > 0) return "🔴";
-  if (totalTests > 0 && totalSkipped > 0) return "🟡";
-  if (totalTests > 0) return "🟢";
-  return "⚪"; // no tests?
+  if (summary.totalFailures > 0) return "🔴";
+  if (summary.totalSkipped > 0) return "🟡";
+  if (summary.totalTests > 0) return "🟢";
+  return "⚪";
 }
 
-// ---- Build data from folders ----
+function getStatusCssClass(summary) {
+  if (summary.totalFailures > 0) return "status-red";
+  if (summary.totalSkipped > 0) return "status-yellow";
+  if (summary.totalTests > 0) return "status-green";
+  return "status-neutral";
+}
 
-let reportListHtml = "";
+// ---- Collect summaries ----
+
 let summaries = [];
 
 const items = fs.readdirSync(reportsDir, { withFileTypes: true })
@@ -92,98 +80,103 @@ const items = fs.readdirSync(reportsDir, { withFileTypes: true })
 items.forEach(dir => {
   const name = dir.name;
 
-  // metadata.json
   const metadataPath = path.join(reportsDir, name, 'metadata', 'metadata.json');
-  if (!fs.existsSync(metadataPath)) {
-    console.warn(`Missing metadata.json for ${name}, skipping`);
-    return;
-  }
+  if (!fs.existsSync(metadataPath)) return;
   const info = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
 
-  // JUnit XML
   const junitPath = path.join(reportsDir, name, 'junit', 'test-results.xml');
-  let summary = {
-    totalTests: 0,
-    totalFailures: 0,
-    totalSkipped: 0,
-    totalTime: 0
-  };
-
+  let summary = { totalTests: 0, totalFailures: 0, totalSkipped: 0, totalTime: 0 };
   if (fs.existsSync(junitPath)) {
-    const xml = fs.readFileSync(junitPath, 'utf8');
-    summary = parseJUnitSummary(xml);
-  } else {
-    console.warn(`Missing JUnit XML for ${name}, summary will be empty`);
+    summary = parseJUnitSummary(fs.readFileSync(junitPath, 'utf8'));
   }
 
-  const durationText = formatDuration(summary.totalTime);
-  const statusEmoji = getStatusEmoji(summary);
+  const os = osBadges[info.os] || { emoji: "💻", label: info.os };
+  const browser = browserBadges[info.browser] || { emoji: "🌐", label: info.browser };
+  const duration = formatDuration(summary.totalTime);
+  const status = getStatusEmoji(summary);
+  const cssClass = getStatusCssClass(summary);
 
-  const osBadge = osBadges[info.os] || { emoji: "💻", label: info.os };
-  const browserBadge = browserBadges[info.browser] || { emoji: "🌐", label: info.browser };
-
-  // Save for summary table
   summaries.push({
     name,
-    os: osBadge,
-    browser: browserBadge,
-    statusEmoji,
-    summary
+    info,
+    os,
+    browser,
+    summary,
+    duration,
+    status,
+    cssClass
   });
+});
 
-  // Build report block (detailed)
-  reportListHtml += `
-<div class="report-block">
+// ---- Sort: failures first, then skipped, then passed ----
 
-  <span class="badge os-badge">${osBadge.emoji} ${osBadge.label}</span>
-  <span class="badge browser-badge">${browserBadge.emoji} ${browserBadge.label}</span>
-
-  <p><strong>Status:</strong> ${statusEmoji} 
-     — Tests: ${summary.totalTests}, Failures: ${summary.totalFailures}, Skipped: ${summary.totalSkipped}<br>
-     <strong>Duration:</strong> ${durationText}<br>
-     <strong>Executed at:</strong> ${info.timestamp}<br>
-     <strong>Runner:</strong> ${info.runner}</p>
-
-  <div class="links">
-    <a href="${globalMeta.runUrl}">View Logs</a> |
-    <a href="${name}/playwright-report/index.html">HTML Report</a> |
-    <a href="${name}/jsonReports/jsonReport.json">JSON</a> |
-    <a href="${name}/junit/test-results.xml">JUnit XML</a>
-  </div>
-
-</div>
-`;
+summaries.sort((a, b) => {
+  const order = { "🔴": 0, "🟡": 1, "🟢": 2, "⚪": 3 };
+  return order[a.status] - order[b.status];
 });
 
 // ---- Build summary table ----
 
-let summaryTableHtml = '<table class="summary"><tr>' +
-  '<th>Status</th>' +
-  '<th>OS</th>' +
-  '<th>Browser</th>' +
-  '<th>Total</th>' +
-  '<th>Failures</th>' +
-  '<th>Skipped</th>' +
-  '<th>Duration</th>' +
-  '</tr>';
-
-summaries.forEach(entry => {
-  const { os, browser, statusEmoji, summary } = entry;
-  const durationText = formatDuration(summary.totalTime);
-
-  summaryTableHtml += `
+let summaryTableHtml = `
+<table class="summary">
 <tr>
-  <td>${statusEmoji}</td>
-  <td>${os.emoji} ${os.label}</td>
-  <td>${browser.emoji} ${browser.label}</td>
-  <td>${summary.totalTests}</td>
-  <td>${summary.totalFailures}</td>
-  <td>${summary.totalSkipped}</td>
-  <td>${durationText}</td>
+  <th>Status</th>
+  <th>OS</th>
+  <th>Browser</th>
+  <th>Total</th>
+  <th>Failures</th>
+  <th>Skipped</th>
+  <th>Duration</th>
+</tr>`;
+
+summaries.forEach(s => {
+  summaryTableHtml += `
+<tr class="${s.cssClass}">
+  <td>${s.status}</td>
+  <td>${s.os.emoji} ${s.os.label}</td>
+  <td>${s.browser.emoji} ${s.browser.label}</td>
+  <td>${s.summary.totalTests}</td>
+  <td>${s.summary.totalFailures}</td>
+  <td>${s.summary.totalSkipped}</td>
+  <td>${s.duration}</td>
 </tr>`;
 });
 
-summaryTableHtml += '</table>';
+summaryTableHtml += `</table>`;
+
+// ---- Build detailed blocks ----
+
+let reportListHtml = "";
+
+summaries.forEach(s => {
+  reportListHtml += `
+<div class="report-block ${s.cssClass}">
+
+  <span class="badge os-badge">${s.os.emoji} ${s.os.label}</span>
+  <span class="badge browser-badge">${s.browser.emoji} ${s.browser.label}</span>
+
+  <p><strong>${s.status === "🟢" ? "🟢 All tests passed" :
+               s.status === "🔴" ? "🔴 Failures detected" :
+               s.status === "🟡" ? "🟡 Some tests skipped" :
+               "⚪ No tests run"}</strong><br>
+
+     📊 ${s.summary.totalTests} tests  
+     • ⚠ ${s.summary.totalFailures} failed  
+     • ➖ ${s.summary.totalSkipped} skipped<br>
+
+     ⏱ Duration: ${s.duration}<br>
+     Executed at: ${s.info.timestamp}<br>
+     Runner: ${s.info.runner}</p>
+
+  <div class="links">
+    <a href="${globalMeta.runUrl}">📘 Logs</a>
+    <a href="${s.name}/playwright-report/index.html">📄 HTML Report</a>
+    <a href="${s.name}/jsonReports/jsonReport.json">🧩 JSON</a>
+    <a href="${s.name}/junit/test-results.xml">📑 XML</a>
+  </div>
+
+</div>`;
+});
 
 // ---- Inject into template ----
 
@@ -195,8 +188,6 @@ template = template
   .replace('{{SUMMARY_TABLE}}', summaryTableHtml)
   .replace('{{REPORT_LIST}}', reportListHtml);
 
-// Output
-const outputPath = path.join(reportsDir, 'index.html');
-fs.writeFileSync(outputPath, template);
+fs.writeFileSync(path.join(reportsDir, 'index.html'), template);
 
-console.log("index.html generated with summary table and JUnit stats.");
+console.log("index.html generated with Batch 3 refinements.");
