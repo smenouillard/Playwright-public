@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Playwright Reports</title>
+</head>
+<body>
+
+<h1>Playwright Reports</h1>
+
+<p><strong>Published:</strong> {{PUBLISH_TIMESTAMP}}</p>
+<p><strong>Commit:</strong> {{COMMIT_SHA}}</p>
+<p><strong>Run:</strong> #{{RUN_NUMBER}}</p>
+<p><a href="{{RUN_URL}}">View Full Run Logs</a></p>
+
+<hr>
+
+<h2>Report List</h2>
+<ul>
+{{REPORT_LIST}}
+</ul>
+
+</body>
+</html>

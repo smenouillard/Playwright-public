@@ -16,15 +16,10 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          # Ubuntu (Firefox)
           - os: ubuntu-latest
             browser: firefox
-
-          # Windows (Chromium)
           - os: windows-latest
             browser: chromium
-
-          # macOS (WebKit)
           - os: macos-latest
             browser: webkit
 
@@ -56,11 +51,25 @@ jobs:
             npx playwright test --project=${{ matrix.browser }} || true
           fi
 
+      # Create metadata.json for this test job
+      - name: Write metadata.json
+        run: |
+          mkdir -p metadata
+          cat <<EOF > metadata/metadata.json
+          {
+            "timestamp": "$(date -u '+%Y-%m-%d %H:%M UTC')",
+            "os": "${{ matrix.os }}",
+            "browser": "${{ matrix.browser }}",
+            "runner": "${{ matrix.os }} (GitHub-hosted)"
+          }
+          EOF
+
       - name: Upload test report artifact
         uses: actions/upload-artifact@v4
         with:
           name: report-${{ matrix.os }}-${{ matrix.browser }}
           path: |
+            metadata/
             playwright-report/
             jsonReports/
             junit/
@@ -78,22 +87,26 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Download all test artifacts
+      - name: Download all artifacts
         uses: actions/download-artifact@v4
         with:
           path: ./reports
 
+      # Build global metadata passed to Node script
+      - name: Prepare metadata for index.html
+        id: meta
+        run: |
+          metadata='{
+            "publishTimestamp": "'"$(date -u '+%Y-%m-%d %H:%M UTC')"'",
+            "commitSha": "'"$GITHUB_SHA"'",
+            "runNumber": "'"$GITHUB_RUN_NUMBER"'",
+            "runUrl": "https://github.com/'"$GITHUB_REPOSITORY"'/actions/runs/'"$GITHUB_RUN_ID"'"
+          }'
+          echo "metadata_json=$metadata" >> $GITHUB_OUTPUT
+
       - name: Generate index.html
         run: |
-          echo "<!DOCTYPE html>
-          <html lang='en'>
-          <head><meta charset='UTF-8'><title>Playwright Reports</title></head>
-          <body><h1>Playwright Reports</h1><ul>" > ./reports/index.html
-          for dir in ./reports/*/; do
-            report_name=$(basename $dir)
-            echo "<li><a href='$report_name/playwright-report/index.html'>$report_name</a></li>" >> ./reports/index.html
-          done
-          echo "</ul></body></html>" >> ./reports/index.html
+          METADATA_JSON='${{ steps.meta.outputs.metadata_json }}' node scripts/generate-index.js
 
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
