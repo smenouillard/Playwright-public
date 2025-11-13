@@ -53,9 +53,10 @@ jobs:
 
       # Create metadata.json for this test job
       - name: Write metadata.json
+        shell: bash
         run: |
           mkdir -p metadata
-          cat <<EOF > metadata/metadata.json
+          cat > metadata/metadata.json <<EOF
           {
             "timestamp": "$(date -u '+%Y-%m-%d %H:%M UTC')",
             "os": "${{ matrix.os }}",
@@ -92,9 +93,8 @@ jobs:
         with:
           path: ./reports
 
-      # Build global metadata passed to Node script
-      - name: Prepare metadata for index.html
-        id: meta
+      - name: Generate index.html
+        shell: bash
         run: |
           metadata='{
             "publishTimestamp": "'"$(date -u '+%Y-%m-%d %H:%M UTC')"'",
@@ -102,11 +102,7 @@ jobs:
             "runNumber": "'"$GITHUB_RUN_NUMBER"'",
             "runUrl": "https://github.com/'"$GITHUB_REPOSITORY"'/actions/runs/'"$GITHUB_RUN_ID"'"
           }'
-          echo "metadata_json=$metadata" >> $GITHUB_OUTPUT
-
-      - name: Generate index.html
-        run: |
-          METADATA_JSON='${{ steps.meta.outputs.metadata_json }}' node scripts/generate-index.js
+          METADATA_JSON="$metadata" node scripts/generate-index.js
 
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
