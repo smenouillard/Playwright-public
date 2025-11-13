@@ -29,6 +29,32 @@
     .os-badge { background: #555; }
     .browser-badge { background: #777; }
 
+    /* Status pills - soft pastel style */
+    .status-pill {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 12px;
+    }
+
+    .pill-pass {
+      background: #d6f5d6;
+      color: #0a4;
+    }
+    .pill-fail {
+      background: #ffd6d6;
+      color: #a00;
+    }
+    .pill-skip {
+      background: #fff2b3;
+      color: #a68b00;
+    }
+    .pill-none {
+      background: #e3e3e3;
+      color: #555;
+    }
+
     .report-block {
       border: 1px solid #ccc;
       padding: 12px;
@@ -36,11 +62,6 @@
       border-radius: 8px;
       background: #fafafa;
     }
-
-    .status-red { background: #ffe5e5; }
-    .status-yellow { background: #fff8d5; }
-    .status-green { background: #e8ffe8; }
-    .status-neutral { background: #f0f0f0; }
 
     .links a {
       margin-right: 12px;
@@ -58,12 +79,20 @@
     table.summary td {
       border: 1px solid #ccc;
       padding: 6px 8px;
-      text-align: left;
       font-size: 14px;
     }
 
     table.summary th {
       background: #eee;
+    }
+
+    /* Center status, align numbers */
+    .summary td.status-cell {
+      text-align: center;
+      width: 120px;
+    }
+    .summary td.num-cell {
+      text-align: right;
     }
 
     footer {
@@ -78,10 +107,10 @@
 
 <h1>Playwright Reports</h1>
 
-<p><strong>Published:</strong> 2025-11-13 16:58 UTC</p>
-<p><strong>Commit:</strong> e998f2a2e774e8050f6efc13305e81a2918278ce</p>
-<p><strong>Run:</strong> #84</p>
-<p><a href="https://github.com/smenouillard/Playwright-public/actions/runs/19339234965">View Full Run Logs</a></p>
+<p><strong>Published:</strong> 2025-11-13 17:18 UTC</p>
+<p><strong>Commit:</strong> cf50d9f70b07d946686a878f858f87fbf78825f5</p>
+<p><strong>Run:</strong> #85</p>
+<p><a href="https://github.com/smenouillard/Playwright-public/actions/runs/19339797324">View Full Run Logs</a></p>
 
 <hr>
 
@@ -97,105 +126,143 @@
   <th>Skipped</th>
   <th>Duration</th>
 </tr>
-<tr class="status-red">
-  <td>🔴</td>
+<tr>
+  <td class="status-cell">
+    <span class="status-pill pill-fail">
+      🔴 FAIL
+    </span>
+  </td>
+
   <td>🍎 macOS</td>
   <td>🍏 WebKit</td>
-  <td>33</td>
-  <td>4</td>
-  <td>0</td>
-  <td>3m 59s</td>
+
+  <td class="num-cell">33</td>
+  <td class="num-cell">4</td>
+  <td class="num-cell">0</td>
+
+  <td>3m 19s</td>
 </tr>
-<tr class="status-red">
-  <td>🔴</td>
-  <td>🪟 Windows</td>
-  <td>🌐 Chromium</td>
-  <td>33</td>
-  <td>1</td>
-  <td>0</td>
-  <td>1m 48s</td>
-</tr>
-<tr class="status-green">
-  <td>🟢</td>
+<tr>
+  <td class="status-cell">
+    <span class="status-pill pill-fail">
+      🔴 FAIL
+    </span>
+  </td>
+
   <td>🐧 Ubuntu</td>
   <td>🦊 Firefox</td>
-  <td>33</td>
-  <td>0</td>
-  <td>0</td>
-  <td>1m 55s</td>
+
+  <td class="num-cell">33</td>
+  <td class="num-cell">1</td>
+  <td class="num-cell">0</td>
+
+  <td>1m 57s</td>
+</tr>
+<tr>
+  <td class="status-cell">
+    <span class="status-pill pill-pass">
+      🟢 PASS
+    </span>
+  </td>
+
+  <td>🪟 Windows</td>
+  <td>🌐 Chromium</td>
+
+  <td class="num-cell">33</td>
+  <td class="num-cell">0</td>
+  <td class="num-cell">0</td>
+
+  <td>1m 50s</td>
 </tr></table>
 
 <hr>
 
 <h2>Report List</h2>
 
+<div class="report-block">
 
-<div class="report-block status-red">
+  <span class="status-pill pill-fail">
+    🔴 FAIL
+  </span>
+
+  <br><br>
 
   <span class="badge os-badge">🍎 macOS</span>
   <span class="badge browser-badge">🍏 WebKit</span>
 
-  <p><strong>🔴 Failures detected</strong><br>
+  <p>
+    📊 33 tests  
+    • ⚠ 4 failed  
+    • ➖ 0 skipped<br>
 
-     📊 33 tests  
-     • ⚠ 4 failed  
-     • ➖ 0 skipped<br>
-
-     ⏱ Duration: 3m 59s<br>
-     Executed at: 2025-11-13 16:58 UTC<br>
-     Runner: macos-latest (GitHub-hosted)</p>
+    ⏱ Duration: 3m 19s<br>
+    Executed at: 2025-11-13 17:17 UTC<br>
+    Runner: macos-latest (GitHub-hosted)
+  </p>
 
   <div class="links">
-    <a href="https://github.com/smenouillard/Playwright-public/actions/runs/19339234965">📘 Logs</a>
+    <a href="https://github.com/smenouillard/Playwright-public/actions/runs/19339797324">📘 Logs</a>
     <a href="report-macos-latest-webkit/playwright-report/index.html">📄 HTML Report</a>
     <a href="report-macos-latest-webkit/jsonReports/jsonReport.json">🧩 JSON</a>
     <a href="report-macos-latest-webkit/junit/test-results.xml">📑 XML</a>
   </div>
 
 </div>
-<div class="report-block status-red">
+<div class="report-block">
 
-  <span class="badge os-badge">🪟 Windows</span>
-  <span class="badge browser-badge">🌐 Chromium</span>
+  <span class="status-pill pill-fail">
+    🔴 FAIL
+  </span>
 
-  <p><strong>🔴 Failures detected</strong><br>
-
-     📊 33 tests  
-     • ⚠ 1 failed  
-     • ➖ 0 skipped<br>
-
-     ⏱ Duration: 1m 48s<br>
-     Executed at: 2025-11-13 16:58 UTC<br>
-     Runner: windows-latest (GitHub-hosted)</p>
-
-  <div class="links">
-    <a href="https://github.com/smenouillard/Playwright-public/actions/runs/19339234965">📘 Logs</a>
-    <a href="report-windows-latest-chromium/playwright-report/index.html">📄 HTML Report</a>
-    <a href="report-windows-latest-chromium/jsonReports/jsonReport.json">🧩 JSON</a>
-    <a href="report-windows-latest-chromium/junit/test-results.xml">📑 XML</a>
-  </div>
-
-</div>
-<div class="report-block status-green">
+  <br><br>
 
   <span class="badge os-badge">🐧 Ubuntu</span>
   <span class="badge browser-badge">🦊 Firefox</span>
 
-  <p><strong>🟢 All tests passed</strong><br>
+  <p>
+    📊 33 tests  
+    • ⚠ 1 failed  
+    • ➖ 0 skipped<br>
 
-     📊 33 tests  
-     • ⚠ 0 failed  
-     • ➖ 0 skipped<br>
-
-     ⏱ Duration: 1m 55s<br>
-     Executed at: 2025-11-13 16:56 UTC<br>
-     Runner: ubuntu-latest (GitHub-hosted)</p>
+    ⏱ Duration: 1m 57s<br>
+    Executed at: 2025-11-13 17:15 UTC<br>
+    Runner: ubuntu-latest (GitHub-hosted)
+  </p>
 
   <div class="links">
-    <a href="https://github.com/smenouillard/Playwright-public/actions/runs/19339234965">📘 Logs</a>
+    <a href="https://github.com/smenouillard/Playwright-public/actions/runs/19339797324">📘 Logs</a>
     <a href="report-ubuntu-latest-firefox/playwright-report/index.html">📄 HTML Report</a>
     <a href="report-ubuntu-latest-firefox/jsonReports/jsonReport.json">🧩 JSON</a>
     <a href="report-ubuntu-latest-firefox/junit/test-results.xml">📑 XML</a>
+  </div>
+
+</div>
+<div class="report-block">
+
+  <span class="status-pill pill-pass">
+    🟢 PASS
+  </span>
+
+  <br><br>
+
+  <span class="badge os-badge">🪟 Windows</span>
+  <span class="badge browser-badge">🌐 Chromium</span>
+
+  <p>
+    📊 33 tests  
+    • ⚠ 0 failed  
+    • ➖ 0 skipped<br>
+
+    ⏱ Duration: 1m 50s<br>
+    Executed at: 2025-11-13 17:18 UTC<br>
+    Runner: windows-latest (GitHub-hosted)
+  </p>
+
+  <div class="links">
+    <a href="https://github.com/smenouillard/Playwright-public/actions/runs/19339797324">📘 Logs</a>
+    <a href="report-windows-latest-chromium/playwright-report/index.html">📄 HTML Report</a>
+    <a href="report-windows-latest-chromium/jsonReports/jsonReport.json">🧩 JSON</a>
+    <a href="report-windows-latest-chromium/junit/test-results.xml">📑 XML</a>
   </div>
 
 </div>
