@@ -6,39 +6,39 @@ dotenv.config();
 
 const config: PlaywrightTestConfig = {
     // Test selection (optional)
-    // testMatch: ["dropdown.test.ts"], // Uncomment to run only specific test files
+    // testMatch: ["dropdown.test.ts"],
 
-    // Global settings for all tests
+    // Global settings
     use: {
-        headless: false,                // Run browser in non-headless mode for more authentic testing
-        screenshot: "only-on-failure",  // Take screenshots only when a test fails
-        video: "retain-on-failure"      // Record video only for failing tests
+        headless: false,
+        screenshot: "only-on-failure",
+        video: "retain-on-failure"
     },
 
-    // Test reporters
+    // Reporters: JSON + HTML + JUnit
     reporter: [
-        ["dot"],                                        // Console output reporter (simple progress dots)
-        ["json", { outputFile: "jsonReports/jsonReport.json" }], // JSON report saved to a file
-        ["html", { open: "always" }]                   // HTML report, opens automatically after test run
+        ["json", { outputFile: "jsonReports/jsonReport.json" }],
+        ["html", { outputFolder: "playwright-report", open: "never" }],
+        ["junit", { outputFile: "junit/test-results.xml" }]
     ],
 
-    // Projects for different browsers
+    // Browser projects
     projects: [
         {
             name: 'Chromium',
-            use: { ...devices['Desktop Chrome'] }     // Default Chromium browser
+            use: { ...devices['Desktop Chrome'] }
         },
         {
             name: 'Firefox',
-            use: { ...devices['Desktop Firefox'] }    // Firefox
+            use: { ...devices['Desktop Firefox'] }
         },
         {
             name: 'WebKit',
-            use: { ...devices['Desktop Safari'] }     // Safari
+            use: { ...devices['Desktop Safari'] }
         },
         {
             name: 'Edge',
-            use: { ...devices['Desktop Chrome'], channel: 'msedge' } // Microsoft Edge
+            use: { ...devices['Desktop Chrome'], channel: 'msedge' }
         }
     ]
 };
