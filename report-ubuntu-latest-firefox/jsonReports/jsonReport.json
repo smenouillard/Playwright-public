@@ -12,24 +12,24 @@
     "maxFailures": 0,
     "metadata": {
       "ci": {
-        "commitHref": "https://github.com/smenouillard/Playwright-public/commit/61e5493537d19546031fbd1719088236991fdd19",
-        "commitHash": "61e5493537d19546031fbd1719088236991fdd19",
-        "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19335802874"
+        "commitHref": "https://github.com/smenouillard/Playwright-public/commit/12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
+        "commitHash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
+        "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19337429446"
       },
       "gitCommit": {
-        "shortHash": "61e5493",
-        "hash": "61e5493537d19546031fbd1719088236991fdd19",
-        "subject": "Add .json and .junit in artefacts -3",
-        "body": "Add .json and .junit in artefacts -3\n",
+        "shortHash": "12a83e8",
+        "hash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
+        "subject": "Improve index + metadata 2",
+        "body": "Improve index + metadata 2\n",
         "author": {
           "name": "Sylvain Menouillard",
           "email": "smenouillard@gmail.com",
-          "time": 1763045504000
+          "time": 1763049181000
         },
         "committer": {
           "name": "Sylvain Menouillard",
           "email": "smenouillard@gmail.com",
-          "time": 1763045504000
+          "time": 1763049181000
         },
         "branch": "main"
       },
@@ -69,24 +69,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/61e5493537d19546031fbd1719088236991fdd19",
-            "commitHash": "61e5493537d19546031fbd1719088236991fdd19",
-            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19335802874"
+            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
+            "commitHash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
+            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19337429446"
           },
           "gitCommit": {
-            "shortHash": "61e5493",
-            "hash": "61e5493537d19546031fbd1719088236991fdd19",
-            "subject": "Add .json and .junit in artefacts -3",
-            "body": "Add .json and .junit in artefacts -3\n",
+            "shortHash": "12a83e8",
+            "hash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
+            "subject": "Improve index + metadata 2",
+            "body": "Improve index + metadata 2\n",
             "author": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763045504000
+              "time": 1763049181000
             },
             "committer": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763045504000
+              "time": 1763049181000
             },
             "branch": "main"
           },
@@ -107,24 +107,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/61e5493537d19546031fbd1719088236991fdd19",
-            "commitHash": "61e5493537d19546031fbd1719088236991fdd19",
-            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19335802874"
+            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
+            "commitHash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
+            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19337429446"
           },
           "gitCommit": {
-            "shortHash": "61e5493",
-            "hash": "61e5493537d19546031fbd1719088236991fdd19",
-            "subject": "Add .json and .junit in artefacts -3",
-            "body": "Add .json and .junit in artefacts -3\n",
+            "shortHash": "12a83e8",
+            "hash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
+            "subject": "Improve index + metadata 2",
+            "body": "Improve index + metadata 2\n",
             "author": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763045504000
+              "time": 1763049181000
             },
             "committer": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763045504000
+              "time": 1763049181000
             },
             "branch": "main"
           },
@@ -145,24 +145,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/61e5493537d19546031fbd1719088236991fdd19",
-            "commitHash": "61e5493537d19546031fbd1719088236991fdd19",
-            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19335802874"
+            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
+            "commitHash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
+            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19337429446"
           },
           "gitCommit": {
-            "shortHash": "61e5493",
-            "hash": "61e5493537d19546031fbd1719088236991fdd19",
-            "subject": "Add .json and .junit in artefacts -3",
-            "body": "Add .json and .junit in artefacts -3\n",
+            "shortHash": "12a83e8",
+            "hash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
+            "subject": "Improve index + metadata 2",
+            "body": "Improve index + metadata 2\n",
             "author": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763045504000
+              "time": 1763049181000
             },
             "committer": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763045504000
+              "time": 1763049181000
             },
             "branch": "main"
           },
@@ -183,24 +183,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/61e5493537d19546031fbd1719088236991fdd19",
-            "commitHash": "61e5493537d19546031fbd1719088236991fdd19",
-            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19335802874"
+            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
+            "commitHash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
+            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19337429446"
           },
           "gitCommit": {
-            "shortHash": "61e5493",
-            "hash": "61e5493537d19546031fbd1719088236991fdd19",
-            "subject": "Add .json and .junit in artefacts -3",
-            "body": "Add .json and .junit in artefacts -3\n",
+            "shortHash": "12a83e8",
+            "hash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
+            "subject": "Improve index + metadata 2",
+            "body": "Improve index + metadata 2\n",
             "author": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763045504000
+              "time": 1763049181000
             },
             "committer": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763045504000
+              "time": 1763049181000
             },
             "branch": "main"
           },
@@ -246,12 +246,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4321,
+                  "duration": 3575,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:03:37.172Z",
+                  "startTime": "2025-11-13T15:54:18.190Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -288,7 +288,7 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 2788,
+                  "duration": 4147,
                   "errors": [],
                   "stdout": [
                     {
@@ -297,7 +297,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:03:37.176Z",
+                  "startTime": "2025-11-13T15:54:18.190Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -331,10 +331,10 @@
               "projectName": "Firefox",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1392,
+                  "duration": 1370,
                   "errors": [],
                   "stdout": [
                     {
@@ -343,7 +343,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:03:41.944Z",
+                  "startTime": "2025-11-13T15:54:25.594Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -377,10 +377,10 @@
               "projectName": "Firefox",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1380,
+                  "duration": 1282,
                   "errors": [],
                   "stdout": [
                     {
@@ -389,7 +389,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:03:42.886Z",
+                  "startTime": "2025-11-13T15:54:25.642Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -426,12 +426,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1168,
+                  "duration": 1346,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:03:43.379Z",
+                  "startTime": "2025-11-13T15:54:26.948Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -468,7 +468,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1619,
+                  "duration": 1322,
                   "errors": [],
                   "stdout": [
                     {
@@ -483,7 +483,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:03:44.303Z",
+                  "startTime": "2025-11-13T15:54:26.992Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -512,7 +512,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1284,
+                  "duration": 1146,
                   "errors": [],
                   "stdout": [
                     {
@@ -521,7 +521,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:03:45.950Z",
+                  "startTime": "2025-11-13T15:54:28.330Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -558,31 +558,31 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 2113,
+                  "duration": 2295,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Searching for: Marcus Aurelius\n"
+                      "text": "Searching for: Scipio Africanus\n"
                     },
                     {
                       "text": "Navigated to English Wikipedia\n"
                     },
                     {
-                      "text": "Filled search input with \"Marcus Aurelius\"\n"
+                      "text": "Filled search input with \"Scipio Africanus\"\n"
                     },
                     {
                       "text": "Search submitted\n"
                     },
                     {
-                      "text": "Verified page heading contains \"Marcus Aurelius\"\n"
+                      "text": "Verified page heading contains \"Scipio Africanus\"\n"
                     },
                     {
-                      "text": "Verified URL contains \"Marcus_Aurelius\"\n"
+                      "text": "Verified URL contains \"Scipio_Africanus\"\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:03:44.586Z",
+                  "startTime": "2025-11-13T15:54:28.315Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -616,15 +616,15 @@
               "projectName": "Firefox",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4166,
+                  "duration": 21461,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:03:46.734Z",
+                  "startTime": "2025-11-13T15:54:29.491Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -658,10 +658,10 @@
               "projectName": "Firefox",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 3702,
+                  "duration": 21034,
                   "errors": [],
                   "stdout": [
                     {
@@ -670,7 +670,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:03:47.264Z",
+                  "startTime": "2025-11-13T15:54:30.626Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -704,10 +704,10 @@
               "projectName": "Firefox",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 7334,
+                  "duration": 14802,
                   "errors": [],
                   "stdout": [
                     {
@@ -716,7 +716,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:03:50.928Z",
+                  "startTime": "2025-11-13T15:54:50.973Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -750,15 +750,15 @@
               "projectName": "Firefox",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 5991,
+                  "duration": 6002,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:03:50.997Z",
+                  "startTime": "2025-11-13T15:54:51.673Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -792,15 +792,15 @@
               "projectName": "Firefox",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 3030,
+                  "duration": 2367,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:03:57.030Z",
+                  "startTime": "2025-11-13T15:54:57.690Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -837,12 +837,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 3016,
+                  "duration": 2472,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:03:58.280Z",
+                  "startTime": "2025-11-13T15:55:00.089Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -876,10 +876,10 @@
               "projectName": "Firefox",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 2931,
+                  "duration": 2554,
                   "errors": [],
                   "stdout": [
                     {
@@ -921,7 +921,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:00.105Z",
+                  "startTime": "2025-11-13T15:55:02.581Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -958,7 +958,7 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 3161,
+                  "duration": 2739,
                   "errors": [],
                   "stdout": [
                     {
@@ -997,7 +997,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:01.320Z",
+                  "startTime": "2025-11-13T15:55:05.161Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1034,12 +1034,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 7524,
+                  "duration": 7342,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:03.074Z",
+                  "startTime": "2025-11-13T15:55:05.796Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1076,12 +1076,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 4151,
+                  "duration": 3829,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:04.517Z",
+                  "startTime": "2025-11-13T15:55:07.921Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1110,12 +1110,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1124,
+                  "duration": 1143,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:08.684Z",
+                  "startTime": "2025-11-13T15:55:11.769Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1152,12 +1152,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 7346,
+                  "duration": 7269,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:09.825Z",
+                  "startTime": "2025-11-13T15:55:12.956Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1186,12 +1186,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 7386,
+                  "duration": 7509,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:17.184Z",
+                  "startTime": "2025-11-13T15:55:20.236Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1228,12 +1228,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 904,
+                  "duration": 997,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:10.620Z",
+                  "startTime": "2025-11-13T15:55:13.159Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1262,12 +1262,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1222,
+                  "duration": 1293,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:11.552Z",
+                  "startTime": "2025-11-13T15:55:14.172Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1304,7 +1304,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3161,
+                  "duration": 4185,
                   "errors": [],
                   "stdout": [
                     {
@@ -1313,7 +1313,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:12.799Z",
+                  "startTime": "2025-11-13T15:55:15.485Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1350,7 +1350,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3655,
+                  "duration": 3404,
                   "errors": [],
                   "stdout": [
                     {
@@ -1362,7 +1362,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:15.977Z",
+                  "startTime": "2025-11-13T15:55:19.686Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1399,12 +1399,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4072,
+                  "duration": 3059,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:19.656Z",
+                  "startTime": "2025-11-13T15:55:23.104Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1441,12 +1441,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4864,
+                  "duration": 3553,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:23.746Z",
+                  "startTime": "2025-11-13T15:55:26.177Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1483,7 +1483,7 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 23064,
+                  "duration": 21496,
                   "errors": [],
                   "stdout": [
                     {
@@ -1502,12 +1502,6 @@
                       "text": "Logged in successfully\n"
                     },
                     {
-                      "text": "BROWSER LOG: [JavaScript Warning: \"Loading failed for the <script> with source “https://ecommerce-playground.lambdatest.io/catalog/view/theme/mz_poco/asset/javascript/megastore-2.28/combine/2196b913fff60250c31df8a493964123all.js”.\" {file: \"https://ecommerce-playground.lambdatest.io/index.php?route=account/edit\" line: 450}]\n"
-                    },
-                    {
-                      "text": "BROWSER LOG: jQuery.Deferred exception: $(...).datetimepicker is not a function @https://ecommerce-playground.lambdatest.io/index.php?route=account/edit:294:30\ne@https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:2:30038\nDeferred/then/l/</t<@https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:2:30340\nsetTimeout handler*Deferred/then/l/<@https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:2:30549\nc@https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:2:28327\nfireWith@https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:2:29072\nfire@https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:2:29108\nc@https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:2:28327\nfireWith@https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:2:29072\nready@https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:2:32045\nB@https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:2:31824\nEventListener.handleEvent*@https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:2:32193\n@https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:2:220\n@https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:2:225\n undefined\n"
-                    },
-                    {
                       "text": "Updated first name successfully\n"
                     },
                     {
@@ -1522,7 +1516,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:24.590Z",
+                  "startTime": "2025-11-13T15:55:27.780Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1545,7 +1539,7 @@
       "specs": [
         {
           "title": "Login fails with invalid credentials (handles throttling)",
-          "ok": true,
+          "ok": false,
           "tags": [],
           "tests": [
             {
@@ -1558,22 +1552,58 @@
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 1947,
-                  "errors": [],
-                  "stdout": [
+                  "status": "failed",
+                  "duration": 1678,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at /home/runner/work/Playwright-public/Playwright-public/tests/training/pom-loginfail.test.ts:15:21",
+                    "location": {
+                      "file": "/home/runner/work/Playwright-public/Playwright-public/tests/training/pom-loginfail.test.ts",
+                      "column": 21,
+                      "line": 15
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 13 |\u001b[39m   \u001b[90m// Assert error alert is visible\u001b[39m\n \u001b[90m 14 |\u001b[39m   \u001b[36mconst\u001b[39m isVisible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39misLoginErrorVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 15 |\u001b[39m   expect(isVisible)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 16 |\u001b[39m\n \u001b[90m 17 |\u001b[39m   \u001b[90m// Get the error message text\u001b[39m\n \u001b[90m 18 |\u001b[39m   \u001b[36mconst\u001b[39m errorText \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39mgetLoginErrorText()\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
                     {
-                      "text": "Login failed due to invalid credentials.\n"
+                      "location": {
+                        "file": "/home/runner/work/Playwright-public/Playwright-public/tests/training/pom-loginfail.test.ts",
+                        "column": 21,
+                        "line": 15
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n  13 |   // Assert error alert is visible\n  14 |   const isVisible = await loginPage.isLoginErrorVisible();\n> 15 |   expect(isVisible).toBe(true);\n     |                     ^\n  16 |\n  17 |   // Get the error message text\n  18 |   const errorText = await loginPage.getLoginErrorText();\n    at /home/runner/work/Playwright-public/Playwright-public/tests/training/pom-loginfail.test.ts:15:21"
                     }
                   ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:28.622Z",
+                  "startTime": "2025-11-13T15:55:29.745Z",
                   "annotations": [],
-                  "attachments": []
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/home/runner/work/Playwright-public/Playwright-public/test-results/tests-training-pom-loginfa-c8790-entials-handles-throttling--Firefox/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/home/runner/work/Playwright-public/Playwright-public/test-results/tests-training-pom-loginfa-c8790-entials-handles-throttling--Firefox/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/Playwright-public/Playwright-public/test-results/tests-training-pom-loginfa-c8790-entials-handles-throttling--Firefox/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/Playwright-public/Playwright-public/tests/training/pom-loginfail.test.ts",
+                    "column": 21,
+                    "line": 15
+                  }
                 }
               ],
-              "status": "expected"
+              "status": "unexpected"
             }
           ],
           "id": "279c9ad09a6d9c7d9297-676d5e07e874141b1642",
@@ -1602,15 +1632,15 @@
               "projectName": "Firefox",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2741,
+                  "duration": 2923,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:30.588Z",
+                  "startTime": "2025-11-13T15:55:32.612Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1644,10 +1674,10 @@
               "projectName": "Firefox",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4896,
+                  "duration": 4162,
                   "errors": [],
                   "stdout": [
                     {
@@ -1662,7 +1692,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:33.341Z",
+                  "startTime": "2025-11-13T15:55:36.077Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1696,15 +1726,15 @@
               "projectName": "Firefox",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2773,
+                  "duration": 2329,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:38.264Z",
+                  "startTime": "2025-11-13T15:55:40.261Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1738,10 +1768,10 @@
               "projectName": "Firefox",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1329,
+                  "duration": 834,
                   "errors": [],
                   "stdout": [
                     {
@@ -1756,7 +1786,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:04:41.060Z",
+                  "startTime": "2025-11-13T15:55:42.627Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1774,11 +1804,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-11-13T15:03:36.254Z",
-    "duration": 71989.65000000001,
-    "expected": 33,
+    "startTime": "2025-11-13T15:54:17.286Z",
+    "duration": 92570.31999999999,
+    "expected": 32,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 1,
     "flaky": 0
   }
 }
