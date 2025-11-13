@@ -1,38 +1,38 @@
-<testsuites id="" name="" tests="33" failures="1" skipped="0" errors="0" time="92.57032">
-<testsuite name="tests/training/alerts.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="3.575" errors="0">
-<testcase name="Bootstrap Modal Demo - should open modal, click Save Changes, and ensure it closes" classname="tests/training/alerts.test.ts" time="3.575">
+<testsuites id="" name="" tests="33" failures="1" skipped="0" errors="0" time="70.09428299999999">
+<testsuite name="tests/training/alerts.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="5.219" errors="0">
+<testcase name="Bootstrap Modal Demo - should open modal, click Save Changes, and ensure it closes" classname="tests/training/alerts.test.ts" time="5.219">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/alerts1.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="4.147" errors="0">
-<testcase name="handling alerts" classname="tests/training/alerts1.test.ts" time="4.147">
+<testsuite name="tests/training/alerts1.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="3.916" errors="0">
+<testcase name="handling alerts" classname="tests/training/alerts1.test.ts" time="3.916">
 <system-out>
 <![CDATA[I am an alert box!
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/alerts2.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="1.37" errors="0">
-<testcase name="handling alerts" classname="tests/training/alerts2.test.ts" time="1.37">
+<testsuite name="tests/training/alerts2.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="1.391" errors="0">
+<testcase name="handling alerts" classname="tests/training/alerts2.test.ts" time="1.391">
 <system-out>
 <![CDATA[Press a button!
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/alerts3.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="1.282" errors="0">
-<testcase name="Prompt dialog test" classname="tests/training/alerts3.test.ts" time="1.282">
+<testsuite name="tests/training/alerts3.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="1.303" errors="0">
+<testcase name="Prompt dialog test" classname="tests/training/alerts3.test.ts" time="1.303">
 <system-out>
 <![CDATA[Prompt test completed, text verified on the page.
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/basicInteractions.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="1.346" errors="0">
-<testcase name="Checkbox" classname="tests/training/basicInteractions.test.ts" time="1.346">
+<testsuite name="tests/training/basicInteractions.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="1.307" errors="0">
+<testcase name="Checkbox" classname="tests/training/basicInteractions.test.ts" time="1.307">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/basicInteractions1.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="2" failures="0" skipped="0" time="2.468" errors="0">
-<testcase name="Interaction with inputs" classname="tests/training/basicInteractions1.test.ts" time="1.322">
+<testsuite name="tests/training/basicInteractions1.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="2" failures="0" skipped="0" time="3.667" errors="0">
+<testcase name="Interaction with inputs" classname="tests/training/basicInteractions1.test.ts" time="1.273">
 <system-out>
 <![CDATA[Please enter your Message
 Before entering data: 
@@ -40,15 +40,15 @@ After entering data: Hi Sly
 ]]>
 </system-out>
 </testcase>
-<testcase name="Sum" classname="tests/training/basicInteractions1.test.ts" time="1.146">
+<testcase name="Sum" classname="tests/training/basicInteractions1.test.ts" time="2.394">
 <system-out>
 <![CDATA[667
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/datafromjson.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="2.295" errors="0">
-<testcase name="Wikipedia search for random ancient general - CI proof" classname="tests/training/datafromjson.test.ts" time="2.295">
+<testsuite name="tests/training/datafromjson.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="2.982" errors="0">
+<testcase name="Wikipedia search for random ancient general - CI proof" classname="tests/training/datafromjson.test.ts" time="2.982">
 <system-out>
 <![CDATA[Searching for: Scipio Africanus
 Navigated to English Wikipedia
@@ -60,40 +60,40 @@ Verified URL contains "Scipio_Africanus"
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/date-calendar.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="21.461" errors="0">
-<testcase name="Pick May 4th 2026 in jQuery UI Datepicker" classname="tests/training/date-calendar.test.ts" time="21.461">
+<testsuite name="tests/training/date-calendar.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="1.915" errors="0">
+<testcase name="Pick May 4th 2026 in jQuery UI Datepicker" classname="tests/training/date-calendar.test.ts" time="1.915">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/date-calendar2.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="21.034" errors="0">
-<testcase name="Pick the 15th after clicking next 3 times" classname="tests/training/date-calendar2.test.ts" time="21.034">
+<testsuite name="tests/training/date-calendar2.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="1.551" errors="0">
+<testcase name="Pick the 15th after clicking next 3 times" classname="tests/training/date-calendar2.test.ts" time="1.551">
 <system-out>
 <![CDATA[Selected date: 02/15/2026
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/date-calendar3.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="14.802" errors="0">
-<testcase name="Pick today, three years in the past" classname="tests/training/date-calendar3.test.ts" time="14.802">
+<testsuite name="tests/training/date-calendar3.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="4.336" errors="0">
+<testcase name="Pick today, three years in the past" classname="tests/training/date-calendar3.test.ts" time="4.336">
 <system-out>
 <![CDATA[Selected date: 11/13/2022
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/date-fill.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="6.002" errors="0">
-<testcase name="Set birthday with fill and check displayed value (with 1s visual delays)" classname="tests/training/date-fill.test.ts" time="6.002">
+<testsuite name="tests/training/date-fill.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="6.335" errors="0">
+<testcase name="Set birthday with fill and check displayed value (with 1s visual delays)" classname="tests/training/date-fill.test.ts" time="6.335">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/download.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="2.367" errors="0">
-<testcase name="Generate and verify donwloaded file name" classname="tests/training/download.test.ts" time="2.367">
+<testsuite name="tests/training/download.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="2.242" errors="0">
+<testcase name="Generate and verify donwloaded file name" classname="tests/training/download.test.ts" time="2.242">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/download1.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="2.472" errors="0">
-<testcase name="Generate and download file" classname="tests/training/download1.test.ts" time="2.472">
+<testsuite name="tests/training/download1.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="2.975" errors="0">
+<testcase name="Generate and download file" classname="tests/training/download1.test.ts" time="2.975">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/download2.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="2.554" errors="0">
-<testcase name="Generate, download, check, and delete file" classname="tests/training/download2.test.ts" time="2.554">
+<testsuite name="tests/training/download2.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="3.646" errors="0">
+<testcase name="Generate, download, check, and delete file" classname="tests/training/download2.test.ts" time="3.646">
 <system-out>
 <![CDATA[Navigating to LambdaTest download page...
 Typed text: "Test test test"
@@ -111,8 +111,8 @@ Downloaded file deleted after test
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/download3.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="2.739" errors="0">
-<testcase name="Generate, download, and check file content" classname="tests/training/download3.test.ts" time="2.739">
+<testsuite name="tests/training/download3.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="2.934" errors="0">
+<testcase name="Generate, download, and check file content" classname="tests/training/download3.test.ts" time="2.934">
 <system-out>
 <![CDATA[Navigating to LambdaTest download page...
 Typed text: "Test test test"
@@ -129,38 +129,38 @@ Download checked successfully, no file saved.
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/dropdown.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="7.342" errors="0">
-<testcase name="Dropdown search and select India (exact match)" classname="tests/training/dropdown.test.ts" time="7.342">
+<testsuite name="tests/training/dropdown.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="7.637" errors="0">
+<testcase name="Dropdown search and select India (exact match)" classname="tests/training/dropdown.test.ts" time="7.637">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/dropdown1.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="2" failures="0" skipped="0" time="4.972" errors="0">
-<testcase name="Select Tuesday from dropdown" classname="tests/training/dropdown1.test.ts" time="3.829">
+<testsuite name="tests/training/dropdown1.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="2" failures="0" skipped="0" time="5.139" errors="0">
+<testcase name="Select Tuesday from dropdown" classname="tests/training/dropdown1.test.ts" time="3.976">
 </testcase>
-<testcase name="Select multiple states in order and verify displayed last selected text and first selected option" classname="tests/training/dropdown1.test.ts" time="1.143">
-</testcase>
-</testsuite>
-<testsuite name="tests/training/dropdown2.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="2" failures="0" skipped="0" time="14.778" errors="0">
-<testcase name="Select multiple states in order and verify displayed last selected text and first selected option" classname="tests/training/dropdown2.test.ts" time="7.269">
-</testcase>
-<testcase name="Select multiple states and verify first selected option first, then all selected" classname="tests/training/dropdown2.test.ts" time="7.509">
+<testcase name="Select multiple states in order and verify displayed last selected text and first selected option" classname="tests/training/dropdown1.test.ts" time="1.163">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/example.spec.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="2" failures="0" skipped="0" time="2.29" errors="0">
-<testcase name="has title" classname="tests/training/example.spec.ts" time="0.997">
+<testsuite name="tests/training/dropdown2.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="2" failures="0" skipped="0" time="14.769" errors="0">
+<testcase name="Select multiple states in order and verify displayed last selected text and first selected option" classname="tests/training/dropdown2.test.ts" time="7.347">
 </testcase>
-<testcase name="get started link" classname="tests/training/example.spec.ts" time="1.293">
+<testcase name="Select multiple states and verify first selected option first, then all selected" classname="tests/training/dropdown2.test.ts" time="7.422">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/frames.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="4.185" errors="0">
-<testcase name="Fill first name, last name, and email in separate frames" classname="tests/training/frames.test.ts" time="4.185">
+<testsuite name="tests/training/example.spec.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="2" failures="0" skipped="0" time="2.537" errors="0">
+<testcase name="has title" classname="tests/training/example.spec.ts" time="0.935">
+</testcase>
+<testcase name="get started link" classname="tests/training/example.spec.ts" time="1.602">
+</testcase>
+</testsuite>
+<testsuite name="tests/training/frames.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="3.38" errors="0">
+<testcase name="Fill first name, last name, and email in separate frames" classname="tests/training/frames.test.ts" time="3.38">
 <system-out>
-<![CDATA[Number of frames: 13
+<![CDATA[Number of frames: 10
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/hoverusingfixture.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="3.404" errors="0">
-<testcase name="Navigate via Mega Menu to Printer page" classname="tests/training/hoverusingfixture.test.ts" time="3.404">
+<testsuite name="tests/training/hoverusingfixture.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="3.606" errors="0">
+<testcase name="Navigate via Mega Menu to Printer page" classname="tests/training/hoverusingfixture.test.ts" time="3.606">
 <system-out>
 <![CDATA[Hovering and clicking "Mega Menu -> Printer"...
 Clicked "Mega Menu -> Printer" -> a[title="Printer"]
@@ -168,16 +168,16 @@ Clicked "Mega Menu -> Printer" -> a[title="Printer"]
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/login-logout-hiddencred.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="3.059" errors="0">
-<testcase name="Login and Logout with hidden credentials" classname="tests/training/login-logout-hiddencred.test.ts" time="3.059">
+<testsuite name="tests/training/login-logout-hiddencred.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="4.002" errors="0">
+<testcase name="Login and Logout with hidden credentials" classname="tests/training/login-logout-hiddencred.test.ts" time="4.002">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/login-logout.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="3.553" errors="0">
-<testcase name="Login/Logout" classname="tests/training/login-logout.test.ts" time="3.553">
+<testsuite name="tests/training/login-logout.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="4.966" errors="0">
+<testcase name="Login/Logout" classname="tests/training/login-logout.test.ts" time="4.966">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/login-profileedit.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="21.496" errors="0">
-<testcase name="Login, edit profile, and logout - CI-proof" classname="tests/training/login-profileedit.test.ts" time="21.496">
+<testsuite name="tests/training/login-profileedit.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="22.317" errors="0">
+<testcase name="Login, edit profile, and logout - CI-proof" classname="tests/training/login-profileedit.test.ts" time="22.317">
 <system-out>
 <![CDATA[Navigating to LambdaTest eCommerce playground...
 Hovering and clicking "My account (login)"...
@@ -192,8 +192,8 @@ Logout verified successfully
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/pom-loginfail.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="1" skipped="0" time="1.678" errors="0">
-<testcase name="Login fails with invalid credentials (handles throttling)" classname="tests/training/pom-loginfail.test.ts" time="1.678">
+<testsuite name="tests/training/pom-loginfail.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="1" skipped="0" time="1.988" errors="0">
+<testcase name="Login fails with invalid credentials (handles throttling)" classname="tests/training/pom-loginfail.test.ts" time="1.988">
 <failure message="pom-loginfail.test.ts:4:5 Login fails with invalid credentials (handles throttling)" type="FAILURE">
 <![CDATA[  [Firefox] › tests/training/pom-loginfail.test.ts:4:5 › Login fails with invalid credentials (handles throttling) 
 
@@ -233,12 +233,12 @@ Logout verified successfully
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/pom-loginsuccess.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="2.923" errors="0">
-<testcase name="Login successful with valid credentials" classname="tests/training/pom-loginsuccess.test.ts" time="2.923">
+<testsuite name="tests/training/pom-loginsuccess.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="3.264" errors="0">
+<testcase name="Login successful with valid credentials" classname="tests/training/pom-loginsuccess.test.ts" time="3.264">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/popup.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="4.162" errors="0">
-<testcase name="Follow on Twitter popup test" classname="tests/training/popup.test.ts" time="4.162">
+<testsuite name="tests/training/popup.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="4.149" errors="0">
+<testcase name="Follow on Twitter popup test" classname="tests/training/popup.test.ts" time="4.149">
 <system-out>
 <![CDATA[Main page URL: https://www.lambdatest.com/selenium-playground/window-popup-modal-demo
 Popup opened with URL: https://x.com/Lambdatesting
@@ -247,12 +247,12 @@ Popup redirected to URL: https://x.com/
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/slider.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="2.329" errors="0">
-<testcase name="Test Scenario 2 - Drag &amp; Drop Sliders Demo (robust)" classname="tests/training/slider.test.ts" time="2.329">
+<testsuite name="tests/training/slider.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="1.72" errors="0">
+<testcase name="Test Scenario 2 - Drag &amp; Drop Sliders Demo (robust)" classname="tests/training/slider.test.ts" time="1.72">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/upload.test.ts" timestamp="2025-11-13T15:54:17.607Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="0.834" errors="0">
-<testcase name="File upload with multiple selection verification" classname="tests/training/upload.test.ts" time="0.834">
+<testsuite name="tests/training/upload.test.ts" timestamp="2025-11-13T16:27:19.380Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="1.203" errors="0">
+<testcase name="File upload with multiple selection verification" classname="tests/training/upload.test.ts" time="1.203">
 <system-out>
 <![CDATA[Multiple selection enabled: true
 Files selected

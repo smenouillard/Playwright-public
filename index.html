@@ -3,55 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <title>Playwright Reports</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 5px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 12px;
+      color: #fff;
+      font-size: 12px;
+      margin-right: 6px;
+    }
+
+    .os-badge { background: #555; }
+    .browser-badge { background: #777; }
+
+    .report-block {
+      border: 1px solid #ccc;
+      padding: 12px;
+      margin: 12px 0;
+      border-radius: 8px;
+      background: #fafafa;
+    }
+
+    .links a {
+      margin-right: 10px;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
 
 <h1>Playwright Reports</h1>
 
-<p><strong>Published:</strong> 2025-11-13 15:58 UTC</p>
-<p><strong>Commit:</strong> 12a83e88eb4eb4817a366203eb8f2ca344ca6d2e</p>
-<p><strong>Run:</strong> #81</p>
-<p><a href="https://github.com/smenouillard/Playwright-public/actions/runs/19337429446">View Full Run Logs</a></p>
+<p><strong>Published:</strong> 2025-11-13 16:30 UTC</p>
+<p><strong>Commit:</strong> 523e1c1b87ac38928ae7a5e0cdd282ab78a29dd9</p>
+<p><strong>Run:</strong> #82</p>
+<p><a href="https://github.com/smenouillard/Playwright-public/actions/runs/19338407784">View Full Run Logs</a></p>
 
 <hr>
 
 <h2>Report List</h2>
-<ul>
 
-<li>
-  <strong>report-macos-latest-webkit</strong><br>
-  Executed at: 2025-11-13 15:58 UTC<br>
-  OS: macos-latest<br>
-  Browser: webkit<br>
-  Runner: macos-latest (GitHub-hosted)<br>
-  <a href="https://github.com/smenouillard/Playwright-public/actions/runs/19337429446">View Logs</a><br>
-  <a href="report-macos-latest-webkit/playwright-report/index.html">HTML Report</a> •
-  <a href="report-macos-latest-webkit/jsonReports/jsonReport.json">JSON</a> •
-  <a href="report-macos-latest-webkit/junit/test-results.xml">JUnit XML</a>
-</li><br>
-<li>
-  <strong>report-ubuntu-latest-firefox</strong><br>
-  Executed at: 2025-11-13 15:55 UTC<br>
-  OS: ubuntu-latest<br>
-  Browser: firefox<br>
-  Runner: ubuntu-latest (GitHub-hosted)<br>
-  <a href="https://github.com/smenouillard/Playwright-public/actions/runs/19337429446">View Logs</a><br>
-  <a href="report-ubuntu-latest-firefox/playwright-report/index.html">HTML Report</a> •
-  <a href="report-ubuntu-latest-firefox/jsonReports/jsonReport.json">JSON</a> •
-  <a href="report-ubuntu-latest-firefox/junit/test-results.xml">JUnit XML</a>
-</li><br>
-<li>
-  <strong>report-windows-latest-chromium</strong><br>
-  Executed at: 2025-11-13 15:58 UTC<br>
-  OS: windows-latest<br>
-  Browser: chromium<br>
-  Runner: windows-latest (GitHub-hosted)<br>
-  <a href="https://github.com/smenouillard/Playwright-public/actions/runs/19337429446">View Logs</a><br>
-  <a href="report-windows-latest-chromium/playwright-report/index.html">HTML Report</a> •
-  <a href="report-windows-latest-chromium/jsonReports/jsonReport.json">JSON</a> •
-  <a href="report-windows-latest-chromium/junit/test-results.xml">JUnit XML</a>
-</li><br>
-</ul>
+
+<div class="report-block">
+
+  <span class="badge os-badge">🍎 macOS</span>
+  <span class="badge browser-badge">🍏 WebKit</span>
+
+  <p><strong>Executed at:</strong> 2025-11-13 16:30 UTC<br>
+     <strong>Runner:</strong> macos-latest (GitHub-hosted)</p>
+
+  <div class="links">
+    <a href="https://github.com/smenouillard/Playwright-public/actions/runs/19338407784">View Logs</a> |
+    <a href="report-macos-latest-webkit/playwright-report/index.html">HTML Report</a> |
+    <a href="report-macos-latest-webkit/jsonReports/jsonReport.json">JSON</a> |
+    <a href="report-macos-latest-webkit/junit/test-results.xml">JUnit XML</a>
+  </div>
+
+</div>
+
+<div class="report-block">
+
+  <span class="badge os-badge">🐧 Ubuntu</span>
+  <span class="badge browser-badge">🦊 Firefox</span>
+
+  <p><strong>Executed at:</strong> 2025-11-13 16:28 UTC<br>
+     <strong>Runner:</strong> ubuntu-latest (GitHub-hosted)</p>
+
+  <div class="links">
+    <a href="https://github.com/smenouillard/Playwright-public/actions/runs/19338407784">View Logs</a> |
+    <a href="report-ubuntu-latest-firefox/playwright-report/index.html">HTML Report</a> |
+    <a href="report-ubuntu-latest-firefox/jsonReports/jsonReport.json">JSON</a> |
+    <a href="report-ubuntu-latest-firefox/junit/test-results.xml">JUnit XML</a>
+  </div>
+
+</div>
+
+<div class="report-block">
+
+  <span class="badge os-badge">🪟 Windows</span>
+  <span class="badge browser-badge">🌐 Chromium</span>
+
+  <p><strong>Executed at:</strong> 2025-11-13 16:30 UTC<br>
+     <strong>Runner:</strong> windows-latest (GitHub-hosted)</p>
+
+  <div class="links">
+    <a href="https://github.com/smenouillard/Playwright-public/actions/runs/19338407784">View Logs</a> |
+    <a href="report-windows-latest-chromium/playwright-report/index.html">HTML Report</a> |
+    <a href="report-windows-latest-chromium/jsonReports/jsonReport.json">JSON</a> |
+    <a href="report-windows-latest-chromium/junit/test-results.xml">JUnit XML</a>
+  </div>
+
+</div>
+
 
 </body>
 </html>

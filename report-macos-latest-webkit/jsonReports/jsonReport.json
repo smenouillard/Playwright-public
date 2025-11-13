@@ -12,24 +12,24 @@
     "maxFailures": 0,
     "metadata": {
       "ci": {
-        "commitHref": "https://github.com/smenouillard/Playwright-public/commit/12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
-        "commitHash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
-        "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19337429446"
+        "commitHref": "https://github.com/smenouillard/Playwright-public/commit/523e1c1b87ac38928ae7a5e0cdd282ab78a29dd9",
+        "commitHash": "523e1c1b87ac38928ae7a5e0cdd282ab78a29dd9",
+        "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19338407784"
       },
       "gitCommit": {
-        "shortHash": "12a83e8",
-        "hash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
-        "subject": "Improve index + metadata 2",
-        "body": "Improve index + metadata 2\n",
+        "shortHash": "523e1c1",
+        "hash": "523e1c1b87ac38928ae7a5e0cdd282ab78a29dd9",
+        "subject": "Improve index - Icons and better look",
+        "body": "Improve index - Icons and better look\n",
         "author": {
           "name": "Sylvain Menouillard",
           "email": "smenouillard@gmail.com",
-          "time": 1763049181000
+          "time": 1763051145000
         },
         "committer": {
           "name": "Sylvain Menouillard",
           "email": "smenouillard@gmail.com",
-          "time": 1763049181000
+          "time": 1763051145000
         },
         "branch": "main"
       },
@@ -69,24 +69,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
-            "commitHash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
-            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19337429446"
+            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/523e1c1b87ac38928ae7a5e0cdd282ab78a29dd9",
+            "commitHash": "523e1c1b87ac38928ae7a5e0cdd282ab78a29dd9",
+            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19338407784"
           },
           "gitCommit": {
-            "shortHash": "12a83e8",
-            "hash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
-            "subject": "Improve index + metadata 2",
-            "body": "Improve index + metadata 2\n",
+            "shortHash": "523e1c1",
+            "hash": "523e1c1b87ac38928ae7a5e0cdd282ab78a29dd9",
+            "subject": "Improve index - Icons and better look",
+            "body": "Improve index - Icons and better look\n",
             "author": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763049181000
+              "time": 1763051145000
             },
             "committer": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763049181000
+              "time": 1763051145000
             },
             "branch": "main"
           },
@@ -107,24 +107,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
-            "commitHash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
-            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19337429446"
+            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/523e1c1b87ac38928ae7a5e0cdd282ab78a29dd9",
+            "commitHash": "523e1c1b87ac38928ae7a5e0cdd282ab78a29dd9",
+            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19338407784"
           },
           "gitCommit": {
-            "shortHash": "12a83e8",
-            "hash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
-            "subject": "Improve index + metadata 2",
-            "body": "Improve index + metadata 2\n",
+            "shortHash": "523e1c1",
+            "hash": "523e1c1b87ac38928ae7a5e0cdd282ab78a29dd9",
+            "subject": "Improve index - Icons and better look",
+            "body": "Improve index - Icons and better look\n",
             "author": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763049181000
+              "time": 1763051145000
             },
             "committer": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763049181000
+              "time": 1763051145000
             },
             "branch": "main"
           },
@@ -145,24 +145,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
-            "commitHash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
-            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19337429446"
+            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/523e1c1b87ac38928ae7a5e0cdd282ab78a29dd9",
+            "commitHash": "523e1c1b87ac38928ae7a5e0cdd282ab78a29dd9",
+            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19338407784"
           },
           "gitCommit": {
-            "shortHash": "12a83e8",
-            "hash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
-            "subject": "Improve index + metadata 2",
-            "body": "Improve index + metadata 2\n",
+            "shortHash": "523e1c1",
+            "hash": "523e1c1b87ac38928ae7a5e0cdd282ab78a29dd9",
+            "subject": "Improve index - Icons and better look",
+            "body": "Improve index - Icons and better look\n",
             "author": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763049181000
+              "time": 1763051145000
             },
             "committer": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763049181000
+              "time": 1763051145000
             },
             "branch": "main"
           },
@@ -183,24 +183,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
-            "commitHash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
-            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19337429446"
+            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/523e1c1b87ac38928ae7a5e0cdd282ab78a29dd9",
+            "commitHash": "523e1c1b87ac38928ae7a5e0cdd282ab78a29dd9",
+            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19338407784"
           },
           "gitCommit": {
-            "shortHash": "12a83e8",
-            "hash": "12a83e88eb4eb4817a366203eb8f2ca344ca6d2e",
-            "subject": "Improve index + metadata 2",
-            "body": "Improve index + metadata 2\n",
+            "shortHash": "523e1c1",
+            "hash": "523e1c1b87ac38928ae7a5e0cdd282ab78a29dd9",
+            "subject": "Improve index - Icons and better look",
+            "body": "Improve index - Icons and better look\n",
             "author": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763049181000
+              "time": 1763051145000
             },
             "committer": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763049181000
+              "time": 1763051145000
             },
             "branch": "main"
           },
@@ -246,12 +246,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5895,
+                  "duration": 6015,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:53:52.316Z",
+                  "startTime": "2025-11-13T16:26:34.929Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -288,7 +288,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3287,
+                  "duration": 2510,
                   "errors": [],
                   "stdout": [
                     {
@@ -297,7 +297,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:53:59.593Z",
+                  "startTime": "2025-11-13T16:26:42.539Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -334,7 +334,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3292,
+                  "duration": 1243,
                   "errors": [],
                   "stdout": [
                     {
@@ -343,7 +343,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:54:02.905Z",
+                  "startTime": "2025-11-13T16:26:45.073Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -380,7 +380,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3465,
+                  "duration": 1749,
                   "errors": [],
                   "stdout": [
                     {
@@ -389,7 +389,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:54:06.257Z",
+                  "startTime": "2025-11-13T16:26:46.341Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -426,12 +426,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2764,
+                  "duration": 2032,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:54:09.807Z",
+                  "startTime": "2025-11-13T16:26:48.118Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -468,7 +468,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3357,
+                  "duration": 2285,
                   "errors": [],
                   "stdout": [
                     {
@@ -483,7 +483,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:54:12.605Z",
+                  "startTime": "2025-11-13T16:26:50.184Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -512,7 +512,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3446,
+                  "duration": 2622,
                   "errors": [],
                   "stdout": [
                     {
@@ -521,7 +521,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:54:15.982Z",
+                  "startTime": "2025-11-13T16:26:52.480Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -558,31 +558,31 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5295,
+                  "duration": 4965,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Searching for: Pyrrhus of Epirus\n"
+                      "text": "Searching for: Gaius Marius\n"
                     },
                     {
                       "text": "Navigated to English Wikipedia\n"
                     },
                     {
-                      "text": "Filled search input with \"Pyrrhus of Epirus\"\n"
+                      "text": "Filled search input with \"Gaius Marius\"\n"
                     },
                     {
                       "text": "Search submitted\n"
                     },
                     {
-                      "text": "Verified page heading contains \"Pyrrhus of Epirus\"\n"
+                      "text": "Verified page heading contains \"Gaius Marius\"\n"
                     },
                     {
-                      "text": "Verified URL contains \"Pyrrhus_of_Epirus\"\n"
+                      "text": "Verified URL contains \"Gaius_Marius\"\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:54:19.484Z",
+                  "startTime": "2025-11-13T16:26:55.124Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -619,12 +619,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 22364,
+                  "duration": 2666,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:54:24.802Z",
+                  "startTime": "2025-11-13T16:27:00.111Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -661,7 +661,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 14273,
+                  "duration": 1768,
                   "errors": [],
                   "stdout": [
                     {
@@ -670,7 +670,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:54:47.200Z",
+                  "startTime": "2025-11-13T16:27:02.813Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -707,7 +707,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 12002,
+                  "duration": 4109,
                   "errors": [],
                   "stdout": [
                     {
@@ -716,7 +716,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:55:01.500Z",
+                  "startTime": "2025-11-13T16:27:04.596Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -753,12 +753,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 6413,
+                  "duration": 6040,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:55:13.545Z",
+                  "startTime": "2025-11-13T16:27:08.725Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -795,12 +795,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3269,
+                  "duration": 3790,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:55:19.997Z",
+                  "startTime": "2025-11-13T16:27:14.795Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -837,12 +837,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3178,
+                  "duration": 5582,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:55:23.294Z",
+                  "startTime": "2025-11-13T16:27:18.674Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -879,7 +879,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3211,
+                  "duration": 3826,
                   "errors": [],
                   "stdout": [
                     {
@@ -921,7 +921,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:55:26.506Z",
+                  "startTime": "2025-11-13T16:27:24.327Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -958,7 +958,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3531,
+                  "duration": 3755,
                   "errors": [],
                   "stdout": [
                     {
@@ -997,7 +997,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:55:29.732Z",
+                  "startTime": "2025-11-13T16:27:28.194Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1034,12 +1034,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 7733,
+                  "duration": 7990,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:55:33.301Z",
+                  "startTime": "2025-11-13T16:27:31.989Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1076,12 +1076,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4258,
+                  "duration": 5685,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:55:41.065Z",
+                  "startTime": "2025-11-13T16:27:40.011Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1110,7 +1110,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "timedOut",
-                  "duration": 30491,
+                  "duration": 30378,
                   "error": {
                     "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                     "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -1125,13 +1125,13 @@
                         "column": 60,
                         "line": 154
                       },
-                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#multi-select').locator('option[value=\"California\"]')\u001b[22m\n\u001b[2m    - locator resolved to <option value=\"California\">California</option>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    12 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\n\n  152 |   // Loop through each option and click it in the specified order\n  153 |   for (const option of options) {\n> 154 |     await multiSelect.locator(`option[value=\"${option}\"]`).click();\n      |                                                            ^\n  155 |   }\n  156 |\n  157 |   // Release the Control key after all selections\n    at /Users/runner/work/Playwright-public/Playwright-public/tests/training/dropdown1.test.ts:154:60"
+                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#multi-select').locator('option[value=\"California\"]')\u001b[22m\n\u001b[2m    - locator resolved to <option value=\"California\">California</option>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    12 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    2 × element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\n\n  152 |   // Loop through each option and click it in the specified order\n  153 |   for (const option of options) {\n> 154 |     await multiSelect.locator(`option[value=\"${option}\"]`).click();\n      |                                                            ^\n  155 |   }\n  156 |\n  157 |   // Release the Control key after all selections\n    at /Users/runner/work/Playwright-public/Playwright-public/tests/training/dropdown1.test.ts:154:60"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:55:45.348Z",
+                  "startTime": "2025-11-13T16:27:45.711Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1184,7 +1184,7 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "timedOut",
-                  "duration": 30438,
+                  "duration": 30426,
                   "error": {
                     "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                     "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -1199,13 +1199,13 @@
                         "column": 60,
                         "line": 25
                       },
-                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#multi-select').locator('option[value=\"California\"]')\u001b[22m\n\u001b[2m    - locator resolved to <option value=\"California\">California</option>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    12 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n\n  23 |   // Loop through each option and click it in the specified order\n  24 |   for (const option of options) {\n> 25 |     await multiSelect.locator(`option[value=\"${option}\"]`).click();\n     |                                                            ^\n  26 |     await page.waitForTimeout(500); // wait 0.5 seconds between clicks\n  27 |   }\n  28 |\n    at /Users/runner/work/Playwright-public/Playwright-public/tests/training/dropdown2.test.ts:25:60"
+                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#multi-select').locator('option[value=\"California\"]')\u001b[22m\n\u001b[2m    - locator resolved to <option value=\"California\">California</option>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    12 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\n\n  23 |   // Loop through each option and click it in the specified order\n  24 |   for (const option of options) {\n> 25 |     await multiSelect.locator(`option[value=\"${option}\"]`).click();\n     |                                                            ^\n  26 |     await page.waitForTimeout(500); // wait 0.5 seconds between clicks\n  27 |   }\n  28 |\n    at /Users/runner/work/Playwright-public/Playwright-public/tests/training/dropdown2.test.ts:25:60"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:56:17.723Z",
+                  "startTime": "2025-11-13T16:28:17.026Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1250,7 +1250,7 @@
                   "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "timedOut",
-                  "duration": 30472,
+                  "duration": 30435,
                   "error": {
                     "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                     "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -1265,13 +1265,13 @@
                         "column": 60,
                         "line": 81
                       },
-                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#multi-select').locator('option[value=\"California\"]')\u001b[22m\n\u001b[2m    - locator resolved to <option value=\"California\">California</option>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    12 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\n\n  79 |   // Loop through each option and click it in the specified order\n  80 |   for (const option of options) {\n> 81 |     await multiSelect.locator(`option[value=\"${option}\"]`).click();\n     |                                                            ^\n  82 |     await page.waitForTimeout(500); // wait 0.5 seconds between clicks\n  83 |   }\n  84 |\n    at /Users/runner/work/Playwright-public/Playwright-public/tests/training/dropdown2.test.ts:81:60"
+                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#multi-select').locator('option[value=\"California\"]')\u001b[22m\n\u001b[2m    - locator resolved to <option value=\"California\">California</option>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    12 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\n\n  79 |   // Loop through each option and click it in the specified order\n  80 |   for (const option of options) {\n> 81 |     await multiSelect.locator(`option[value=\"${option}\"]`).click();\n     |                                                            ^\n  82 |     await page.waitForTimeout(500); // wait 0.5 seconds between clicks\n  83 |   }\n  84 |\n    at /Users/runner/work/Playwright-public/Playwright-public/tests/training/dropdown2.test.ts:81:60"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:56:49.617Z",
+                  "startTime": "2025-11-13T16:28:48.935Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1324,12 +1324,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1142,
+                  "duration": 1626,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:57:21.406Z",
+                  "startTime": "2025-11-13T16:29:21.156Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1358,12 +1358,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1473,
+                  "duration": 1517,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:57:22.971Z",
+                  "startTime": "2025-11-13T16:29:23.270Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1400,16 +1400,16 @@
                   "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 7188,
+                  "duration": 5307,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Number of frames: 27\n"
+                      "text": "Number of frames: 11\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:57:24.480Z",
+                  "startTime": "2025-11-13T16:29:24.842Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1446,7 +1446,7 @@
                   "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3034,
+                  "duration": 2579,
                   "errors": [],
                   "stdout": [
                     {
@@ -1458,7 +1458,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:57:31.691Z",
+                  "startTime": "2025-11-13T16:29:30.172Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1495,12 +1495,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3790,
+                  "duration": 2106,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:57:34.743Z",
+                  "startTime": "2025-11-13T16:29:32.773Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1537,12 +1537,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3232,
+                  "duration": 2446,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:57:38.556Z",
+                  "startTime": "2025-11-13T16:29:34.909Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1565,7 +1565,7 @@
       "specs": [
         {
           "title": "Login, edit profile, and logout - CI-proof",
-          "ok": false,
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -1578,25 +1578,9 @@
                 {
                   "workerIndex": 3,
                   "parallelIndex": 0,
-                  "status": "timedOut",
-                  "duration": 30606,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
-                    {
-                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                    },
-                    {
-                      "location": {
-                        "file": "/Users/runner/work/Playwright-public/Playwright-public/tests/fixtures/hoverclickhelper.ts",
-                        "column": 22,
-                        "line": 34
-                      },
-                      "message": "Error: page.waitForTimeout: Target page, context or browser has been closed\n\n   at tests/fixtures/hoverclickhelper.ts:34\n\n  32 |           console.log(`Attempt ${attempt} failed for \"${label}\", retrying...`);\n  33 |           if (attempt === 3) throw err;\n> 34 |           await page.waitForTimeout(1000);\n     |                      ^\n  35 |         }\n  36 |       }\n  37 |     });\n    at /Users/runner/work/Playwright-public/Playwright-public/tests/fixtures/hoverclickhelper.ts:34:22\n    at /Users/runner/work/Playwright-public/Playwright-public/tests/training/login-profileedit.test.ts:23:3"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 4435,
+                  "errors": [],
                   "stdout": [
                     {
                       "text": "Navigating to LambdaTest eCommerce playground...\n"
@@ -1605,36 +1589,32 @@
                       "text": "Hovering and clicking \"My account (login)\"...\n"
                     },
                     {
-                      "text": "Attempt 1 failed for \"My account (login)\", retrying...\n"
+                      "text": "Clicked \"My account (login)\" -> a:has-text(\"Login\")\n"
                     },
                     {
-                      "text": "Attempt 2 failed for \"My account (login)\", retrying...\n"
+                      "text": "Logged in successfully\n"
+                    },
+                    {
+                      "text": "Updated first name successfully\n"
+                    },
+                    {
+                      "text": "Hovering and clicking \"My account (logout)\"...\n"
+                    },
+                    {
+                      "text": "Clicked \"My account (logout)\" -> a.icon-left.both.dropdown-item:has-text(\"Logout\")\n"
+                    },
+                    {
+                      "text": "Logout verified successfully\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:57:41.814Z",
+                  "startTime": "2025-11-13T16:29:37.377Z",
                   "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "/Users/runner/work/Playwright-public/Playwright-public/test-results/tests-training-login-profi-8a001-ofile-and-logout---CI-proof-WebKit/test-failed-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "/Users/runner/work/Playwright-public/Playwright-public/test-results/tests-training-login-profi-8a001-ofile-and-logout---CI-proof-WebKit/video.webm"
-                    },
-                    {
-                      "name": "error-context",
-                      "contentType": "text/markdown",
-                      "path": "/Users/runner/work/Playwright-public/Playwright-public/test-results/tests-training-login-profi-8a001-ofile-and-logout---CI-proof-WebKit/error-context.md"
-                    }
-                  ]
+                  "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
           "id": "143db3817e6ee3277703-798791e71eb180e5be6a",
@@ -1663,10 +1643,10 @@
               "projectName": "WebKit",
               "results": [
                 {
-                  "workerIndex": 4,
+                  "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2239,
+                  "duration": 1499,
                   "errors": [],
                   "stdout": [
                     {
@@ -1675,7 +1655,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:58:13.488Z",
+                  "startTime": "2025-11-13T16:29:41.833Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1709,15 +1689,15 @@
               "projectName": "WebKit",
               "results": [
                 {
-                  "workerIndex": 4,
+                  "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2204,
+                  "duration": 2066,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:58:16.580Z",
+                  "startTime": "2025-11-13T16:29:43.347Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1751,10 +1731,10 @@
               "projectName": "WebKit",
               "results": [
                 {
-                  "workerIndex": 4,
+                  "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 9442,
+                  "duration": 8979,
                   "errors": [],
                   "stdout": [
                     {
@@ -1769,7 +1749,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:58:18.822Z",
+                  "startTime": "2025-11-13T16:29:45.435Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1803,15 +1783,15 @@
               "projectName": "WebKit",
               "results": [
                 {
-                  "workerIndex": 4,
+                  "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2507,
+                  "duration": 3859,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:58:28.295Z",
+                  "startTime": "2025-11-13T16:29:54.465Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1845,10 +1825,10 @@
               "projectName": "WebKit",
               "results": [
                 {
-                  "workerIndex": 4,
+                  "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1283,
+                  "duration": 1859,
                   "errors": [],
                   "stdout": [
                     {
@@ -1863,7 +1843,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T15:58:30.827Z",
+                  "startTime": "2025-11-13T16:29:58.362Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1881,11 +1861,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-11-13T15:53:51.509Z",
-    "duration": 280829.02599999995,
-    "expected": 29,
+    "startTime": "2025-11-13T16:26:34.153Z",
+    "duration": 206376.81999999998,
+    "expected": 30,
     "skipped": 0,
-    "unexpected": 4,
+    "unexpected": 3,
     "flaky": 0
   }
 }

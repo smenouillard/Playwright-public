@@ -1,38 +1,38 @@
-<testsuites id="" name="" tests="33" failures="4" skipped="0" errors="0" time="280.82902599999994">
-<testsuite name="tests/training/alerts.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="5.895" errors="0">
-<testcase name="Bootstrap Modal Demo - should open modal, click Save Changes, and ensure it closes" classname="tests/training/alerts.test.ts" time="5.895">
+<testsuites id="" name="" tests="33" failures="3" skipped="0" errors="0" time="206.37681999999998">
+<testsuite name="tests/training/alerts.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="6.015" errors="0">
+<testcase name="Bootstrap Modal Demo - should open modal, click Save Changes, and ensure it closes" classname="tests/training/alerts.test.ts" time="6.015">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/alerts1.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="3.287" errors="0">
-<testcase name="handling alerts" classname="tests/training/alerts1.test.ts" time="3.287">
+<testsuite name="tests/training/alerts1.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="2.51" errors="0">
+<testcase name="handling alerts" classname="tests/training/alerts1.test.ts" time="2.51">
 <system-out>
 <![CDATA[I am an alert box!
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/alerts2.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="3.292" errors="0">
-<testcase name="handling alerts" classname="tests/training/alerts2.test.ts" time="3.292">
+<testsuite name="tests/training/alerts2.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="1.243" errors="0">
+<testcase name="handling alerts" classname="tests/training/alerts2.test.ts" time="1.243">
 <system-out>
 <![CDATA[Press a button!
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/alerts3.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="3.465" errors="0">
-<testcase name="Prompt dialog test" classname="tests/training/alerts3.test.ts" time="3.465">
+<testsuite name="tests/training/alerts3.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="1.749" errors="0">
+<testcase name="Prompt dialog test" classname="tests/training/alerts3.test.ts" time="1.749">
 <system-out>
 <![CDATA[Prompt test completed, text verified on the page.
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/basicInteractions.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="2.764" errors="0">
-<testcase name="Checkbox" classname="tests/training/basicInteractions.test.ts" time="2.764">
+<testsuite name="tests/training/basicInteractions.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="2.032" errors="0">
+<testcase name="Checkbox" classname="tests/training/basicInteractions.test.ts" time="2.032">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/basicInteractions1.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="2" failures="0" skipped="0" time="6.803" errors="0">
-<testcase name="Interaction with inputs" classname="tests/training/basicInteractions1.test.ts" time="3.357">
+<testsuite name="tests/training/basicInteractions1.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="2" failures="0" skipped="0" time="4.907" errors="0">
+<testcase name="Interaction with inputs" classname="tests/training/basicInteractions1.test.ts" time="2.285">
 <system-out>
 <![CDATA[Please enter your Message
 Before entering data: 
@@ -40,60 +40,60 @@ After entering data: Hi Sly
 ]]>
 </system-out>
 </testcase>
-<testcase name="Sum" classname="tests/training/basicInteractions1.test.ts" time="3.446">
+<testcase name="Sum" classname="tests/training/basicInteractions1.test.ts" time="2.622">
 <system-out>
 <![CDATA[667
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/datafromjson.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="5.295" errors="0">
-<testcase name="Wikipedia search for random ancient general - CI proof" classname="tests/training/datafromjson.test.ts" time="5.295">
+<testsuite name="tests/training/datafromjson.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="4.965" errors="0">
+<testcase name="Wikipedia search for random ancient general - CI proof" classname="tests/training/datafromjson.test.ts" time="4.965">
 <system-out>
-<![CDATA[Searching for: Pyrrhus of Epirus
+<![CDATA[Searching for: Gaius Marius
 Navigated to English Wikipedia
-Filled search input with "Pyrrhus of Epirus"
+Filled search input with "Gaius Marius"
 Search submitted
-Verified page heading contains "Pyrrhus of Epirus"
-Verified URL contains "Pyrrhus_of_Epirus"
+Verified page heading contains "Gaius Marius"
+Verified URL contains "Gaius_Marius"
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/date-calendar.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="22.364" errors="0">
-<testcase name="Pick May 4th 2026 in jQuery UI Datepicker" classname="tests/training/date-calendar.test.ts" time="22.364">
+<testsuite name="tests/training/date-calendar.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="2.666" errors="0">
+<testcase name="Pick May 4th 2026 in jQuery UI Datepicker" classname="tests/training/date-calendar.test.ts" time="2.666">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/date-calendar2.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="14.273" errors="0">
-<testcase name="Pick the 15th after clicking next 3 times" classname="tests/training/date-calendar2.test.ts" time="14.273">
+<testsuite name="tests/training/date-calendar2.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="1.768" errors="0">
+<testcase name="Pick the 15th after clicking next 3 times" classname="tests/training/date-calendar2.test.ts" time="1.768">
 <system-out>
 <![CDATA[Selected date: 02/15/2026
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/date-calendar3.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="12.002" errors="0">
-<testcase name="Pick today, three years in the past" classname="tests/training/date-calendar3.test.ts" time="12.002">
+<testsuite name="tests/training/date-calendar3.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="4.109" errors="0">
+<testcase name="Pick today, three years in the past" classname="tests/training/date-calendar3.test.ts" time="4.109">
 <system-out>
 <![CDATA[Selected date: 11/13/2022
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/date-fill.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="6.413" errors="0">
-<testcase name="Set birthday with fill and check displayed value (with 1s visual delays)" classname="tests/training/date-fill.test.ts" time="6.413">
+<testsuite name="tests/training/date-fill.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="6.04" errors="0">
+<testcase name="Set birthday with fill and check displayed value (with 1s visual delays)" classname="tests/training/date-fill.test.ts" time="6.04">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/download.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="3.269" errors="0">
-<testcase name="Generate and verify donwloaded file name" classname="tests/training/download.test.ts" time="3.269">
+<testsuite name="tests/training/download.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="3.79" errors="0">
+<testcase name="Generate and verify donwloaded file name" classname="tests/training/download.test.ts" time="3.79">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/download1.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="3.178" errors="0">
-<testcase name="Generate and download file" classname="tests/training/download1.test.ts" time="3.178">
+<testsuite name="tests/training/download1.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="5.582" errors="0">
+<testcase name="Generate and download file" classname="tests/training/download1.test.ts" time="5.582">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/download2.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="3.211" errors="0">
-<testcase name="Generate, download, check, and delete file" classname="tests/training/download2.test.ts" time="3.211">
+<testsuite name="tests/training/download2.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="3.826" errors="0">
+<testcase name="Generate, download, check, and delete file" classname="tests/training/download2.test.ts" time="3.826">
 <system-out>
 <![CDATA[Navigating to LambdaTest download page...
 Typed text: "Test test test"
@@ -111,8 +111,8 @@ Downloaded file deleted after test
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/download3.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="3.531" errors="0">
-<testcase name="Generate, download, and check file content" classname="tests/training/download3.test.ts" time="3.531">
+<testsuite name="tests/training/download3.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="3.755" errors="0">
+<testcase name="Generate, download, and check file content" classname="tests/training/download3.test.ts" time="3.755">
 <system-out>
 <![CDATA[Navigating to LambdaTest download page...
 Typed text: "Test test test"
@@ -129,14 +129,14 @@ Download checked successfully, no file saved.
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/dropdown.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="7.733" errors="0">
-<testcase name="Dropdown search and select India (exact match)" classname="tests/training/dropdown.test.ts" time="7.733">
+<testsuite name="tests/training/dropdown.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="7.99" errors="0">
+<testcase name="Dropdown search and select India (exact match)" classname="tests/training/dropdown.test.ts" time="7.99">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/dropdown1.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="2" failures="1" skipped="0" time="34.749" errors="0">
-<testcase name="Select Tuesday from dropdown" classname="tests/training/dropdown1.test.ts" time="4.258">
+<testsuite name="tests/training/dropdown1.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="2" failures="1" skipped="0" time="36.063" errors="0">
+<testcase name="Select Tuesday from dropdown" classname="tests/training/dropdown1.test.ts" time="5.685">
 </testcase>
-<testcase name="Select multiple states in order and verify displayed last selected text and first selected option" classname="tests/training/dropdown1.test.ts" time="30.491">
+<testcase name="Select multiple states in order and verify displayed last selected text and first selected option" classname="tests/training/dropdown1.test.ts" time="30.378">
 <failure message="dropdown1.test.ts:136:5 Select multiple states in order and verify displayed last selected text and first selected option" type="FAILURE">
 <![CDATA[  [WebKit] › tests/training/dropdown1.test.ts:136:5 › Select multiple states in order and verify displayed last selected text and first selected option 
 
@@ -196,13 +196,13 @@ Download checked successfully, no file saved.
         - waiting for element to be visible, enabled and stable
         - element is visible, enabled and stable
         - scrolling into view if needed
-        - element is not visible
-      - retrying click action
-        - waiting 500ms
-        - waiting for element to be visible, enabled and stable
-        - element is visible, enabled and stable
-        - scrolling into view if needed
-        - done scrolling
+        2 × element is not visible
+        - retrying click action
+          - waiting 500ms
+          - waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
         - element is not visible
       - retrying click action
         - waiting 500ms
@@ -239,8 +239,8 @@ Download checked successfully, no file saved.
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/dropdown2.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="2" failures="2" skipped="0" time="60.91" errors="0">
-<testcase name="Select multiple states in order and verify displayed last selected text and first selected option" classname="tests/training/dropdown2.test.ts" time="30.438">
+<testsuite name="tests/training/dropdown2.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="2" failures="2" skipped="0" time="60.861" errors="0">
+<testcase name="Select multiple states in order and verify displayed last selected text and first selected option" classname="tests/training/dropdown2.test.ts" time="30.426">
 <failure message="dropdown2.test.ts:4:5 Select multiple states in order and verify displayed last selected text and first selected option" type="FAILURE">
 <![CDATA[  [WebKit] › tests/training/dropdown2.test.ts:4:5 › Select multiple states in order and verify displayed last selected text and first selected option 
 
@@ -298,6 +298,11 @@ Download checked successfully, no file saved.
          - retrying click action
            - waiting 500ms
         - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - element is not visible
+      - retrying click action
+        - waiting 500ms
 
 
       23 |   // Loop through each option and click it in the specified order
@@ -330,7 +335,7 @@ Download checked successfully, no file saved.
 ]]>
 </system-out>
 </testcase>
-<testcase name="Select multiple states and verify first selected option first, then all selected" classname="tests/training/dropdown2.test.ts" time="30.472">
+<testcase name="Select multiple states and verify first selected option first, then all selected" classname="tests/training/dropdown2.test.ts" time="30.435">
 <failure message="dropdown2.test.ts:60:5 Select multiple states and verify first selected option first, then all selected" type="FAILURE">
 <![CDATA[  [WebKit] › tests/training/dropdown2.test.ts:60:5 › Select multiple states and verify first selected option first, then all selected 
 
@@ -393,13 +398,6 @@ Download checked successfully, no file saved.
         - element is not visible
       - retrying click action
         - waiting 500ms
-        - waiting for element to be visible, enabled and stable
-        - element is visible, enabled and stable
-        - scrolling into view if needed
-        - done scrolling
-        - element is not visible
-      - retrying click action
-        - waiting 500ms
 
 
       79 |   // Loop through each option and click it in the specified order
@@ -433,22 +431,22 @@ Download checked successfully, no file saved.
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/example.spec.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="2" failures="0" skipped="0" time="2.615" errors="0">
-<testcase name="has title" classname="tests/training/example.spec.ts" time="1.142">
+<testsuite name="tests/training/example.spec.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="2" failures="0" skipped="0" time="3.143" errors="0">
+<testcase name="has title" classname="tests/training/example.spec.ts" time="1.626">
 </testcase>
-<testcase name="get started link" classname="tests/training/example.spec.ts" time="1.473">
+<testcase name="get started link" classname="tests/training/example.spec.ts" time="1.517">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/frames.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="7.188" errors="0">
-<testcase name="Fill first name, last name, and email in separate frames" classname="tests/training/frames.test.ts" time="7.188">
+<testsuite name="tests/training/frames.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="5.307" errors="0">
+<testcase name="Fill first name, last name, and email in separate frames" classname="tests/training/frames.test.ts" time="5.307">
 <system-out>
-<![CDATA[Number of frames: 27
+<![CDATA[Number of frames: 11
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/hoverusingfixture.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="3.034" errors="0">
-<testcase name="Navigate via Mega Menu to Printer page" classname="tests/training/hoverusingfixture.test.ts" time="3.034">
+<testsuite name="tests/training/hoverusingfixture.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="2.579" errors="0">
+<testcase name="Navigate via Mega Menu to Printer page" classname="tests/training/hoverusingfixture.test.ts" time="2.579">
 <system-out>
 <![CDATA[Hovering and clicking "Mega Menu -> Printer"...
 Clicked "Mega Menu -> Printer" -> a[title="Printer"]
@@ -456,75 +454,43 @@ Clicked "Mega Menu -> Printer" -> a[title="Printer"]
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/login-logout-hiddencred.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="3.79" errors="0">
-<testcase name="Login and Logout with hidden credentials" classname="tests/training/login-logout-hiddencred.test.ts" time="3.79">
+<testsuite name="tests/training/login-logout-hiddencred.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="2.106" errors="0">
+<testcase name="Login and Logout with hidden credentials" classname="tests/training/login-logout-hiddencred.test.ts" time="2.106">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/login-logout.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="3.232" errors="0">
-<testcase name="Login/Logout" classname="tests/training/login-logout.test.ts" time="3.232">
+<testsuite name="tests/training/login-logout.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="2.446" errors="0">
+<testcase name="Login/Logout" classname="tests/training/login-logout.test.ts" time="2.446">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/login-profileedit.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="1" skipped="0" time="30.606" errors="0">
-<testcase name="Login, edit profile, and logout - CI-proof" classname="tests/training/login-profileedit.test.ts" time="30.606">
-<failure message="login-profileedit.test.ts:10:5 Login, edit profile, and logout - CI-proof" type="FAILURE">
-<![CDATA[  [WebKit] › tests/training/login-profileedit.test.ts:10:5 › Login, edit profile, and logout - CI-proof 
-
-    Test timeout of 30000ms exceeded.
-
-    Error: page.waitForTimeout: Target page, context or browser has been closed
-
-       at tests/fixtures/hoverclickhelper.ts:34
-
-      32 |           console.log(`Attempt ${attempt} failed for "${label}", retrying...`);
-      33 |           if (attempt === 3) throw err;
-    > 34 |           await page.waitForTimeout(1000);
-         |                      ^
-      35 |         }
-      36 |       }
-      37 |     });
-        at /Users/runner/work/Playwright-public/Playwright-public/tests/fixtures/hoverclickhelper.ts:34:22
-        at /Users/runner/work/Playwright-public/Playwright-public/tests/training/login-profileedit.test.ts:23:3
-
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    test-results/tests-training-login-profi-8a001-ofile-and-logout---CI-proof-WebKit/test-failed-1.png
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    test-results/tests-training-login-profi-8a001-ofile-and-logout---CI-proof-WebKit/video.webm
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Error Context: test-results/tests-training-login-profi-8a001-ofile-and-logout---CI-proof-WebKit/error-context.md
-]]>
-</failure>
+<testsuite name="tests/training/login-profileedit.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="4.435" errors="0">
+<testcase name="Login, edit profile, and logout - CI-proof" classname="tests/training/login-profileedit.test.ts" time="4.435">
 <system-out>
 <![CDATA[Navigating to LambdaTest eCommerce playground...
 Hovering and clicking "My account (login)"...
-Attempt 1 failed for "My account (login)", retrying...
-Attempt 2 failed for "My account (login)", retrying...
-
-[[ATTACHMENT|../test-results/tests-training-login-profi-8a001-ofile-and-logout---CI-proof-WebKit/test-failed-1.png]]
-
-[[ATTACHMENT|../test-results/tests-training-login-profi-8a001-ofile-and-logout---CI-proof-WebKit/video.webm]]
-
-[[ATTACHMENT|../test-results/tests-training-login-profi-8a001-ofile-and-logout---CI-proof-WebKit/error-context.md]]
+Clicked "My account (login)" -> a:has-text("Login")
+Logged in successfully
+Updated first name successfully
+Hovering and clicking "My account (logout)"...
+Clicked "My account (logout)" -> a.icon-left.both.dropdown-item:has-text("Logout")
+Logout verified successfully
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/pom-loginfail.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="2.239" errors="0">
-<testcase name="Login fails with invalid credentials (handles throttling)" classname="tests/training/pom-loginfail.test.ts" time="2.239">
+<testsuite name="tests/training/pom-loginfail.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="1.499" errors="0">
+<testcase name="Login fails with invalid credentials (handles throttling)" classname="tests/training/pom-loginfail.test.ts" time="1.499">
 <system-out>
 <![CDATA[Login failed due to too many attempts. Account is temporarily locked.
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/pom-loginsuccess.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="2.204" errors="0">
-<testcase name="Login successful with valid credentials" classname="tests/training/pom-loginsuccess.test.ts" time="2.204">
+<testsuite name="tests/training/pom-loginsuccess.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="2.066" errors="0">
+<testcase name="Login successful with valid credentials" classname="tests/training/pom-loginsuccess.test.ts" time="2.066">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/popup.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="9.442" errors="0">
-<testcase name="Follow on Twitter popup test" classname="tests/training/popup.test.ts" time="9.442">
+<testsuite name="tests/training/popup.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="8.979" errors="0">
+<testcase name="Follow on Twitter popup test" classname="tests/training/popup.test.ts" time="8.979">
 <system-out>
 <![CDATA[Main page URL: https://www.lambdatest.com/selenium-playground/window-popup-modal-demo
 Popup opened with URL: https://x.com/Lambdatesting
@@ -533,12 +499,12 @@ Popup redirected to URL: https://x.com/
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests/training/slider.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="2.507" errors="0">
-<testcase name="Test Scenario 2 - Drag &amp; Drop Sliders Demo (robust)" classname="tests/training/slider.test.ts" time="2.507">
+<testsuite name="tests/training/slider.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="3.859" errors="0">
+<testcase name="Test Scenario 2 - Drag &amp; Drop Sliders Demo (robust)" classname="tests/training/slider.test.ts" time="3.859">
 </testcase>
 </testsuite>
-<testsuite name="tests/training/upload.test.ts" timestamp="2025-11-13T15:53:51.882Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="1.283" errors="0">
-<testcase name="File upload with multiple selection verification" classname="tests/training/upload.test.ts" time="1.283">
+<testsuite name="tests/training/upload.test.ts" timestamp="2025-11-13T16:26:34.544Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="1.859" errors="0">
+<testcase name="File upload with multiple selection verification" classname="tests/training/upload.test.ts" time="1.859">
 <system-out>
 <![CDATA[Multiple selection enabled: true
 Files selected
