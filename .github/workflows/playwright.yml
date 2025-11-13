@@ -35,6 +35,7 @@ jobs:
             browser: webkit
           - os: macos-latest
             browser: firefox
+
     env:
       TEST_USER: ${{ secrets.TEST_USER }}
       TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
@@ -58,16 +59,19 @@ jobs:
         shell: bash
         run: |
           if [[ "${{ matrix.os }}" == "ubuntu-latest" ]]; then
-            xvfb-run npx playwright test --project=${{ matrix.browser }} --reporter=html,junit || true
+            xvfb-run npx playwright test --project=${{ matrix.browser }} --reporter=html,junit,json || true
           else
-            npx playwright test --project=${{ matrix.browser }} --reporter=html,junit || true
+            npx playwright test --project=${{ matrix.browser }} --reporter=html,junit,json || true
           fi
 
       - name: Upload test report artifact
         uses: actions/upload-artifact@v4
         with:
           name: report-${{ matrix.os }}-${{ matrix.browser }}
-          path: playwright-report/
+          path: |
+            playwright-report/
+            jsonReports/jsonReport.json
+            test-results.xml
           retention-days: 30
           if-no-files-found: warn
 
