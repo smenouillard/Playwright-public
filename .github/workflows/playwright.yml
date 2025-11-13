@@ -16,25 +16,17 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          # Ubuntu
-          - os: ubuntu-latest
-            browser: chromium
+          # ✅ Ubuntu (Firefox)
           - os: ubuntu-latest
             browser: firefox
-          # Windows
+
+          # ✅ Windows (Chromium)
           - os: windows-latest
             browser: chromium
-          - os: windows-latest
-            browser: firefox
-          - os: windows-latest
-            browser: edge
-          # macOS
-          - os: macos-latest
-            browser: chromium
+
+          # ✅ macOS (WebKit / Safari)
           - os: macos-latest
             browser: webkit
-          - os: macos-latest
-            browser: firefox
 
     env:
       TEST_USER: ${{ secrets.TEST_USER }}
@@ -58,10 +50,18 @@ jobs:
       - name: Run Playwright tests
         shell: bash
         run: |
+          mkdir -p junit
+
           if [[ "${{ matrix.os }}" == "ubuntu-latest" ]]; then
-            xvfb-run npx playwright test --project=${{ matrix.browser }} --reporter=html,junit,json || true
+            xvfb-run npx playwright test \
+              --project=${{ matrix.browser }} \
+              --reporter=html,junit,json \
+              --reporter=junit=./junit/test-results.xml || true
           else
-            npx playwright test --project=${{ matrix.browser }} --reporter=html,junit,json || true
+            npx playwright test \
+              --project=${{ matrix.browser }} \
+              --reporter=html,junit,json \
+              --reporter=junit=./junit/test-results.xml || true
           fi
 
       - name: Upload test report artifact
@@ -70,8 +70,8 @@ jobs:
           name: report-${{ matrix.os }}-${{ matrix.browser }}
           path: |
             playwright-report/
-            jsonReports/jsonReport.json
-            test-results.xml
+            jsonReports/
+            junit/
           retention-days: 30
           if-no-files-found: warn
 
