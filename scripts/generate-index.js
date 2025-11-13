@@ -1,19 +1,31 @@
 const fs = require('fs');
 const path = require('path');
 
-// Load template
+// Load template HTML
 const templatePath = path.join(__dirname, '..', 'templates', 'index.html');
 let template = fs.readFileSync(templatePath, 'utf8');
 
-// Global metadata from publish job
+// Global metadata from workflow
 const metadataRaw = process.env.METADATA_JSON;
 const globalMeta = JSON.parse(metadataRaw);
 
-// Location of downloaded artifacts
+// Mapping for OS badges (emoji + label)
+const osBadges = {
+  "ubuntu-latest": { emoji: "🐧", label: "Ubuntu" },
+  "windows-latest": { emoji: "🪟", label: "Windows" },
+  "macos-latest": { emoji: "🍎", label: "macOS" }
+};
+
+// Mapping for Browser badges
+const browserBadges = {
+  "firefox": { emoji: "🦊", label: "Firefox" },
+  "chromium": { emoji: "🌐", label: "Chromium" },
+  "webkit": { emoji: "🍏", label: "WebKit" }
+};
+
 const reportsDir = path.join(process.cwd(), 'reports');
 
-// Build report list HTML
-let reportListHtml = '';
+let reportListHtml = "";
 
 const items = fs.readdirSync(reportsDir, { withFileTypes: true })
   .filter(d => d.isDirectory());
@@ -21,7 +33,6 @@ const items = fs.readdirSync(reportsDir, { withFileTypes: true })
 items.forEach(dir => {
   const name = dir.name;
 
-  // Path to metadata.json created in each test job
   const metadataPath = path.join(reportsDir, name, 'metadata', 'metadata.json');
   if (!fs.existsSync(metadataPath)) {
     console.warn(`Missing metadata.json for ${name}, skipping`);
@@ -30,21 +41,31 @@ items.forEach(dir => {
 
   const info = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
 
+  // Get badges
+  const osBadge = osBadges[info.os] || { emoji: "💻", label: info.os };
+  const browserBadge = browserBadges[info.browser] || { emoji: "🌐", label: info.browser };
+
   reportListHtml += `
-<li>
-  <strong>${name}</strong><br>
-  Executed at: ${info.timestamp}<br>
-  OS: ${info.os}<br>
-  Browser: ${info.browser}<br>
-  Runner: ${info.runner}<br>
-  <a href="${globalMeta.runUrl}">View Logs</a><br>
-  <a href="${name}/playwright-report/index.html">HTML Report</a> •
-  <a href="${name}/jsonReports/jsonReport.json">JSON</a> •
-  <a href="${name}/junit/test-results.xml">JUnit XML</a>
-</li><br>`;
+<div class="report-block">
+
+  <span class="badge os-badge">${osBadge.emoji} ${osBadge.label}</span>
+  <span class="badge browser-badge">${browserBadge.emoji} ${browserBadge.label}</span>
+
+  <p><strong>Executed at:</strong> ${info.timestamp}<br>
+     <strong>Runner:</strong> ${info.runner}</p>
+
+  <div class="links">
+    <a href="${globalMeta.runUrl}">View Logs</a> |
+    <a href="${name}/playwright-report/index.html">HTML Report</a> |
+    <a href="${name}/jsonReports/jsonReport.json">JSON</a> |
+    <a href="${name}/junit/test-results.xml">JUnit XML</a>
+  </div>
+
+</div>
+`;
 });
 
-// Inject into template
+// Inject replacements
 template = template
   .replace('{{PUBLISH_TIMESTAMP}}', globalMeta.publishTimestamp)
   .replace('{{COMMIT_SHA}}', globalMeta.commitSha)
@@ -52,8 +73,8 @@ template = template
   .replace('{{RUN_URL}}', globalMeta.runUrl)
   .replace('{{REPORT_LIST}}', reportListHtml);
 
-// Output final file
+// Output
 const outputPath = path.join(reportsDir, 'index.html');
 fs.writeFileSync(outputPath, template);
 
-console.log("index.html generated successfully.");
+console.log("index.html generated with badges.");

@@ -3,6 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <title>Playwright Reports</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 5px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 12px;
+      color: #fff;
+      font-size: 12px;
+      margin-right: 6px;
+    }
+
+    .os-badge { background: #555; }
+    .browser-badge { background: #777; }
+
+    .report-block {
+      border: 1px solid #ccc;
+      padding: 12px;
+      margin: 12px 0;
+      border-radius: 8px;
+      background: #fafafa;
+    }
+
+    .links a {
+      margin-right: 10px;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
 
@@ -16,9 +53,8 @@
 <hr>
 
 <h2>Report List</h2>
-<ul>
+
 {{REPORT_LIST}}
-</ul>
 
 </body>
 </html>
