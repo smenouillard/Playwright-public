@@ -39,6 +39,26 @@
       margin-right: 10px;
       text-decoration: none;
     }
+
+    table.summary {
+      border-collapse: collapse;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    table.summary th,
+    table.summary td {
+      border: 1px solid #ccc;
+      padding: 6px 8px;
+      text-align: left;
+      font-size: 14px;
+    }
+
+    table.summary th {
+      background: #eee;
+    }
   </style>
 </head>
 <body>
@@ -49,6 +69,11 @@
 <p><strong>Commit:</strong> {{COMMIT_SHA}}</p>
 <p><strong>Run:</strong> #{{RUN_NUMBER}}</p>
 <p><a href="{{RUN_URL}}">View Full Run Logs</a></p>
+
+<hr>
+
+<h2>Summary</h2>
+{{SUMMARY_TABLE}}
 
 <hr>
 
