@@ -12,24 +12,24 @@
     "maxFailures": 0,
     "metadata": {
       "ci": {
-        "commitHref": "https://github.com/smenouillard/Playwright-public/commit/95cb687944c0cafe05bb875c80ac42d9fb7e0962",
-        "commitHash": "95cb687944c0cafe05bb875c80ac42d9fb7e0962",
-        "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19338915222"
+        "commitHref": "https://github.com/smenouillard/Playwright-public/commit/e998f2a2e774e8050f6efc13305e81a2918278ce",
+        "commitHash": "e998f2a2e774e8050f6efc13305e81a2918278ce",
+        "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19339234965"
       },
       "gitCommit": {
-        "shortHash": "95cb687",
-        "hash": "95cb687944c0cafe05bb875c80ac42d9fb7e0962",
-        "subject": "Imrove index - Final batch",
-        "body": "Imrove index - Final batch\n",
+        "shortHash": "e998f2a",
+        "hash": "e998f2a2e774e8050f6efc13305e81a2918278ce",
+        "subject": "Imrove index - Batch 3 (actually) improved",
+        "body": "Imrove index - Batch 3 (actually) improved\n",
         "author": {
           "name": "Sylvain Menouillard",
           "email": "smenouillard@gmail.com",
-          "time": 1763052166000
+          "time": 1763052826000
         },
         "committer": {
           "name": "Sylvain Menouillard",
           "email": "smenouillard@gmail.com",
-          "time": 1763052166000
+          "time": 1763052826000
         },
         "branch": "main"
       },
@@ -69,24 +69,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/95cb687944c0cafe05bb875c80ac42d9fb7e0962",
-            "commitHash": "95cb687944c0cafe05bb875c80ac42d9fb7e0962",
-            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19338915222"
+            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/e998f2a2e774e8050f6efc13305e81a2918278ce",
+            "commitHash": "e998f2a2e774e8050f6efc13305e81a2918278ce",
+            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19339234965"
           },
           "gitCommit": {
-            "shortHash": "95cb687",
-            "hash": "95cb687944c0cafe05bb875c80ac42d9fb7e0962",
-            "subject": "Imrove index - Final batch",
-            "body": "Imrove index - Final batch\n",
+            "shortHash": "e998f2a",
+            "hash": "e998f2a2e774e8050f6efc13305e81a2918278ce",
+            "subject": "Imrove index - Batch 3 (actually) improved",
+            "body": "Imrove index - Batch 3 (actually) improved\n",
             "author": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763052166000
+              "time": 1763052826000
             },
             "committer": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763052166000
+              "time": 1763052826000
             },
             "branch": "main"
           },
@@ -107,24 +107,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/95cb687944c0cafe05bb875c80ac42d9fb7e0962",
-            "commitHash": "95cb687944c0cafe05bb875c80ac42d9fb7e0962",
-            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19338915222"
+            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/e998f2a2e774e8050f6efc13305e81a2918278ce",
+            "commitHash": "e998f2a2e774e8050f6efc13305e81a2918278ce",
+            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19339234965"
           },
           "gitCommit": {
-            "shortHash": "95cb687",
-            "hash": "95cb687944c0cafe05bb875c80ac42d9fb7e0962",
-            "subject": "Imrove index - Final batch",
-            "body": "Imrove index - Final batch\n",
+            "shortHash": "e998f2a",
+            "hash": "e998f2a2e774e8050f6efc13305e81a2918278ce",
+            "subject": "Imrove index - Batch 3 (actually) improved",
+            "body": "Imrove index - Batch 3 (actually) improved\n",
             "author": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763052166000
+              "time": 1763052826000
             },
             "committer": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763052166000
+              "time": 1763052826000
             },
             "branch": "main"
           },
@@ -145,24 +145,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/95cb687944c0cafe05bb875c80ac42d9fb7e0962",
-            "commitHash": "95cb687944c0cafe05bb875c80ac42d9fb7e0962",
-            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19338915222"
+            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/e998f2a2e774e8050f6efc13305e81a2918278ce",
+            "commitHash": "e998f2a2e774e8050f6efc13305e81a2918278ce",
+            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19339234965"
           },
           "gitCommit": {
-            "shortHash": "95cb687",
-            "hash": "95cb687944c0cafe05bb875c80ac42d9fb7e0962",
-            "subject": "Imrove index - Final batch",
-            "body": "Imrove index - Final batch\n",
+            "shortHash": "e998f2a",
+            "hash": "e998f2a2e774e8050f6efc13305e81a2918278ce",
+            "subject": "Imrove index - Batch 3 (actually) improved",
+            "body": "Imrove index - Batch 3 (actually) improved\n",
             "author": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763052166000
+              "time": 1763052826000
             },
             "committer": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763052166000
+              "time": 1763052826000
             },
             "branch": "main"
           },
@@ -183,24 +183,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/95cb687944c0cafe05bb875c80ac42d9fb7e0962",
-            "commitHash": "95cb687944c0cafe05bb875c80ac42d9fb7e0962",
-            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19338915222"
+            "commitHref": "https://github.com/smenouillard/Playwright-public/commit/e998f2a2e774e8050f6efc13305e81a2918278ce",
+            "commitHash": "e998f2a2e774e8050f6efc13305e81a2918278ce",
+            "buildHref": "https://github.com/smenouillard/Playwright-public/actions/runs/19339234965"
           },
           "gitCommit": {
-            "shortHash": "95cb687",
-            "hash": "95cb687944c0cafe05bb875c80ac42d9fb7e0962",
-            "subject": "Imrove index - Final batch",
-            "body": "Imrove index - Final batch\n",
+            "shortHash": "e998f2a",
+            "hash": "e998f2a2e774e8050f6efc13305e81a2918278ce",
+            "subject": "Imrove index - Batch 3 (actually) improved",
+            "body": "Imrove index - Batch 3 (actually) improved\n",
             "author": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763052166000
+              "time": 1763052826000
             },
             "committer": {
               "name": "Sylvain Menouillard",
               "email": "smenouillard@gmail.com",
-              "time": 1763052166000
+              "time": 1763052826000
             },
             "branch": "main"
           },
@@ -246,12 +246,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4444,
+                  "duration": 4629,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:33.691Z",
+                  "startTime": "2025-11-13T16:57:36.433Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -288,7 +288,7 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 5105,
+                  "duration": 4036,
                   "errors": [],
                   "stdout": [
                     {
@@ -297,7 +297,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:33.695Z",
+                  "startTime": "2025-11-13T16:57:36.416Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -331,10 +331,10 @@
               "projectName": "Chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1733,
+                  "duration": 1550,
                   "errors": [],
                   "stdout": [
                     {
@@ -343,7 +343,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:38.685Z",
+                  "startTime": "2025-11-13T16:57:41.069Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -377,10 +377,10 @@
               "projectName": "Chromium",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1358,
+                  "duration": 1277,
                   "errors": [],
                   "stdout": [
                     {
@@ -389,7 +389,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:39.259Z",
+                  "startTime": "2025-11-13T16:57:41.658Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -423,15 +423,15 @@
               "projectName": "Chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1709,
+                  "duration": 1404,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:40.452Z",
+                  "startTime": "2025-11-13T16:57:42.641Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -465,10 +465,10 @@
               "projectName": "Chromium",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1306,
+                  "duration": 1253,
                   "errors": [],
                   "stdout": [
                     {
@@ -483,7 +483,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:40.639Z",
+                  "startTime": "2025-11-13T16:57:42.963Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -509,10 +509,10 @@
               "projectName": "Chromium",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1321,
+                  "duration": 1295,
                   "errors": [],
                   "stdout": [
                     {
@@ -521,7 +521,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:41.967Z",
+                  "startTime": "2025-11-13T16:57:44.234Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -555,10 +555,10 @@
               "projectName": "Chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 3137,
+                  "duration": 3240,
                   "errors": [],
                   "stdout": [
                     {
@@ -582,7 +582,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:42.195Z",
+                  "startTime": "2025-11-13T16:57:44.068Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -616,15 +616,15 @@
               "projectName": "Chromium",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1856,
+                  "duration": 1930,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:43.311Z",
+                  "startTime": "2025-11-13T16:57:45.569Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -661,7 +661,7 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1469,
+                  "duration": 1813,
                   "errors": [],
                   "stdout": [
                     {
@@ -670,7 +670,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:45.190Z",
+                  "startTime": "2025-11-13T16:57:47.329Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -707,7 +707,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4002,
+                  "duration": 4098,
                   "errors": [],
                   "stdout": [
                     {
@@ -716,7 +716,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:45.354Z",
+                  "startTime": "2025-11-13T16:57:47.521Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -753,12 +753,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 6801,
+                  "duration": 6970,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:46.678Z",
+                  "startTime": "2025-11-13T16:57:49.163Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -795,12 +795,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3270,
+                  "duration": 2460,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:49.385Z",
+                  "startTime": "2025-11-13T16:57:51.673Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -837,12 +837,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3013,
+                  "duration": 2507,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:52.676Z",
+                  "startTime": "2025-11-13T16:57:54.151Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -879,7 +879,7 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 4382,
+                  "duration": 3562,
                   "errors": [],
                   "stdout": [
                     {
@@ -921,7 +921,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:53.499Z",
+                  "startTime": "2025-11-13T16:57:56.163Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -958,7 +958,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2734,
+                  "duration": 3231,
                   "errors": [],
                   "stdout": [
                     {
@@ -997,7 +997,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:55.708Z",
+                  "startTime": "2025-11-13T16:57:56.687Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1034,12 +1034,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 7974,
+                  "duration": 7921,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:57.909Z",
+                  "startTime": "2025-11-13T16:57:59.768Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1076,12 +1076,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4241,
+                  "duration": 4426,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:46:58.464Z",
+                  "startTime": "2025-11-13T16:57:59.962Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1110,12 +1110,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1066,
+                  "duration": 1177,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:47:02.718Z",
+                  "startTime": "2025-11-13T16:58:04.402Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1152,12 +1152,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 7500,
+                  "duration": 7515,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:47:03.800Z",
+                  "startTime": "2025-11-13T16:58:05.600Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1186,12 +1186,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 7325,
+                  "duration": 7180,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:47:11.312Z",
+                  "startTime": "2025-11-13T16:58:13.140Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1228,12 +1228,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 640,
+                  "duration": 694,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:47:05.904Z",
+                  "startTime": "2025-11-13T16:58:07.708Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1262,12 +1262,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 926,
+                  "duration": 929,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:47:06.557Z",
+                  "startTime": "2025-11-13T16:58:08.418Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1304,16 +1304,16 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 3374,
+                  "duration": 3489,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Number of frames: 22\n"
+                      "text": "Number of frames: 21\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:47:07.508Z",
+                  "startTime": "2025-11-13T16:58:09.363Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1350,7 +1350,7 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 3001,
+                  "duration": 3490,
                   "errors": [],
                   "stdout": [
                     {
@@ -1362,7 +1362,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:47:10.908Z",
+                  "startTime": "2025-11-13T16:58:12.871Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1399,12 +1399,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 3146,
+                  "duration": 3571,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:47:13.931Z",
+                  "startTime": "2025-11-13T16:58:16.380Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1427,7 +1427,7 @@
       "specs": [
         {
           "title": "Login/Logout",
-          "ok": false,
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -1440,50 +1440,18 @@
                 {
                   "workerIndex": 1,
                   "parallelIndex": 1,
-                  "status": "timedOut",
-                  "duration": 30414,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
-                    {
-                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                    },
-                    {
-                      "location": {
-                        "file": "D:\\a\\Playwright-public\\Playwright-public\\tests\\training\\login-logout.test.ts",
-                        "column": 19,
-                        "line": 15
-                      },
-                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a.dropdown-item:has-text(\"Login\")')\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"icon-left both dropdown-item\" href=\"https://ecommerce-playground.lambdatest.io/index.php?route=account/login\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    53 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n\n  13 |   const loginLink = page.locator('a.dropdown-item:has-text(\"Login\")');\n  14 |   await loginLink.waitFor({ state: 'visible' }); // ensure visible in CI\n> 15 |   await loginLink.click();\n     |                   ^\n  16 |\n  17 |   // Fill in credentials and submit\n  18 |   await page.locator(\"#input-email\").fill(\"timcook@yopmail.com\");\n    at D:\\a\\Playwright-public\\Playwright-public\\tests\\training\\login-logout.test.ts:15:19"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 3934,
+                  "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:47:17.093Z",
+                  "startTime": "2025-11-13T16:58:19.968Z",
                   "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "D:\\a\\Playwright-public\\Playwright-public\\test-results\\tests-training-login-logout-Login-Logout-Chromium\\test-failed-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "D:\\a\\Playwright-public\\Playwright-public\\test-results\\tests-training-login-logout-Login-Logout-Chromium\\video.webm"
-                    },
-                    {
-                      "name": "error-context",
-                      "contentType": "text/markdown",
-                      "path": "D:\\a\\Playwright-public\\Playwright-public\\test-results\\tests-training-login-logout-Login-Logout-Chromium\\error-context.md"
-                    }
-                  ]
+                  "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
           "id": "78f3cd5b3e544a613f2e-77a62066b70e0abb95bd",
@@ -1515,7 +1483,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4781,
+                  "duration": 5672,
                   "errors": [],
                   "stdout": [
                     {
@@ -1545,7 +1513,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:47:18.657Z",
+                  "startTime": "2025-11-13T16:58:20.343Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1579,10 +1547,10 @@
               "projectName": "Chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1378,
+                  "duration": 1458,
                   "errors": [],
                   "stdout": [
                     {
@@ -1591,7 +1559,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:47:23.460Z",
+                  "startTime": "2025-11-13T16:58:23.915Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1625,15 +1593,15 @@
               "projectName": "Chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 2207,
+                  "duration": 2882,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:47:24.853Z",
+                  "startTime": "2025-11-13T16:58:25.387Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1670,7 +1638,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4534,
+                  "duration": 5866,
                   "errors": [],
                   "stdout": [
                     {
@@ -1685,7 +1653,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:47:27.071Z",
+                  "startTime": "2025-11-13T16:58:26.036Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1708,7 +1676,7 @@
       "specs": [
         {
           "title": "Test Scenario 2 - Drag & Drop Sliders Demo (robust)",
-          "ok": true,
+          "ok": false,
           "tags": [],
           "tests": [
             {
@@ -1719,20 +1687,60 @@
               "projectName": "Chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 1493,
-                  "errors": [],
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 1536,
+                  "error": {
+                    "message": "Error: locator.scrollIntoViewIfNeeded: Element is not attached to the DOM\nCall log:\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    - waiting for element to be stable\u001b[22m\n\u001b[2m    - element is not stable\u001b[22m\n\u001b[2m  - retrying scroll into view action\u001b[22m\n\u001b[2m    - waiting for element to be stable\u001b[22m\n",
+                    "stack": "Error: locator.scrollIntoViewIfNeeded: Element is not attached to the DOM\nCall log:\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    - waiting for element to be stable\u001b[22m\n\u001b[2m    - element is not stable\u001b[22m\n\u001b[2m  - retrying scroll into view action\u001b[22m\n\u001b[2m    - waiting for element to be stable\u001b[22m\n\n    at D:\\a\\Playwright-public\\Playwright-public\\tests\\training\\slider.test.ts:20:16",
+                    "location": {
+                      "file": "D:\\a\\Playwright-public\\Playwright-public\\tests\\training\\slider.test.ts",
+                      "column": 16,
+                      "line": 20
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 18 |\u001b[39m\n \u001b[90m 19 |\u001b[39m   \u001b[90m// Scroll slider into view\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 20 |\u001b[39m   \u001b[36mawait\u001b[39m slider\u001b[33m.\u001b[39mscrollIntoViewIfNeeded()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 21 |\u001b[39m\n \u001b[90m 22 |\u001b[39m   \u001b[90m// Optional small delay to allow page JS to attach listeners\u001b[39m\n \u001b[90m 23 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m300\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\a\\Playwright-public\\Playwright-public\\tests\\training\\slider.test.ts",
+                        "column": 16,
+                        "line": 20
+                      },
+                      "message": "Error: locator.scrollIntoViewIfNeeded: Element is not attached to the DOM\nCall log:\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    - waiting for element to be stable\u001b[22m\n\u001b[2m    - element is not stable\u001b[22m\n\u001b[2m  - retrying scroll into view action\u001b[22m\n\u001b[2m    - waiting for element to be stable\u001b[22m\n\n\n  18 |\n  19 |   // Scroll slider into view\n> 20 |   await slider.scrollIntoViewIfNeeded();\n     |                ^\n  21 |\n  22 |   // Optional small delay to allow page JS to attach listeners\n  23 |   await page.waitForTimeout(300);\n    at D:\\a\\Playwright-public\\Playwright-public\\tests\\training\\slider.test.ts:20:16"
+                    }
+                  ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:47:31.620Z",
+                  "startTime": "2025-11-13T16:58:28.289Z",
                   "annotations": [],
-                  "attachments": []
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\a\\Playwright-public\\Playwright-public\\test-results\\tests-training-slider-Test-4f07f-g-Drop-Sliders-Demo-robust--Chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\a\\Playwright-public\\Playwright-public\\test-results\\tests-training-slider-Test-4f07f-g-Drop-Sliders-Demo-robust--Chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "D:\\a\\Playwright-public\\Playwright-public\\test-results\\tests-training-slider-Test-4f07f-g-Drop-Sliders-Demo-robust--Chromium\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\a\\Playwright-public\\Playwright-public\\tests\\training\\slider.test.ts",
+                    "column": 16,
+                    "line": 20
+                  }
                 }
               ],
-              "status": "expected"
+              "status": "unexpected"
             }
           ],
           "id": "0a75feb459f8e6399435-f1e63cf889e4ed09e815",
@@ -1761,10 +1769,10 @@
               "projectName": "Chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 950,
+                  "duration": 1084,
                   "errors": [],
                   "stdout": [
                     {
@@ -1779,7 +1787,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-13T16:47:33.141Z",
+                  "startTime": "2025-11-13T16:58:32.073Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1797,8 +1805,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-11-13T16:46:32.325Z",
-    "duration": 77907.687,
+    "startTime": "2025-11-13T16:57:35.063Z",
+    "duration": 58732.229,
     "expected": 32,
     "skipped": 0,
     "unexpected": 1,
