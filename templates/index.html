@@ -29,6 +29,32 @@
     .os-badge { background: #555; }
     .browser-badge { background: #777; }
 
+    /* Status pills - soft pastel style */
+    .status-pill {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 12px;
+    }
+
+    .pill-pass {
+      background: #d6f5d6;
+      color: #0a4;
+    }
+    .pill-fail {
+      background: #ffd6d6;
+      color: #a00;
+    }
+    .pill-skip {
+      background: #fff2b3;
+      color: #a68b00;
+    }
+    .pill-none {
+      background: #e3e3e3;
+      color: #555;
+    }
+
     .report-block {
       border: 1px solid #ccc;
       padding: 12px;
@@ -36,11 +62,6 @@
       border-radius: 8px;
       background: #fafafa;
     }
-
-    .status-red { background: #ffe5e5; }
-    .status-yellow { background: #fff8d5; }
-    .status-green { background: #e8ffe8; }
-    .status-neutral { background: #f0f0f0; }
 
     .links a {
       margin-right: 12px;
@@ -58,12 +79,20 @@
     table.summary td {
       border: 1px solid #ccc;
       padding: 6px 8px;
-      text-align: left;
       font-size: 14px;
     }
 
     table.summary th {
       background: #eee;
+    }
+
+    /* Center status, align numbers */
+    .summary td.status-cell {
+      text-align: center;
+      width: 120px;
+    }
+    .summary td.num-cell {
+      text-align: right;
     }
 
     footer {
@@ -91,7 +120,6 @@
 <hr>
 
 <h2>Report List</h2>
-
 {{REPORT_LIST}}
 
 <footer>
